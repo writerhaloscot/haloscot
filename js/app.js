@@ -33,7 +33,7 @@ $(function () {
 
 
     // RANDOM NUMBERS
-    function rand(n, l, u) {
+    /* function rand(n, l, u) {
         var lim = n;
         var nums = [];
         for (var i = 0; i < lim; i++) {
@@ -44,11 +44,11 @@ $(function () {
             nums[i] = j;
         }
         return nums;
-    }
+    } */
 
 
     // MOODBOARD
-    if ($('.moodboard').length > 0) {
+    /* if ($('.moodboard').length > 0) {
         update_moodboard();
         $('.moodboard-btn').on('click', function (e) {
             e.preventDefault();
@@ -65,18 +65,16 @@ $(function () {
                     if (parseInt(data.totalHits) > 0) {
                         $.each(data.hits, function (i, hit) {
                             $('.moodboard').append('<div class="board-item"><div class="board-wrapper"><a href="' + hit.pageURL + '" target="_blank" class="moodboard-img" style="background-image:url(' + hit.webformatURL + ');"><span class="hide-SEO">Moodboard Image</span></a></div></div>');
-                            
-                            //console.log(hit.largeImageURL);
                         });
                     }
                 });
             }
         }
-    }
+    } */
 
 
     // SOUNDBOARD
-    if ($('.soundboard').length > 0) {
+    /* if ($('.soundboard').length > 0) {
         update_soundboard();
         $('.soundboard-btn').on('click', function (e) {
             e.preventDefault();
@@ -89,11 +87,11 @@ $(function () {
                 $('.soundboard').append('<div class="board-item"><div class="board-wrapper"><iframe src="https://embed.music.apple.com/us/album/' + songs[rand_songs[i]] + '"></iframe></div></div>');
             }
         }
-    }
+    } */
     
     
     // BOOKBOARD
-    if ($('.bookboard').length > 0) {
+    /* if ($('.bookboard').length > 0) {
         update_bookboard();
         $('.bookboard-btn').on('click', function (e) {
             e.preventDefault();
@@ -106,7 +104,7 @@ $(function () {
                 $('.bookboard').append('<div class="board-item">' + books[rand_books[i]] + '</div>');
             }
         }
-    }
+    } */
     
     
 });
