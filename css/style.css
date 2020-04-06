@@ -61,7 +61,11 @@ h2 {
 }
 
 h3 {
-    font-size: 1.75rem;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-style: italic;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
 }
 
 em {
@@ -199,7 +203,7 @@ iframe {
 #main a:not(.button) {
     display: inline-block;
     text-decoration: none;
-    color: #aaaaaa;
+    color: #999999;
     font-weight: 400;
     text-transform: uppercase;
     font-size: 0.8em;
@@ -594,6 +598,27 @@ iframe {
     max-width: 100%;
     font-size: 14px !important;
     font-weight: 600;
+}
+
+
+/* PRESS */
+.press-item {
+    margin-bottom: 0px !important;
+    margin-left: -4px;
+    margin-right: -4px;
+}
+
+.press-item a {
+    padding: 4px !important;
+    padding-top: 6px !important;
+    text-transform: none !important;
+    display: block !important;
+    transition: all 0.25s ease !important;
+}
+
+.press-item a:hover {
+    background: #d63031;
+    color: white !important;
 }
 
 

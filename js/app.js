@@ -32,6 +32,59 @@ $(function () {
     });
 
 
+    // PRESS RELEASES
+    var press = [
+        ['Interviews'],
+        ['Ginger Nuts of Horror', 'https://gingernutsofhorror.com/interviews/into-the-breach-once-more-five-minutes-with-author-halo-scot'],
+        ['Awesome Gang', 'https://awesomegang.com/halo-scot/'],
+        ['Armed with A Book', 'https://www.armedwithabook.com/halo-scot-on-writing-and-life-experiences/'],
+
+        ['Reviews'],
+        ['Games, Brrraaains &amp; A Head-Banging Life', 'https://www.gbhbl.com/horror-book-review-edge-of-the-breach-rift-cycle-book-1-halo-scot/'],
+        ['Morgan K Tanner, Author', 'https://morganktanner.com/2020/02/23/book-review-edge-of-the-breach-by-halo-scot/'],
+        ['Sahreth (Baphy) Bowden, Author', 'https://baphy1428.com/2020/01/21/edge-of-the-breach-by-halo-scot-book-review/'],
+        ['Andy James Trevors, Author', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
+        ['Mary Cook, Author', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
+
+        ['Features'],
+        ['University of Edinburgh Alumni bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
+        ['The Mother Load by LWB Podcast', 'https://www.spreaker.com/user/themotherload/eps-303-halo-scot-author'],
+        ['Amy-Alex Campbell&rsquo;s Queerantine Reads', 'https://amyalexcampbell.com/queerantine-reads/'],
+        ['Awesome Gang', 'https://awesomegang.com/edge-of-the-breach-by-halo-scot/'],
+        ['Discount Book Man', 'https://discountbookman.com/edge-of-the-breach-by-halo-scot/'],
+        ['Book Review Universe', 'https://bookreviewuniverse.com/edge-of-the-breach-by-halo-scot/'],
+        ['My Book Place', 'https://mybookplace.net/edge-of-the-breach-by-halo-scot/'],
+        ['Kari L. Wood', 'https://karilwood.com/blog-1/f/edge-of-the-breach'],
+        ['Henry Black', 'https://henryblackwriter.wordpress.com/2020/01/31/indie-authors-of-the-month-january-2020/'],
+        ['Queer Sci Fi', 'https://www.queerscifi.com/announcement-edge-of-the-breach-by-halo-scott/'],
+        ['#WrongPlaceWrongTime', 'https://thewrongplaceatthewrongtime.blogspot.com/2020/03/read-first-chapter-of-edge-of-breach.html'],
+        ['Summon fantasy', 'https://www.summonfantasy.com/book-recommendations/edge-of-the-breach-rift-cycle-book-1-by-halo-scot'],
+        ['The Yuppie Flu', 'https://www.youtube.com/watch?v=ZGZww7jMI94']
+    ];
+    var pressHTML = '';
+
+    for (var i = 0; i < press.length; i++) {
+        var p = press[i];
+        var t = '';
+        var u = '';
+
+        if (p == 'Interviews' || p == 'Reviews' || p == 'Features') {
+            pressHTML += '<h3>' + p + '</h3>';
+        } else {
+            for (var j = 0; j < p.length; j++) {
+                if (j == 0) {
+                    t = p[j];
+                } else {
+                    u = p[j];
+                }
+            }
+            pressHTML += '<p class="press-item"><a href="' + u + '" target="_blank">' + t + '&nbsp;&rsaquo;</a></p>';
+        }
+    }
+
+    $('#press').html(pressHTML);
+
+
     // RANDOM NUMBERS
     /* function rand(n, l, u) {
         var lim = n;
@@ -88,8 +141,8 @@ $(function () {
             }
         }
     } */
-    
-    
+
+
     // BOOKBOARD
     /* if ($('.bookboard').length > 0) {
         update_bookboard();
@@ -105,6 +158,6 @@ $(function () {
             }
         }
     } */
-    
-    
+
+
 });
