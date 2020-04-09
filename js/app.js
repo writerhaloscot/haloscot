@@ -36,8 +36,9 @@ $(function () {
     var press = [
         ['Interviews'],
         ['Ginger Nuts of Horror', 'https://gingernutsofhorror.com/interviews/into-the-breach-once-more-five-minutes-with-author-halo-scot'],
-        ['Awesome Gang', 'https://awesomegang.com/halo-scot/'],
         ['Armed with A Book', 'https://www.armedwithabook.com/halo-scot-on-writing-and-life-experiences/'],
+        ['Beltana Book Burrow', 'https://beltanabookburrow.com/2020/04/08/halo-scot-has-answers/'],
+        ['Awesome Gang', 'https://awesomegang.com/halo-scot/'],
 
         ['Reviews'],
         ['Games, Brrraaains &amp; A Head-Banging Life', 'https://www.gbhbl.com/horror-book-review-edge-of-the-breach-rift-cycle-book-1-halo-scot/'],
@@ -45,8 +46,10 @@ $(function () {
         ['Sahreth (Baphy) Bowden, Author', 'https://baphy1428.com/2020/01/21/edge-of-the-breach-by-halo-scot-book-review/'],
         ['Andy James Trevors, Author', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
         ['Mary Cook, Author', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
+        ['Corey Toomey, Author', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
 
         ['Features'],
+        ['Queer Indie', 'https://queerindie.com/'],
         ['University of Edinburgh Alumni bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
         ['The Mother Load by LWB Podcast', 'https://www.spreaker.com/user/themotherload/eps-303-halo-scot-author'],
         ['Amy-Alex Campbell&rsquo;s Queerantine Reads', 'https://amyalexcampbell.com/queerantine-reads/'],
@@ -56,6 +59,7 @@ $(function () {
         ['My Book Place', 'https://mybookplace.net/edge-of-the-breach-by-halo-scot/'],
         ['Kari L. Wood', 'https://karilwood.com/blog-1/f/edge-of-the-breach'],
         ['Henry Black', 'https://henryblackwriter.wordpress.com/2020/01/31/indie-authors-of-the-month-january-2020/'],
+        ['Book Recs for Your COVID-19 Lockdown by K. Daniels', 'https://kdanielsbooks.wordpress.com/2020/04/08/book-recs-for-your-covid-19-lockdown/'],
         ['Queer Sci Fi', 'https://www.queerscifi.com/announcement-edge-of-the-breach-by-halo-scott/'],
         ['#WrongPlaceWrongTime', 'https://thewrongplaceatthewrongtime.blogspot.com/2020/03/read-first-chapter-of-edge-of-breach.html'],
         ['Summon fantasy', 'https://www.summonfantasy.com/book-recommendations/edge-of-the-breach-rift-cycle-book-1-by-halo-scot'],
