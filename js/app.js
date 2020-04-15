@@ -51,6 +51,7 @@ $(function () {
         ['Features'],
         ['Queer Indie', 'https://queerindie.com/'],
         ['University of Edinburgh Alumni bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
+        ['The Writing Community Chat Show Podcast', 'https://anchor.fm/writingcommunitychatshow/episodes/03-Halo-interview-ecll67/a-a1u74aq'],
         ['The Mother Load by LWB Podcast', 'https://www.spreaker.com/user/themotherload/eps-303-halo-scot-author'],
         ['Amy-Alex Campbell&rsquo;s Queerantine Reads', 'https://amyalexcampbell.com/queerantine-reads/'],
         ['Awesome Gang', 'https://awesomegang.com/edge-of-the-breach-by-halo-scot/'],
