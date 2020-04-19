@@ -600,6 +600,14 @@ iframe {
     font-weight: 600;
 }
 
+.promotion .ticker i {
+    vertical-align: bottom;
+}
+
+.promotion .ticker span {
+    font-weight: inherit;
+}
+
 
 /* PRESS */
 .press-item {
