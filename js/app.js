@@ -39,6 +39,8 @@ $(function () {
         ['Armed with A Book', 'https://www.armedwithabook.com/halo-scot-on-writing-and-life-experiences/'],
         ['Beltana Book Burrow', 'https://beltanabookburrow.com/2020/04/08/halo-scot-has-answers/'],
         ['Awesome Gang', 'https://awesomegang.com/halo-scot/'],
+        ['Writer Q&amp;A 2020 No. 7: Halo Scot by Wes Platt', 'https://www.patreon.com/posts/writer-q-2020-no-35957027'],
+        ['Necessary Whimsy', 'https://necessarywhimsy.com/2020/05/23/author-interview-halo-scott/']
 
         ['Reviews'],
         ['Games, Brrraaains &amp; A Head-Banging Life', 'https://www.gbhbl.com/horror-book-review-edge-of-the-breach-rift-cycle-book-1-halo-scot/'],
@@ -47,9 +49,11 @@ $(function () {
         ['Andy James Trevors, Author', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
         ['Mary Cook, Author', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
         ['Corey Toomey, Author', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
+        ['Quinn Buckland', 'https://youtu.be/N7MOUWumu8g']
 
         ['Features'],
         ['Queer Indie', 'https://queerindie.com/'],
+        ['', 'https://www.bookcon.com/en/Sessions/89123/Queer-Indie-Write-the-Rainbow'],
         ['University of Edinburgh Alumni bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
         ['The Writing Community Chat Show Podcast', 'https://anchor.fm/writingcommunitychatshow/episodes/03-Halo-interview-ecll67/a-a1u74aq'],
         ['The Mother Load by LWB Podcast', 'https://www.spreaker.com/user/themotherload/eps-303-halo-scot-author'],
@@ -65,7 +69,8 @@ $(function () {
         ['#WrongPlaceWrongTime', 'https://thewrongplaceatthewrongtime.blogspot.com/2020/03/read-first-chapter-of-edge-of-breach.html'],
         ['Summon fantasy', 'https://www.summonfantasy.com/book-recommendations/edge-of-the-breach-rift-cycle-book-1-by-halo-scot'],
         ['May Book Recommendations by Melissa Hawkes', 'https://www.melissahawkes.com/post/may-book-recommendations'],
-        ['The Yuppie Flu', 'https://www.youtube.com/watch?v=ZGZww7jMI94']
+        ['The Yuppie Flu', 'https://www.youtube.com/watch?v=ZGZww7jMI94'],
+        ['Spells and Spaceships', 'https://spellsandspaceships.home.blog/2020/04/24/hidden-gems-issue-1/']
     ];
     var pressHTML = '';
 
