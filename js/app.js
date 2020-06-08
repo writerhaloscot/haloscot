@@ -49,7 +49,7 @@ $(function () {
         ['Andy James Trevors, Author', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
         ['Mary Cook, Author', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
         ['Corey Toomey, Author', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
-        ['Quinn Buckland', 'https://youtu.be/N7MOUWumu8g']
+        ['Quinn Buckland, Author', 'https://youtu.be/N7MOUWumu8g']
 
         ['Features'],
         ['Queer Indie', 'https://queerindie.com/'],
