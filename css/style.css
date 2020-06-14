@@ -553,6 +553,7 @@ iframe {
 
 
 /* PROMOTION */
+
 .promotion {
     background: #d63031;
     padding: 1rem;
@@ -580,6 +581,7 @@ iframe {
     margin-left: -4px;
     margin-right: -4px;
 }
+
 .promotion .button {
     box-shadow: none;
     font-size: 0.8rem;
@@ -610,6 +612,7 @@ iframe {
 
 
 /* PRESS */
+
 .press-item {
     margin-bottom: 0px !important;
     margin-left: -4px;
@@ -638,6 +641,11 @@ iframe {
     }
     .flex-quarters .flex-col {
         width: 50%;
+    }
+    .peer-name {
+        max-width: 200px;
+        overflow: hidden;
+        text-overflow: ellipsis;
     }
 }
 
