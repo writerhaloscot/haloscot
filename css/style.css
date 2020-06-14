@@ -640,12 +640,7 @@ iframe {
         display: none !important;
     }
     .flex-quarters .flex-col {
-        width: 50%;
-    }
-    .peer-name {
-        max-width: 200px;
-        overflow: hidden;
-        text-overflow: ellipsis;
+        width: 50%; 
     }
 }
 
