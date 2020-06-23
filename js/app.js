@@ -47,9 +47,11 @@ $(function () {
         ['Morgan K Tanner, Author', 'https://morganktanner.com/2020/02/23/book-review-edge-of-the-breach-by-halo-scot/'],
         ['Sahreth (Baphy) Bowden, Author', 'https://baphy1428.com/2020/01/21/edge-of-the-breach-by-halo-scot-book-review/'],
         ['Andy James Trevors, Author', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
+        ['Ria&rsquo;s Readviews', 'https://www.youtube.com/watch?v=MaZiM8VO8G4'],
         ['Mary Cook, Author', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
         ['Corey Toomey, Author', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
         ['Quinn Buckland, Author', 'https://youtu.be/N7MOUWumu8g'],
+        ['Jason Kilgore, Author', 'https://jasonkilgore.blogspot.com/2020/06/review-of-edge-of-breach-by-halo-scot.html'],
 
         ['Features'],
         ['Queer Indie', 'https://queerindie.com/'],
