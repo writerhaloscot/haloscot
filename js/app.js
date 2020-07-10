@@ -41,6 +41,7 @@ $(function () {
         ['Awesome Gang', 'https://awesomegang.com/halo-scot/'],
         ['Writer Q&amp;A 2020 No. 7: Halo Scot by Wes Platt', 'https://www.patreon.com/posts/writer-q-2020-no-35957027'],
         ['Necessary Whimsy', 'https://necessarywhimsy.com/2020/05/23/author-interview-halo-scott/'],
+        ['&ldquo;Write Your Way&rdquo; Guest Post on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
 
         ['Reviews'],
         ['Games, Brrraaains &amp; A Head-Banging Life', 'https://www.gbhbl.com/horror-book-review-edge-of-the-breach-rift-cycle-book-1-halo-scot/'],
@@ -49,8 +50,8 @@ $(function () {
         ['Andy James Trevors, Author', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
         ['Ria&rsquo;s Readviews', 'https://www.youtube.com/watch?v=MaZiM8VO8G4'],
         ['Mary Cook, Author', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
-        ['Corey Toomey, Author', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
-        ['Quinn Buckland, Author', 'https://youtu.be/N7MOUWumu8g'],
+        // ['Corey Toomey, Author', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
+        // ['Quinn Buckland, Author', 'https://youtu.be/N7MOUWumu8g'],
         ['Jason Kilgore, Author', 'https://jasonkilgore.blogspot.com/2020/06/review-of-edge-of-breach-by-halo-scot.html'],
 
         ['Features'],
@@ -73,7 +74,8 @@ $(function () {
         ['May Book Recommendations by Melissa Hawkes', 'https://www.melissahawkes.com/post/may-book-recommendations'],
         ['The Yuppie Flu', 'https://www.youtube.com/watch?v=ZGZww7jMI94'],
         ['Spells and Spaceships', 'https://spellsandspaceships.home.blog/2020/04/24/hidden-gems-issue-1/'],
-        ['Top 3 Indie Books of 2020 (January-June) on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/my-top-3-indie-books-of-2020-january-june']
+        ['Top 3 Indie Books of 2020 (January-June) on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/my-top-3-indie-books-of-2020-january-june'],
+        ['Dark Fantasy Author Samantha Kroese&rsquo;s Recommended Indie Reads', 'https://vnvstables.wixsite.com/authorsnkroese/post/updated-recommended-indie-author-reading-list']
     ];
     var pressHTML = '';
 
