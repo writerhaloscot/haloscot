@@ -77,7 +77,8 @@ $(function () {
         ['Spells and Spaceships', 'https://spellsandspaceships.home.blog/2020/04/24/hidden-gems-issue-1/'],
         ['Top 3 Indie Books of 2020 (January-June) on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/my-top-3-indie-books-of-2020-january-june'],
         ['Dark Fantasy Author Samantha Kroese&rsquo;s Recommended Indie Reads', 'https://vnvstables.wixsite.com/authorsnkroese/post/updated-recommended-indie-author-reading-list'],
-        ['Jon Ford', 'http://jonfordauthor.com/links-to-my-friends/']
+        ['Jon Ford', 'http://jonfordauthor.com/links-to-my-friends/'],
+        ['Lord Veil', 'https://youtu.be/LAAdsX9SoYk']
     ];
     var pressHTML = '';
 
