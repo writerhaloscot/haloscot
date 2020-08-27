@@ -27,6 +27,7 @@ body {
     opacity: 1;
     background: #000000;
     transition: 0.5s opacity ease;
+    transition-delay: 0.5s;
 }
 
 .wrapper {
@@ -555,11 +556,16 @@ iframe {
 /* PROMOTION */
 
 .promotion {
-    background: #d63031;
+    background: #b02727;
     padding: 1rem;
     margin: -32px -32px 40px;
     color: white;
     text-align: center;
+}
+
+.promotion.new-release {
+    background: #d63031;
+    margin-bottom: 32px;
 }
 
 .promotion p {
@@ -574,6 +580,10 @@ iframe {
 
 .promotion p:last-of-type {
     margin-bottom: 0 !important;
+}
+
+.promotion p em {
+    font-weight: 400;
 }
 
 .promotion-buttons {
@@ -635,12 +645,19 @@ iframe {
 
 /* RESPONSIVE */
 
+.hide-desktop {
+    display: none;
+}
+
 @media only screen and (max-width: 991px) {
     .hide-mobile {
         display: none !important;
     }
+    .hide-desktop {
+        display: initial;
+    }
     .flex-quarters .flex-col {
-        width: 50%; 
+        width: 50%;
     }
 }
 
