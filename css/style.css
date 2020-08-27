@@ -27,7 +27,7 @@ body {
     opacity: 1;
     background: #000000;
     transition: 0.5s opacity ease;
-    transition-delay: 0.5s;
+    transition-delay: 0.25s;
 }
 
 .wrapper {
