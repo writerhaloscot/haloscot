@@ -65,7 +65,6 @@ $(function () {
         ['Awesome Gang', 'https://awesomegang.com/edge-of-the-breach-by-halo-scot/'],
         ['Discount Book Man', 'https://discountbookman.com/edge-of-the-breach-by-halo-scot/'],
         ['Book Review Universe', 'https://bookreviewuniverse.com/edge-of-the-breach-by-halo-scot/'],
-        ['My Book Place', 'https://mybookplace.net/edge-of-the-breach-by-halo-scot/'],
         ['Kari L. Wood', 'https://karilwood.com/blog-1/f/edge-of-the-breach'],
         ['Henry Black', 'https://henryblackwriter.wordpress.com/2020/01/31/indie-authors-of-the-month-january-2020/'],
         ['Book Recs for Your COVID-19 Lockdown by K. Daniels', 'https://kdanielsbooks.wordpress.com/2020/04/08/book-recs-for-your-covid-19-lockdown/'],
