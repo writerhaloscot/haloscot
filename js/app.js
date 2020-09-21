@@ -55,6 +55,7 @@ $(function () {
         // ['Corey Toomey, Author', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
         // ['Quinn Buckland, Author', 'https://youtu.be/N7MOUWumu8g'],
         ['Jason Kilgore, Author', 'https://jasonkilgore.blogspot.com/2020/06/review-of-edge-of-breach-by-halo-scot.html'],
+        ['Bookish Bellee', 'https://bookishbellee.wordpress.com/2020/09/20/edge-of-the-breach-by-halo-scot-review/'],
 
         ['Features'],
         ['Queer Indie', 'https://queerindie.com/'],
