@@ -46,7 +46,8 @@ $(function () {
         ['Story of a Storyteller', 'https://storyofastoryteller.buzzsprout.com/1229831/5314054-s1-ep4-halo-scot-is-a-storyteller'],
 
         ['Reviews'],
-        ['Games, Brrraaains &amp; A Head-Banging Life', 'https://www.gbhbl.com/horror-book-review-edge-of-the-breach-rift-cycle-book-1-halo-scot/'],
+        ['GBHBL: Edge of the Breach', 'https://www.gbhbl.com/horror-book-review-edge-of-the-breach-rift-cycle-book-1-halo-scot/'],
+        ['GBHBL: Echoes of Blood', 'https://www.gbhbl.com/horror-book-review-echoes-of-blood-rift-cycle-book-2-halo-scot/'],
         ['Morgan K Tanner, Author', 'https://morganktanner.com/2020/02/23/book-review-edge-of-the-breach-by-halo-scot/'],
         ['Sahreth (Baphy) Bowden, Author', 'https://baphy1428.com/2020/01/21/edge-of-the-breach-by-halo-scot-book-review/'],
         ['Andy James Trevors, Author', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
