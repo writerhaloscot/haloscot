@@ -115,6 +115,15 @@ iframe {
     margin-bottom: 0.25rem;
 }
 
+.books {
+    display: flex;
+    text-align: center;
+}
+
+.books .welcome {
+    width: 50%;
+}
+
 .blue-color {
     color: #d63031 !important;
 }
@@ -575,7 +584,7 @@ iframe {
 .promotion p {
     line-height: 1.3 !important;
     max-width: 480px;
-    margin: 0 auto 8px !important;
+    margin: 0 auto 4px !important;
 }
 
 .promotion p:last-of-type {
@@ -613,7 +622,7 @@ iframe {
 }
 
 .promotion .ticker i {
-    vertical-align: bottom;
+    vertical-align: baseline;
 }
 
 .promotion .ticker span {
@@ -702,6 +711,16 @@ iframe {
     #header nav {
         display: flex;
         justify-content: space-between;
+    }
+    .books {
+        display: block;
+        text-align: left;
+    }
+    .books .welcome {
+        width: 100%;
+    }
+    h1 {
+        font-size: 2rem;
     }
     .logo > img {
         height: 11px;
