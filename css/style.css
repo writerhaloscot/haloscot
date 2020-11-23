@@ -625,6 +625,10 @@ iframe {
     vertical-align: baseline;
 }
 
+.promotion .ticker i.fa-amazon {
+    vertical-align: middle;
+}
+
 .promotion .ticker span {
     font-weight: inherit;
 }
