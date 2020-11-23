@@ -621,6 +621,12 @@ iframe {
     font-weight: 600;
 }
 
+.promotion .ticker small {
+    font-weight: inherit;
+    text-transform: uppercase;
+    letter-spacing: .05rem;
+}
+
 .promotion .ticker i {
     vertical-align: baseline;
 }
