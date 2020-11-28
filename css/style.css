@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Roboto', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: subpixel-antialiased;
     /*-moz-osx-font-smoothing: grayscale;*/
@@ -49,7 +49,7 @@ h5,
 h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: 300;
+    font-weight: 400;
     font-family: 'Big Shoulders Text', Times, serif;
 }
 
@@ -74,7 +74,7 @@ em {
 }
 
 strong {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 hr {
@@ -214,7 +214,7 @@ iframe {
     display: inline-block;
     text-decoration: none;
     color: #999999;
-    font-weight: 400;
+    font-weight: 500;
     text-transform: uppercase;
     font-size: 0.8em;
     transition: color 0.25s ease;
@@ -239,8 +239,8 @@ iframe {
 #main .content p {
     font-size: 18px;
     margin-bottom: 16px;
-    letter-spacing: 0.01rem;
-    line-height: 1.6;
+    letter-spacing: 0.005rem;
+    line-height: 1.5;
 }
 
 
@@ -438,7 +438,7 @@ iframe {
     color: #ffffff !important;
     text-transform: uppercase;
     letter-spacing: 0.1rem;
-    font-size: 10px;
+    font-size: 11px;
     opacity: 1;
     transition: all 0.25s ease !important;
 }
@@ -501,7 +501,7 @@ iframe {
 .bookboard blockquote p:after {
     display: inline-block;
     font-size: 18px;
-    font-weight: 400;
+    font-weight: 500;
     color: #bbbbbb;
 }
 
@@ -592,7 +592,7 @@ iframe {
 }
 
 .promotion p em {
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .promotion-buttons {
@@ -605,7 +605,7 @@ iframe {
     box-shadow: none;
     font-size: 0.8rem;
     text-align: center;
-    font-weight: 400;
+    font-weight: 500;
     margin: 4px;
     width: 50%;
     width: calc(50% - 8px);
@@ -618,13 +618,14 @@ iframe {
 .promotion .ticker {
     max-width: 100%;
     font-size: 14px !important;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 0.03rem !important;
 }
 
 .promotion .ticker small {
     font-weight: inherit;
     text-transform: uppercase;
-    letter-spacing: .05rem;
+    letter-spacing: .05rem !important;
 }
 
 .promotion .ticker i {
