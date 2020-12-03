@@ -243,6 +243,17 @@ iframe {
     line-height: 1.5;
 }
 
+#main .content p small {
+    display: inline-block;
+    line-height: inherit;
+}
+
+#main .content p small.sub {
+    display: block;
+    margin-top: -4px;
+    font-style: italic;
+}
+
 
 /* HERO */
 
