@@ -93,7 +93,8 @@ $(function () {
         ['Jon Ford', 'http://jonfordauthor.com/links-to-my-friends/'],
         ['Lord Veil', 'https://youtu.be/LAAdsX9SoYk'],
         ['Lord Veil&rsquo;s Devil&rsquo;s Night Reading', 'https://youtu.be/duOFoPsvUZk'],
-        ['Author Samantha Kroese&rsquo;s Top Ten Reads for 2020', 'https://vnvstables.wixsite.com/authorsnkroese/post/a-year-of-reading-indie']
+        ['Author Samantha Kroese&rsquo;s Top Ten Reads for 2020', 'https://vnvstables.wixsite.com/authorsnkroese/post/a-year-of-reading-indie'],
+        ['Footnote Management&rsquo;s 2020 Indie Book Releases', 'https://footnotesmgmt.com/blog/2020-indie-book-releases']
     ];
     var pressHTML = '';
 
