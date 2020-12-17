@@ -259,11 +259,11 @@ iframe {
 
 .hero {
     position: relative;
-    height: 320px;
+    height: 250px;
     background-color: black;
-    background-image: url('../img/hero-min.jpg');
+    background-image: url('../img/symbols.jpg');
     background-repeat: no-repeat;
-    background-size: 400px auto;
+    background-size: contain;
     background-position: center center;
 }
 
@@ -271,10 +271,12 @@ iframe {
     position: absolute;
     left: 0;
     right: 0;
-    top: 50%;
+    bottom: 20px;
+    text-align: center;
+    /* top: 50%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
+    transform: translateY(-50%); */
     text-align: center;
     font-size: 22px;
 }
@@ -651,6 +653,16 @@ iframe {
     font-weight: inherit;
 }
 
+.promotion-covers {
+    border: 0 !important;
+}
+
+.promotion-covers img {
+    display: block;
+    max-width: 100%;
+    margin: 0 auto 30px;
+}
+
 
 /* PRESS */
 
@@ -758,6 +770,12 @@ iframe {
     .board-wrapper {
         padding-top: 60%;
     }
+    .hero {
+        height: 200px;
+    }
+    .hero-content {
+        bottom: 12px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -768,5 +786,11 @@ iframe {
     }
     .promotion .button {
         width: 100%;
+    }
+    .hero {
+        height: 150px;
+    }
+    .hero-content {
+        bottom: 5px;
     }
 }
