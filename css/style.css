@@ -765,26 +765,6 @@ h2 .red-color {
 }
 
 
-/* NEWSLETTER FORM */
-
-@media only screen and (max-width: 650px) {
-    #omnisend-dynamic-container {
-        display: none !important;
-    }
-}
-
-@media only screen and (max-width: 649px) {
-    #omnisend-dynamic-container {
-        display: block !important;
-    }
-    #omnisend-dynamic-container .soundest-form-image-left-open {
-        padding: 10px !important;
-    }
-}
-
-/* END NEWSLETTER FORM */
-
-
 /* RESPONSIVE */
 
 .hide-desktop {
@@ -861,3 +841,28 @@ h2 .red-color {
         height: 150px;
     }
 }
+
+
+/* NEWSLETTER FORM */
+
+@media only screen and (max-width: 650px) {
+    #omnisend-dynamic-container {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 649px) {
+    #omnisend-dynamic-container {
+        display: block !important;
+    }
+    #omnisend-dynamic-container .soundest-form-image-left-open {
+        padding: 10px !important;
+    }
+    #footer {
+        padding-bottom: 40px;
+        height: 80px;
+    }
+}
+
+
+/* END NEWSLETTER FORM */
