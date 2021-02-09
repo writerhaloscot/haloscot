@@ -1,0 +1,11 @@
+Omnisend
+
+Changed sender's email to info@haloscot.com
+Automated process when subscribe done.
+
+Checked with Omnisend: 
+After your trial period expires we automatically transfer you to our Free plan.
+Free plan has no subscriber limit, just daily/monthly send limits, would need to make separate segments of customers that won’t exceed the daily limit
+
+non-spoiler excerpts from books?
+Need freebies besides that, assume read

@@ -765,6 +765,26 @@ h2 .red-color {
 }
 
 
+/* NEWSLETTER FORM */
+
+@media only screen and (max-width: 650px) {
+    #omnisend-dynamic-container {
+        display: none !important;
+    }
+}
+
+@media only screen and (max-width: 649px) {
+    #omnisend-dynamic-container {
+        display: block !important;
+    }
+    #omnisend-dynamic-container .soundest-form-image-left-open {
+        padding: 10px !important;
+    }
+}
+
+/* END NEWSLETTER FORM */
+
+
 /* RESPONSIVE */
 
 .hide-desktop {
@@ -787,7 +807,6 @@ h2 .red-color {
     .flex-quarters .flex-col {
         width: 50%;
     }
-    
     #header .social:nth-child(3) {
         padding-right: 0;
     }
