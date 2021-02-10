@@ -2,13 +2,20 @@ Omnisend
 
 Changed sender's email to info@haloscot.com
 Automated process when subscribe done.
+Disabled confirmation
 
 Checked with Omnisend: 
 After your trial period expires we automatically transfer you to our Free plan.
 Free plan has no subscriber limit, just daily/monthly send limits, would need to make separate segments of customers that won’t exceed the daily limit
+Omnisend forms have TCPA & GDPR consent
+free omnisend includes landing pages
 
-MAYBE delete confirm email if get a lot of subscribers.
-
+GDPR Compliance
+* Added terms & policy pages
+* Added ≥18 confirmation to subscription form
+* Added GDPR to subscription form
+* Added cookies banner to accept/change preferences
+* DONE: https://www.zdnet.com/article/the-five-step-gdpr-preparation-checklist-for-marketing-organizations/
 
 CONTENT? MONTHLY?
 

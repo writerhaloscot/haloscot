@@ -335,11 +335,16 @@ h2 .red-color {
     color: #eeeeee;
 }
 
-#main .content p {
+#main .content p,
+#main .content.policy li {
     font-size: 18px;
     margin-bottom: 16px;
     letter-spacing: 0.005rem;
     line-height: 1.45;
+}
+
+#main .content.policy li p {
+    margin-bottom: 0;
 }
 
 #main .content p small {
@@ -772,6 +777,47 @@ h2 .red-color {
 .pop-up-close:hover {
     color: white;
 }
+
+
+/* GDPR COMPLIANCE */
+
+.cc_css_reboot.cc_dialog {
+    position: fixed;
+    bottom: 0;
+    top: auto;
+    padding: 0;
+    box-shadow: 0 0 30px #d63031;
+}
+
+.cc_css_reboot.cc_dialog > div {
+    padding: 16px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.cc_dialog_headline {
+    font-size: 14px !important;
+    margin-bottom: 4px !important;
+    text-transform: uppercase;
+    letter-spacing: 0.05rem;
+}
+
+.cc_dialog_text {
+    font-size: 13px !important;
+    margin-bottom: 12px !important;
+}
+
+.cc_css_reboot button {
+    font-size: 13px !important;
+    padding: 4px 8px !important;
+}
+
+section.policy ul {
+    padding-left: 1rem !important;
+}
+
+
+/* END GDPR COMPLIANCE */
 
 
 /* RESPONSIVE */

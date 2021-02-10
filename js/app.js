@@ -8,7 +8,6 @@ $(function () {
     var c = 'css/style.css?v=1.1.2';
     var h = 'includes/header.html';
     var f = 'includes/footer.html';
-    var g = '<script async src="https://www.googletagmanager.com/gtag/js?id=UA-152375493-1"></script><script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-152375493-1");</script>';
 
     if (window.location.pathname != '/') {
         v = '../' + v;
@@ -17,7 +16,7 @@ $(function () {
         f = '../' + f;
     }
 
-    $('head').prepend(m + g + s);
+    $('head').prepend(m + s);
     $('head').append('<link rel="shortcut icon" href="' + v + '" type="image/x-icon" /><link rel="stylesheet" href="' + c + '" />');
     $('#header').load(h);
     $('#footer').load(f);
