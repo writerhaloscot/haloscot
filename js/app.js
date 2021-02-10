@@ -58,6 +58,7 @@ $(function () {
         ['GBHBL: Edge of the Breach', 'https://www.gbhbl.com/horror-book-review-edge-of-the-breach-rift-cycle-book-1-halo-scot/'],
         ['GBHBL: Echoes of Blood', 'https://www.gbhbl.com/horror-book-review-echoes-of-blood-rift-cycle-book-2-halo-scot/'],
         ['GBHBL: Eye of the Brave', 'https://www.gbhbl.com/horror-book-review-eye-of-the-brave-rift-cycle-book-3-halo-scot/'],
+        ['GBHBL: Elegy of the Void', 'https://www.gbhbl.com/horror-book-review-elegy-of-the-void-rift-cycle-book-4-halo-scot/'],
         ['Morgan K Tanner: Edge of the Breach', 'https://morganktanner.com/2020/02/23/book-review-edge-of-the-breach-by-halo-scot/'],
         ['Morgan K Tanner: Echoes of Blood', 'https://morganktanner.com/2020/10/10/book-review-echoes-of-blood-by-halo-scot/'],
         ['Sahreth (Baphy) Bowden: Edge of the Breach', 'https://baphy1428.com/2020/01/21/edge-of-the-breach-by-halo-scot-book-review/'],
