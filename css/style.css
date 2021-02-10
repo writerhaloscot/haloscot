@@ -404,7 +404,7 @@ h2 .red-color {
 #footer .copyright {
     height: 40px;
     line-height: 40px;
-    opacity: 0.65;
+    color: #999;
     font-size: 13px;
 }
 
@@ -422,6 +422,15 @@ h2 .red-color {
 }
 
 #footer a:hover {
+    color: #d63031;
+}
+
+#footer .copyright a {
+    font: inherit;
+    color: white;
+}
+
+#footer .copyright a:hover {
     color: #d63031;
 }
 
@@ -444,7 +453,7 @@ h2 .red-color {
 }
 
 #footer .social:last-child {
-    padding-right: 0;
+    padding-right: 0 !important;
 }
 
 #footer .button {
@@ -789,6 +798,23 @@ h2 .red-color {
     }
     #header .social:nth-child(3) {
         padding-right: 0;
+    }
+    .footer-content > div:first-child,
+    .footer-content > div:last-child {
+        width: 55px;
+    }
+    .footer-content > div:nth-child(2) {
+        width: calc(100% - 110px);
+    }
+    #footer nav {
+        padding-left: 0;
+    }
+    #footer .button,
+    #footer .copyright {
+        padding: 0 6px;
+    }
+    #footer .social:not(.scrollTop) {
+        padding: 0 4px;
     }
 }
 
