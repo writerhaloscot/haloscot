@@ -2,7 +2,7 @@ Omnisend
 
 Changed sender's email to info@haloscot.com
 Automated process when subscribe done.
-Disabled confirmation
+Disabled confirmation email so don't use too many per month.
 
 Checked with Omnisend: 
 After your trial period expires we automatically transfer you to our Free plan.
