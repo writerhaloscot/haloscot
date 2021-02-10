@@ -8,7 +8,7 @@ Checked with Omnisend:
 After your trial period expires we automatically transfer you to our Free plan.
 Free plan has no subscriber limit, just daily/monthly send limits, would need to make separate segments of customers that won’t exceed the daily limit
 Omnisend forms have TCPA & GDPR consent
-free omnisend includes landing pages
+free omnisend includes landing pages (made in case don't allow cookies)
 
 GDPR Compliance
 * Added terms & policy pages
