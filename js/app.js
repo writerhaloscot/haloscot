@@ -74,7 +74,7 @@ $(function () {
         ['Features'],
         ['Queer Indie', 'https://queerindie.com/'],
         ['BookCon', 'https://www.bookcon.com/en/Sessions/89123/Queer-Indie-Write-the-Rainbow'],
-        ['University of Edinburgh Alumni bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
+        ['University of Edinburgh Alumni Bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
         ['The Writing Community Chat Show Podcast', 'https://anchor.fm/writingcommunitychatshow/episodes/03-Halo-interview-ecll67/a-a1u74aq'],
         ['The Mother Load by LWB Podcast', 'https://www.spreaker.com/user/themotherload/eps-303-halo-scot-author'],
         ['Amy-Alex Campbell&rsquo;s Queerantine Reads', 'https://amyalexcampbell.com/queerantine-reads/'],
