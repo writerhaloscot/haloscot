@@ -10,12 +10,13 @@ Free plan has no subscriber limit, just daily/monthly send limits, would need to
 Omnisend forms have TCPA & GDPR consent
 free omnisend includes landing pages (made in case don't allow cookies)
 
-GDPR Compliance
+GDPR Compliance (for both haloscot.com & queerindie.com)
 * Added terms & policy pages
-* Added ≥18 confirmation to subscription form
-* Added GDPR to subscription form
+* Added ≥18 confirmation to HS subscription form
+* Added GDPR to HS subscription form
 * Added cookies banner to accept/change preferences
 * DONE: https://www.zdnet.com/article/the-five-step-gdpr-preparation-checklist-for-marketing-organizations/
+* Made Google forms GDPR compliant with content checkbox DONE: https://www.convert.com/blog/optimization/make-forms-gdpr-compliant-without-tanking-conversion-rates/, https://www.kotive.com/blog/how-to-make-forms-GDPR-compliant/, https://wpforms.com/how-to-add-a-gdpr-agreement-field-to-your-sites-forms/#add-gdpr
 
 CONTENT? MONTHLY?
 promotions/deals on day

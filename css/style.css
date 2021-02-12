@@ -336,7 +336,8 @@ h2 .red-color {
 }
 
 #main .content p,
-#main .content.policy li {
+#main .content.policy li,
+#main .content.policy > div > div {
     font-size: 18px;
     margin-bottom: 16px;
     letter-spacing: 0.005rem;
@@ -814,7 +815,14 @@ h2 .red-color {
 
 section.policy ul {
     padding-left: 1rem !important;
+    margin-top: 1rem;
 }
+
+section.policy > div div {
+    margin-top: 1rem;
+    font: inherit;
+}
+
 
 /* END GDPR COMPLIANCE */
 
