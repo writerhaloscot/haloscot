@@ -17,6 +17,9 @@ GDPR Compliance (for both haloscot.com & queerindie.com)
 * Added cookies banner to accept/change preferences
 * DONE: https://www.zdnet.com/article/the-five-step-gdpr-preparation-checklist-for-marketing-organizations/
 * Made Google forms GDPR compliant with content checkbox DONE: https://www.convert.com/blog/optimization/make-forms-gdpr-compliant-without-tanking-conversion-rates/, https://www.kotive.com/blog/how-to-make-forms-GDPR-compliant/, https://wpforms.com/how-to-add-a-gdpr-agreement-field-to-your-sites-forms/#add-gdpr
+* Privacy Policy Compliant with GDPR, CCPA, & CalOPPA
+https://termly.io/products/privacy-policy-generator/
+https://html-cleaner.com/
 
 CONTENT? MONTHLY?
 promotions/deals on day
