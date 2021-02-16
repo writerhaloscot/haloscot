@@ -867,6 +867,7 @@ section.policy > div div {
 .hide-mobile {
     font: inherit;
     color: inherit;
+    letter-spacing: inherit;
 }
 
 @media only screen and (max-width: 991px) {
