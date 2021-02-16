@@ -47,6 +47,7 @@
                 <p><small><strong>Last Updated: December 18, 2020</strong></small></p>
                 <p>In an effort to be transparent about the grand, elusive, bloodthirsty deity called &ldquo;Marketing,&rdquo; I&rsquo;ve compiled some data from my recent promotional experiments. Keep in mind that my book is very dark and very weird, so I&rsquo;m sure everyone&rsquo;s results would be different utilizing these methods.</p>
                 <p><a class="button scrollSection" href="#data">Shut up, Halo, &amp; <br class="hide-desktop" />give me the data! <i class="fas fa-chevron-down"></i></a></p>
+                <p><a class="button scrollSection" href="#brand"><span class="hide-mobile">How to Create a </span>Branded Universal Link <i class="fas fa-chevron-down"></i></a></p>
                 <p><strong>Or listen to me ramble below:</strong></p>
                 <p>Let me preface this by saying that, in the beginning, Twitter was great, and I still believe it&rsquo;s a wonderful place to start and maintain a presence. The community is supportive, encouraging, and full of beautiful humans. You get street cred, like a runner for a gang, and plenty of interaction for the ravenous algorithm. However, at some point, you&rsquo;ll reach a plateau, and Twitter becomes what some term an &ldquo;echo chamber.&rdquo; For me, most of my followers are fellow authors also hustling to sell their books (which are all incredible stories), and authors don&rsquo;t have nearly as much time as readers do.</p>
                 <p>Four months after launch, I found that everyone who wanted my book had already bought it, and my KDP reports plunged into banging-my-head-against-a-wall territory. I am NOT telling anyone to stop the lifts or social media promotions&mdash;if they&rsquo;re working for you, that&rsquo;s fantastic, and I&rsquo;m thrilled for you, truly. I&rsquo;m only here to let people know that, if they&rsquo;re not working for your book, you aren&rsquo;t alone.</p>
@@ -101,6 +102,55 @@
 
 
                 <p style="margin-top: 3rem;margin-bottom:0;"><a class="button" href="https://mybook.to/RiftCycle" target="_blank">Fund My Insanity</a></p>
+
+                <hr id="brand" />
+                <h2>How to Create a Branded Universal Link for a Series</h2>
+                <p><small>* Note: This also works with single books, if listed on Amazon.</small></p>
+                <ol class="list">
+                    <li>Make a free Booklinker account <a href="https://www.booklinker.net/" target="_blank">here</a>.</li>
+                    <li>Once logged in, go to <a href="https://www.booklinker.net/mylinks.php" target="_blank">Your Links</a>.</li>
+                    <li>Copy your US Amazon series link into the <span class="gray-color">Add a Link</span> text input. To get your series URL, go to one of your books, scroll down to <span class="gray-color">Books In This Series</span>, then click the <span class="gray-color">Complete Series</span> link.
+                        <br />
+                        <br />Link Format Example: <a href="https://www.amazon.com/gp/product/B08LY8HLSJ" target="_blank">https://www.amazon.com/gp/product/B08LY8HLSJ</a>
+                        <br /><small>* Note: remove everything after and including the ?ref (this is just URL query clutter).</small></li>
+                    <li>Click <span class="gray-color">Create Universal Link</span>. This will link to the user&rsquo;s country, so you don&rsquo;t have to worry about separate US/UK/etc. links after creating this.</li>
+                    <li>Save the universal link to use in the following steps, and prepend https://, for example:
+                        <br /><a href="https://mybook.to/RiftCycle" target="_blank">https://mybook.to/RiftCycle</a></li>
+                    <li>Create a new page on your author website with the branded URL you want for your series, for example:
+                        <br /><a href="https://haloscot.com/rift/" target="_blank">https://haloscot.com/rift/</a></li>
+                    <li>On your new page, before the closing <code>&lt;/body&gt;</code> tag, copy+paste the following (with your universal link instead of mine):
+                        <code class="block">
+                            &lt;!-- REDIRECT --&gt;
+                            <br />&lt;script&gt;
+                            <br />window.location.replace("<span class="red-color">https://mybook.to/RiftCycle</span>");
+                            <br />&lt;/script&gt;
+                            <br />&lt;!-- END REDIRECT --&gt;
+                        </code>
+                    </li>
+                    <li>Also on your new page, before the closing <code>&lt;/head&gt;</code> tag, copy+paste the following, but replace everything in <span class="red-color">red</span> with your own information:
+                        <code class="block">
+                            &lt;!-- TWITTER CARD --&gt;
+                            <br />&lt;meta itemprop="image" content="<span class="red-color">https://haloscot.com/img/twitter-card.jpg</span>"&gt;
+                            <br />&lt;meta name="twitter:card" content="summary_large_image" /&gt;
+                            <br />&lt;meta name="twitter:title" content="<span class="red-color">Rift Cycle</span>"&gt;
+                            <br />&lt;meta name="twitter:description" content="<span class="red-color">We all become monsters.</span>"&gt;
+                            <br />&lt;meta name="twitter:image" content="<span class="red-color">https://haloscot.com/img/twitter-card.jpg</span>"&gt;
+                            <br />&lt;meta property="og:title" content="<span class="red-color">Rift Cycle</span>" /&gt;
+                            <br />&lt;meta property="og:type" content="article" /&gt;
+                            <br />&lt;meta property="og:url" content="<span class="red-color">https://haloscot.com/rift/</span>" /&gt;
+                            <br />&lt;meta property="og:image" content="<span class="red-color">https://haloscot.com/img/twitter-card.jpg</span>" /&gt;
+                            <br />&lt;meta property="og:description" content="<span class="red-color">We all become monsters.</span>" /&gt;
+                            <br />&lt;meta property="og:site_name" content="<span class="red-color">Rift Cycle</span>" /&gt;
+                            <br />&lt;!-- END TWITTER CARD --&gt;
+                        </code>
+                        <br />
+                        <small>* Note 1: The <code>og:url</code> is the absolute URL of the new branded page you&rsquo;ve created.</small>
+                        <br /><small>* Note 2: The Twitter image dimensions are <span class="gray-color">1200px wide &times; 628px tall</span>. Upload this image to your website first, then use the absolute URL in the above meta data.</small>
+                    </li>
+                    <li>Publish your website changes, and test the Twitter card with the URL of the new page you created in the <a href="https://cards-dev.twitter.com/validator" target="_blank">Twitter Card Validator</a> <small>(must be logged into Twitter)</small>. For example, mine is <a href="https://haloscot.com/rift/" target="_blank">https://haloscot.com/rift/</a>. The page has custom branding and redirects to the universal link, which redirects the user to their local, neighborhood Amazon. Happy coding!</li>
+
+                </ol>
+
             </section>
         </main>
 

@@ -217,6 +217,13 @@ iframe {
     color: #d63031 !important;
 }
 
+.gray-color {
+    color: #888888 !important;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+
 h1 .red-color,
 h2 .red-color {
     font: inherit;
@@ -228,6 +235,20 @@ h2 .red-color {
 
 .no-margin-bottom {
     margin-bottom: 0 !important;
+}
+
+code {
+    font-family: monospace;
+    color: #888888;
+}
+
+code.block {
+    display: block;
+    margin-top: 1rem;
+}
+
+code .red-color {
+    font: inherit;
 }
 
 
@@ -342,6 +363,15 @@ h2 .red-color {
     margin-bottom: 16px;
     letter-spacing: 0.005rem;
     line-height: 1.45;
+}
+
+#main .content ul.list,
+#main .content ol.list {
+    padding-left: 1rem;
+}
+
+#main .content .list li {
+    margin-bottom: 1rem;
 }
 
 #main .content.policy li p {
