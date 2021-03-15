@@ -63,6 +63,7 @@ $(function () {
         ['Morgan K Tanner: Echoes of Blood', 'https://morganktanner.com/2020/10/10/book-review-echoes-of-blood-by-halo-scot/'],
         ['Sahreth (Baphy) Bowden: Edge of the Breach', 'https://baphy1428.com/2020/01/21/edge-of-the-breach-by-halo-scot-book-review/'],
         ['Sahreth (Baphy) Bowden: Echoes of Blood', 'https://baphy1428.com/2020/12/18/echoes-of-blood-by-halo-scot-book-review/'],
+        ['Christine Morgan&rsquo;s World of Words', 'https://christinemariemorgan.wordpress.com/2021/03/11/reviews-march-2021/'],
         ['Andy James Trevors', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
         ['Ria&rsquo;s Readviews', 'https://www.youtube.com/watch?v=MaZiM8VO8G4'],
         ['Mary Cook', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
