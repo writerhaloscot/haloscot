@@ -67,6 +67,7 @@ $(function () {
         ['Andy James Trevors', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
         ['Ria&rsquo;s Readviews', 'https://www.youtube.com/watch?v=MaZiM8VO8G4'],
         ['Mary Cook', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
+        ['Daniel Forbes', 'https://youtu.be/8j1qwKr8kbE'],
         // ['Corey Toomey', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
         // ['Quinn Buckland', 'https://youtu.be/N7MOUWumu8g'],
         ['Jason Kilgore', 'https://jasonkilgore.blogspot.com/2020/06/review-of-edge-of-breach-by-halo-scot.html'],
