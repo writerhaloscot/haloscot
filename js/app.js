@@ -81,7 +81,6 @@ $(function () {
         ['University of Edinburgh Alumni Bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
         ['The Mother Load by LWB Podcast', 'https://www.spreaker.com/user/themotherload/eps-303-halo-scot-author'],
         ['Amy-Alex Campbell&rsquo;s Queerantine Reads', 'https://amyalexcampbell.com/queerantine-reads/'],
-        ['Awesome Gang', 'https://awesomegang.com/edge-of-the-breach-by-halo-scot/'],
         ['Discount Book Man', 'https://discountbookman.com/edge-of-the-breach-by-halo-scot/'],
         ['Book Review Universe', 'https://bookreviewuniverse.com/edge-of-the-breach-by-halo-scot/'],
         ['Kari L. Wood', 'https://karilwood.com/blog-1/f/edge-of-the-breach'],
