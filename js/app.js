@@ -55,6 +55,7 @@ $(function () {
         ['Necessary Whimsy', 'https://necessarywhimsy.com/2020/05/23/author-interview-halo-scott/'],
         ['&ldquo;Write Your Way&rdquo; Guest Post on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
         ['Secret Books', 'https://youtu.be/PESfJlNaf_Y'],
+        ['Boomers on Books', 'https://youtu.be/cv30TN8VzUE'],
 
         ['Reviews'],
         ['GBHBL: Edge of the Breach', 'https://www.gbhbl.com/horror-book-review-edge-of-the-breach-rift-cycle-book-1-halo-scot/'],
