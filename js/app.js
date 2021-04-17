@@ -56,6 +56,7 @@ $(function () {
         ['&ldquo;Write Your Way&rdquo; Guest Post on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
         ['Secret Books', 'https://youtu.be/PESfJlNaf_Y'],
         ['Boomers on Books', 'https://youtu.be/cv30TN8VzUE'],
+        ['Indie Deep Dive: Edge of the Breach – Halo Scot', 'https://jonfordauthor.com/blogpost/author-interview/indie-deep-dive-edge-of-the-breach-halo-scot/'],
 
         ['Reviews'],
         ['GBHBL: Edge of the Breach', 'https://www.gbhbl.com/horror-book-review-edge-of-the-breach-rift-cycle-book-1-halo-scot/'],
