@@ -109,7 +109,7 @@
                 <p>Check any service against <a href="https://selfpublishingadvice.org/best-self-publishing-services/" target="_blank">this wonderful list</a> compiled by the Self-Publishing Advice Center, part of the <a href="https://allianceindependentauthors.org/" target="_blank">Alliance of Independent Authors</a>.</p>
 
 
-                <p style="margin-top: 3rem;margin-bottom:0;"><a class="button" href="https://mybook.to/RiftCycle" target="_blank">Fund My Insanity</a></p>
+                <p style="margin-top: 3rem;margin-bottom:0;"><a class="button" href="https://author.to/HaloScot" target="_blank">Fund My Insanity</a></p>
 
                 <hr id="brand" />
                 <h2>How to Create a Branded Universal Link for a Series</h2>
@@ -123,14 +123,14 @@
                         <br /><small>* Note: remove everything after and including the ?ref (this is just URL query clutter).</small></li>
                     <li>Click <span class="gray-color">Create Universal Link</span>. This will link to the user&rsquo;s country, so you don&rsquo;t have to worry about separate US/UK/etc. links after creating this.</li>
                     <li>Save the universal link to use in the following steps, and prepend https://, for example:
-                        <br /><a href="https://mybook.to/RiftCycle" target="_blank">https://mybook.to/RiftCycle</a></li>
+                        <br /><a href="https://author.to/HaloScot" target="_blank">https://author.to/HaloScot</a></li>
                     <li>Create a new page on your author website with the branded URL you want for your series, for example:
                         <br /><a href="https://haloscot.com/rift/" target="_blank">https://haloscot.com/rift/</a></li>
                     <li>On your new page, before the closing <code>&lt;/body&gt;</code> tag, copy+paste the following (with your universal link instead of mine):
                         <code class="block">
                             &lt;!-- REDIRECT --&gt;
                             <br />&lt;script&gt;
-                            <br />window.location.replace("<span class="red-color">https://mybook.to/RiftCycle</span>");
+                            <br />window.location.replace("<span class="red-color">https://author.to/HaloScot</span>");
                             <br />&lt;/script&gt;
                             <br />&lt;!-- END REDIRECT --&gt;
                         </code>
