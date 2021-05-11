@@ -65,6 +65,7 @@ $(function () {
         ['GBHBL: Elegy of the Void', 'https://www.gbhbl.com/horror-book-review-elegy-of-the-void-rift-cycle-book-4-halo-scot/'],
         ['Morgan K Tanner: Edge of the Breach', 'https://morganktanner.com/2020/02/23/book-review-edge-of-the-breach-by-halo-scot/'],
         ['Morgan K Tanner: Echoes of Blood', 'https://morganktanner.com/2020/10/10/book-review-echoes-of-blood-by-halo-scot/'],
+        ['Morgan K Tanner: Eye of the Brave', 'https://morganktanner.com/2021/05/07/book-review-eye-of-the-brave-by-halo-scot/'],
         ['Sahreth (Baphy) Bowden: Edge of the Breach', 'https://baphy1428.com/2020/01/21/edge-of-the-breach-by-halo-scot-book-review/'],
         ['Sahreth (Baphy) Bowden: Echoes of Blood', 'https://baphy1428.com/2020/12/18/echoes-of-blood-by-halo-scot-book-review/'],
         ['Christine Morgan&rsquo;s World of Words', 'https://christinemariemorgan.wordpress.com/2021/03/11/reviews-march-2021/'],
