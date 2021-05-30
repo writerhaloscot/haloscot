@@ -71,6 +71,7 @@ $(function () {
         // ['Quinn Buckland', 'https://youtu.be/N7MOUWumu8g'],
         ['Jason Kilgore', 'https://jasonkilgore.blogspot.com/2020/06/review-of-edge-of-breach-by-halo-scot.html'],
         ['Bookish Bellee', 'https://bookishbellee.wordpress.com/2020/09/20/edge-of-the-breach-by-halo-scot-review/'],
+        ['A.J. Calvin&rsquo;s Book Reviews: May 2021', 'https://ajcalvin.net/book-reviews-may-2021/'],
 
         ['Features'],
         ['Queer Indie', 'https://queerindie.com/'],
