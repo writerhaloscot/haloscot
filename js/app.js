@@ -101,9 +101,8 @@ $(function () {
         ['The Year in a Book-Shelf (2020) by Author Rory Michaelson', 'https://www.rorymichaelson.com/post/the-year-in-a-book-shelf-2020'],
         ['Ria&rsquo;s Readviews: Best Books of 2020', 'https://riasreadviews.com/best-books-of-2020/'],
         ['A.J. Calvin&rsquo;s #IndieApril 2021 Reading List', 'https://ajcalvin.net/my-indieapril-2021-reading-list/'],
-        ['The Organic Poet: Bleeding Soul (Poem)', 
-        ['The Organic Poet: Born a Flame (Poem)', 'https://www.theorganicpoet.com/post/born-a-flame-halo_scot'],
-         'https://www.theorganicpoet.com/post/bleeding-soul-halo_scot'],
+        ['The Organic Poet: Bleeding Soul (Poem)', 'https://www.theorganicpoet.com/post/born-a-flame-halo_scot'], 
+        ['The Organic Poet: Born a Flame (Poem)', 'https://www.theorganicpoet.com/post/bleeding-soul-halo_scot'],
 
         ['WCCS'],
     ];
