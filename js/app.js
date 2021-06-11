@@ -76,7 +76,7 @@ $(function () {
 
         ['Features'],
         ['Queer Indie', 'https://queerindie.com/'],
-        ['BookCon', 'https://www.bookcon.com/en/Sessions/89123/Queer-Indie-Write-the-Rainbow'],
+        ['BookCon', 'https://www.facebook.com/bookcon/videos/191013518970325'],
         ['University of Edinburgh Alumni Bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
         ['The Mother Load by LWB Podcast', 'https://www.spreaker.com/user/themotherload/eps-303-halo-scot-author'],
         ['Amy-Alex Campbell&rsquo;s Queerantine Reads', 'https://amyalexcampbell.com/queerantine-reads/'],
