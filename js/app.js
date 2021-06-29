@@ -75,6 +75,7 @@ $(function () {
         ['A D Green', 'https://adgreenauthor.com/2021/06/04/into-the-breach-by-halo-scot/'],
 
         ['Features'],
+        ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
         ['Queer Indie', 'https://queerindie.com/'],
         ['BookCon', 'https://www.facebook.com/bookcon/videos/191013518970325'],
         ['University of Edinburgh Alumni Bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
