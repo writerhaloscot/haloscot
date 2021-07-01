@@ -102,6 +102,9 @@ $(function () {
         ['The Year in a Book-Shelf (2020) by Author Rory Michaelson', 'https://www.rorymichaelson.com/post/the-year-in-a-book-shelf-2020'],
         ['Ria&rsquo;s Readviews: Best Books of 2020', 'https://riasreadviews.com/best-books-of-2020/'],
         ['A.J. Calvin&rsquo;s #IndieApril 2021 Reading List', 'https://ajcalvin.net/my-indieapril-2021-reading-list/'],
+        ['Celthric', 'https://celthric.com/edge-of-the-breach-by-halo-scot/'],
+        
+        ['Poetry'],
         ['The Organic Poet: Born a Flame (Poem)', 'https://www.theorganicpoet.com/post/born-a-flame-halo_scot'], 
         ['The Organic Poet: Bleeding Soul (Poem)', 'https://www.theorganicpoet.com/post/bleeding-soul-halo_scot'],
         ['The Organic Poet: Severed Star (Poem)', 'https://www.theorganicpoet.com/post/severed-star-halo_scot'],
@@ -115,7 +118,7 @@ $(function () {
         var t = '';
         var u = '';
 
-        if (p == 'Interviews' || p == 'Reviews' || p == 'Features') {
+        if (p == 'Interviews' || p == 'Reviews' || p == 'Features' || p == 'Poetry') {
             pressHTML += '<h3>' + p + '</h3>';
         } else if (p == 'WCCS') {
             pressHTML += '<h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection&nbsp;›</a></p>';
