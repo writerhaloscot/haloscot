@@ -79,6 +79,7 @@ $(function () {
         ['Queer Indie', 'https://queerindie.com/'],
         ['BookCon', 'https://www.facebook.com/bookcon/videos/191013518970325'],
         ['Media Death Cult', 'https://youtu.be/8F5bLxSW-8s'],
+        ['RedStarReviews: SPSFC (Self-Published Science Fiction Competition)', 'https://redstarreviews.com/2021/08/'],
         ['University of Edinburgh Alumni Bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
         ['The Mother Load by LWB Podcast', 'https://www.spreaker.com/user/themotherload/eps-303-halo-scot-author'],
         ['Amy-Alex Campbell&rsquo;s Queerantine Reads', 'https://amyalexcampbell.com/queerantine-reads/'],
