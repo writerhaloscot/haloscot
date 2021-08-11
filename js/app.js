@@ -73,6 +73,7 @@ $(function () {
         ['Bookish Bellee', 'https://bookishbellee.wordpress.com/2020/09/20/edge-of-the-breach-by-halo-scot-review/'],
         ['A.J. Calvin&rsquo;s Book Reviews: May 2021', 'https://ajcalvin.net/book-reviews-may-2021/'],
         ['A D Green', 'https://adgreenauthor.com/2021/06/04/into-the-breach-by-halo-scot/'],
+        ['KittyLisha Reviews', 'https://kittylishareviews.blogspot.com/2021/08/book-review-edge-of-breach-by-halo-scot.html'],
 
         ['Features'],
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
