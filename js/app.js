@@ -47,6 +47,8 @@ $(function () {
         ['The Writing Community Chat Show', 'https://anchor.fm/writingcommunitychatshow/episodes/03-Halo-interview-ecll67/a-a1u74aq'],
         ['Story of a Storyteller', 'https://storyofastoryteller.buzzsprout.com/1229831/5314054-s1-ep4-halo-scot-is-a-storyteller'],
         ['The Tiny Bookcase', 'https://buzzsprout.com/1129067/8142253'],
+        ['Boomers on Books', 'https://youtu.be/cv30TN8VzUE'],
+        ['The Shadow&rsquo;s Project Limited', 'https://youtu.be/GHfMmQHXSnQ'],
         ['Ginger Nuts of Horror', 'https://gingernutsofhorror.com/interviews/into-the-breach-once-more-five-minutes-with-author-halo-scot'],
         ['Armed with A Book', 'https://www.armedwithabook.com/halo-scot-on-writing-and-life-experiences/'],
         ['Beltana Book Burrow', 'https://beltanabookburrow.com/2020/04/08/halo-scot-has-answers/'],
@@ -55,7 +57,6 @@ $(function () {
         ['Necessary Whimsy', 'https://necessarywhimsy.com/2020/05/23/author-interview-halo-scott/'],
         ['&ldquo;Write Your Way&rdquo; Guest Post on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
         ['Secret Books', 'https://youtu.be/PESfJlNaf_Y'],
-        ['Boomers on Books', 'https://youtu.be/cv30TN8VzUE'],
         ['Indie Deep Dive: Edge of the Breach – Halo Scot', 'https://jonfordauthor.com/blogpost/author-interview/indie-deep-dive-edge-of-the-breach-halo-scot/'],
 
         ['Reviews'],
