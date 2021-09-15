@@ -53,6 +53,15 @@ h6 {
     font-family: 'Big Shoulders Text', Times, serif;
 }
 
+h1 *,
+h2 *,
+h3 *,
+h4 *,
+h5 *,
+h6 * {
+    font-family: inherit;
+}
+
 h1 {
     font-size: 2.25rem;
 }
@@ -233,6 +242,14 @@ h2 .red-color {
     text-transform: uppercase !important;
 }
 
+.no-margin {
+    margin: 0 !important;
+}
+
+.no-margin-top {
+    margin-top: 0 !important;
+}
+
 .no-margin-bottom {
     margin-bottom: 0 !important;
 }
@@ -354,6 +371,10 @@ code .red-color {
     color: #313A40;
     background: transparent;
     color: #eeeeee;
+}
+
+#main .content.center {
+    text-align: center;
 }
 
 #main .content p,
@@ -976,3 +997,62 @@ section.policy > div div {
 
 
 /* END NEWSLETTER FORM */
+
+
+/* FREE FORM */
+
+input:not(.button) {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    outline: 0;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
+    font: inherit;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+input.button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    outline: 0;
+    border: 0;
+}
+
+.form-error,
+.form-success {
+    display: none;
+    margin-top: 1rem;
+    margin-bottom: 0;
+    font-style: italic;
+}
+
+.form-error {
+    color: #d63031;
+}
+
+.form-success {
+    color: #D6D445;
+}
+
+.form-free {
+    display: block;
+    max-width: 320px;
+    margin: 2rem auto 0;
+}
+
+.form-free input {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* END FREE FORM */

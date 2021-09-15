@@ -109,9 +109,9 @@ $(function () {
         ['Ria&rsquo;s Readviews: Best Books of 2020', 'https://riasreadviews.com/best-books-of-2020/'],
         ['A.J. Calvin&rsquo;s #IndieApril 2021 Reading List', 'https://ajcalvin.net/my-indieapril-2021-reading-list/'],
         ['Celthric', 'https://celthric.com/edge-of-the-breach-by-halo-scot/'],
-        
+
         ['Poetry'],
-        ['The Organic Poet: Born a Flame (Poem)', 'https://www.theorganicpoet.com/post/born-a-flame-halo_scot'], 
+        ['The Organic Poet: Born a Flame (Poem)', 'https://www.theorganicpoet.com/post/born-a-flame-halo_scot'],
         ['The Organic Poet: Bleeding Soul (Poem)', 'https://www.theorganicpoet.com/post/bleeding-soul-halo_scot'],
         ['The Organic Poet: Severed Star (Poem)', 'https://www.theorganicpoet.com/post/severed-star-halo_scot'],
 
@@ -192,5 +192,26 @@ $(function () {
         e.preventDefault();
         $(this).fadeOut();
     });
+
+
+    // FREE FORM, change folder/pw as needed
+    $('#eotb').on('submit', function (e) {
+        e.preventDefault();
+        var pw = 'WeAreMonsters!!';
+        var pw_input = $(this).find('.form-pw').val();
+
+        if (pw_input == pw) {
+            $(this).find('.form-error').hide();
+            $(this).find('.form-success').show();
+            window.location.href = "/free/file9183765/eotb.zip";
+        } else {
+            $(this).find('.form-error').show();
+            $(this).find('.form-success').hide();
+        }
+        
+        
+    });
+
+    // END FREE FORM
 
 });
