@@ -82,7 +82,6 @@ $(function () {
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
         ['Queer Indie', 'https://queerindie.com/'],
         ['BookCon', 'https://www.facebook.com/bookcon/videos/191013518970325'],
-        ['Brooklyn Book Festival: Bookends', 'https://brooklynbookfestival.org/event/queer-indie-the-writing-community-chat-show-spotlights-indie-authors-virtual/'],
         ['Media Death Cult', 'https://youtu.be/8F5bLxSW-8s'],
         ['RedStarReviews: SPSFC (Self-Published Science Fiction Competition)', 'https://redstarreviews.com/2021/08/'],
         ['University of Edinburgh Alumni Bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
