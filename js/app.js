@@ -77,6 +77,7 @@ $(function () {
         ['A D Green', 'https://adgreenauthor.com/2021/06/04/into-the-breach-by-halo-scot/'],
         ['KittyLisha Reviews', 'https://kittylishareviews.blogspot.com/2021/08/book-review-edge-of-breach-by-halo-scot.html'],
         ['K.B. Davenport', 'https://davenportbooks.wixsite.com/home/post/indie-review-edge-of-the-breach-by-halo-scot'],
+        ['Riv Rains', 'https://rivrains.com/edge-of-the-breach-book-review/'],
 
         ['Features'],
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
