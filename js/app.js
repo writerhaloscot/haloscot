@@ -111,6 +111,8 @@ $(function () {
         ['A.J. Calvin&rsquo;s #IndieApril 2021 Reading List', 'https://ajcalvin.net/my-indieapril-2021-reading-list/'],
         ['Celthric', 'https://celthric.com/edge-of-the-breach-by-halo-scot/'],
         ['Book Club News', 'https://bookclubnews.com/halo-scot/'],
+        ['Rory Michaelson: Queer in a Bookcase 2021', 'https://www.rorymichaelson.com/post/queer-in-a-bookcase-2021'],
+        ['Evelyn Chartres: Evelyn Reads Edge of the Breach', 'https://evelynchartres.com/evelyn-reads-edge-of-the-breach/'],
 
         ['Poetry'],
         ['The Organic Poet: Born a Flame (Poem)', 'https://www.theorganicpoet.com/post/born-a-flame-halo_scot'],
