@@ -113,6 +113,7 @@ $(function () {
         ['Book Club News', 'https://bookclubnews.com/halo-scot/'],
         ['Rory Michaelson: Queer in a Bookcase 2021', 'https://www.rorymichaelson.com/post/queer-in-a-bookcase-2021'],
         ['Evelyn Chartres: Evelyn Reads Edge of the Breach', 'https://evelynchartres.com/evelyn-reads-edge-of-the-breach/'],
+        ['Esteban Q Mathieus', 'https://eqmauthor.com/2021/12/31/rift-cycle-halo-scot/'],
 
         ['Poetry'],
         ['The Organic Poet: Born a Flame (Poem)', 'https://www.theorganicpoet.com/post/born-a-flame-halo_scot'],
