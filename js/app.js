@@ -55,10 +55,13 @@ $(function () {
         ['Awesome Gang', 'https://awesomegang.com/halo-scot/'],
         ['Writer Q&amp;A 2020 No. 7: Halo Scot by Wes Platt', 'https://www.patreon.com/posts/writer-q-2020-no-35957027'],
         ['Necessary Whimsy', 'https://necessarywhimsy.com/2020/05/23/author-interview-halo-scott/'],
-        ['&ldquo;Write Your Way&rdquo; Guest Post on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
         ['Secret Books', 'https://youtu.be/PESfJlNaf_Y'],
         ['Indie Deep Dive: Edge of the Breach – Halo Scot', 'https://jonfordauthor.com/blogpost/author-interview/indie-deep-dive-edge-of-the-breach-halo-scot/'],
         ['Self-Published Fantasy Month', 'https://www.selfpublishedfantasymonth.com/interview-with-halo-scot/'],
+        
+        ['Guest Posts'],
+        ['&ldquo;Write Your Way&rdquo; on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
+        ['&ldquo;The best dystopian books to devour your soul&rdquo; on Shepherd.com', 'https://shepherd.com/best-books/dystopian-books-to-devour-your-soul'],
 
         ['Reviews'],
         ['GBHBL Reviews', 'https://www.gbhbl.com/?s=halo+scot'],
@@ -129,7 +132,7 @@ $(function () {
         var t = '';
         var u = '';
 
-        if (p == 'Interviews' || p == 'Reviews' || p == 'Features' || p == 'Poetry') {
+        if (p == 'Interviews' || p == 'Guest Posts' || p == 'Reviews' || p == 'Features' || p == 'Poetry') {
             pressHTML += '<h3>' + p + '</h3>';
         } else if (p == 'WCCS') {
             pressHTML += '<h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection&nbsp;›</a></p>';
