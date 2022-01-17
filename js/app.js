@@ -58,6 +58,7 @@ $(function () {
         ['Secret Books', 'https://youtu.be/PESfJlNaf_Y'],
         ['Indie Deep Dive: Edge of the Breach – Halo Scot', 'https://jonfordauthor.com/blogpost/author-interview/indie-deep-dive-edge-of-the-breach-halo-scot/'],
         ['Self-Published Fantasy Month', 'https://www.selfpublishedfantasymonth.com/interview-with-halo-scot/'],
+        ['Steve Talks Books', 'https://youtu.be/0STUKc9adEQ'],
         
         ['Guest Posts'], 
         // ['&ldquo;Write Your Way&rdquo; on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
