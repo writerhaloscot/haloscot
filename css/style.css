@@ -491,6 +491,14 @@ code .red-color {
     color: #d63031;
 }
 
+#footer .copyright a:last-child {
+    color: #d63031;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.84em;
+    vertical-align: baseline;
+}
+
 #footer .social {
     color: #d63031;
     height: 40px;
@@ -972,31 +980,6 @@ section.policy > div div {
         height: 150px;
     }
 }
-
-
-/* NEWSLETTER FORM */
-
-@media only screen and (max-width: 650px) {
-    #omnisend-dynamic-container {
-        display: none !important;
-    }
-}
-
-@media only screen and (max-width: 649px) {
-    #omnisend-dynamic-container {
-        display: block !important;
-    }
-    #omnisend-dynamic-container .soundest-form-image-left-open {
-        padding: 10px !important;
-    }
-    #footer {
-        padding-bottom: 40px;
-        height: 80px;
-    }
-}
-
-
-/* END NEWSLETTER FORM */
 
 
 /* FREE FORM */
