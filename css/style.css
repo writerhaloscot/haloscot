@@ -467,6 +467,8 @@ code .red-color {
     font-family: "Montserrat";
     font-weight: 900;
     transition: background 0.25s ease;
+    position: relative;
+    z-index: 99;
 }
 
 .books-grid > a:hover > span {
