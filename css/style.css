@@ -433,6 +433,9 @@ code .red-color {
     height: auto;
 }
 
+
+/* BOOKS */
+
 .books-grid {
     display: flex;
     justify-content: space-between;
@@ -474,6 +477,9 @@ code .red-color {
 .books-grid > a:hover > span {
     background: #8C0410;
 }
+
+
+/* END BOOKS */
 
 
 /* FOOTER */
