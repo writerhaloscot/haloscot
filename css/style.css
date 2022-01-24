@@ -86,6 +86,15 @@ h3 small {
     display: block;
 }
 
+h3 .date {
+    display: inline-block;
+    font-style: normal;
+    font-size: 0.65em;
+    vertical-align: middle;
+    letter-spacing: 0.05rem;
+    margin-top: 1px;
+}
+
 em {
     font-weight: inherit;
 }
@@ -462,13 +471,15 @@ code .red-color {
     transition: all 0.25s ease;
 }
 
-.books-grid > a.soon {
-    pointer-events: none;
-}
+.books-grid > a.standalone {}
 
-.books-grid > a.soon img,
+.books-grid > a.standalone img,
 .books-grid > a:hover img {
     box-shadow: 1rem 1rem 0px #1A2E40;
+}
+
+.books-grid > a.standalone:hover img {
+    box-shadow: 1rem 1rem 0px #0B0B0D;
 }
 
 .books-grid > a > span {
@@ -489,8 +500,12 @@ code .red-color {
     background: #8C0410;
 }
 
-.books-grid > a.soon > span {
+.books-grid > a.standalone > span {
     background: #07748C;
+}
+
+.books-grid > a.standalone:hover > span {
+    background: #1A2E40;
 }
 
 .books-desc {
