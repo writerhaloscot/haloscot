@@ -433,6 +433,10 @@ code .red-color {
     color: #ebebeb;
 }
 
+.section-blue .link {
+    display: inline !important;
+}
+
 .section-text {
     width: 60%;
 }
