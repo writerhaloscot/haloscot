@@ -80,6 +80,12 @@ h3 {
     margin-bottom: 0.25rem;
 }
 
+h3 small {
+    font-style: normal;
+    opacity: .25;
+    display: block;
+}
+
 em {
     font-weight: inherit;
 }
@@ -438,14 +444,14 @@ code .red-color {
 
 .books-grid {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     margin: 0 -1rem;
 }
 
 .books-grid > a {
     padding: 1rem;
-    width: 25%;
+    width: 20%;
     border-bottom: 0 !important;
 }
 
@@ -456,6 +462,11 @@ code .red-color {
     transition: all 0.25s ease;
 }
 
+.books-grid > a.soon {
+    pointer-events: none;
+}
+
+.books-grid > a.soon img,
 .books-grid > a:hover img {
     box-shadow: 1rem 1rem 0px #1A2E40;
 }
@@ -476,6 +487,30 @@ code .red-color {
 
 .books-grid > a:hover > span {
     background: #8C0410;
+}
+
+.books-grid > a.soon > span {
+    background: #07748C;
+}
+
+.books-desc {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -1rem;
+}
+
+.books-desc > div {
+    padding: 0 1rem;
+    width: 20%;
+}
+
+.books-desc > div:first-child {
+    width: 80%;
+}
+
+.books-desc p {
+    font-size: 16px;
 }
 
 
@@ -794,6 +829,9 @@ section.policy > div div {
         left: 10px;
         margin: 0 auto;
     }
+    .books-desc p {
+        font-size: 16px;
+    }
 }
 
 @media only screen and (min-width: 992px) {
@@ -830,6 +868,15 @@ section.policy > div div {
     }
     .section-img {
         width: 25%;
+    }
+    .books-desc {
+        display: block;
+    }
+    .books-grid > a {
+        width: calc(100%/3);
+    }
+    .books-desc > div {
+        width: 100% !important;
     }
 }
 
