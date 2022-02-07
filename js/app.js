@@ -84,6 +84,8 @@ $(function () {
         ['K.B. Davenport', 'https://davenportbooks.wixsite.com/home/post/indie-review-edge-of-the-breach-by-halo-scot'],
         ['Riv Rains', 'https://rivrains.com/edge-of-the-breach-book-review/'],
         ['J.D. Cunegan', 'https://jdcuneganbooks.com/2022/02/02/book-reviews-xv/'],
+        ['Steve Talks Books: <em>Creeping Death</em> Review', 'https://www.creepingdeath.org/forum/index.php?/blogs/entry/938-edge-of-the-breach-by-halo-scot/'],
+        ['Steve Talks Books: YouTube Review', 'https://youtu.be/PfgkEJJOdkE'],
 
         ['Features'],
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
