@@ -84,7 +84,8 @@ $(function () {
         ['KittyLisha Reviews', 'https://kittylishareviews.blogspot.com/2021/08/book-review-edge-of-breach-by-halo-scot.html'],
         ['K.B. Davenport', 'https://davenportbooks.wixsite.com/home/post/indie-review-edge-of-the-breach-by-halo-scot'],
         ['Riv Rains', 'https://rivrains.com/edge-of-the-breach-book-review/'],
-        ['J.D. Cunegan', 'https://jdcuneganbooks.com/2022/02/02/book-reviews-xv/'],
+        ['J.D. Cunegan: Book Review', 'https://jdcuneganbooks.com/2022/02/02/book-reviews-xv/'],
+        ['J.D. Cunegan: My Favorite Self- and Independently-Published Books', 'https://jdcunegan.medium.com/my-favorite-self-and-independently-published-books-7105d9da7abe'],
         ['Steve Talks Books: Creeping Death Review', 'https://www.creepingdeath.org/forum/index.php?/blogs/entry/938-edge-of-the-breach-by-halo-scot/'],
         ['Steve Talks Books: YouTube Review', 'https://youtu.be/PfgkEJJOdkE'],
 
@@ -123,6 +124,7 @@ $(function () {
         ['Rory Michaelson: Queer in a Bookcase 2021', 'https://www.rorymichaelson.com/post/queer-in-a-bookcase-2021'],
         ['Evelyn Chartres: Evelyn Reads Edge of the Breach', 'https://evelynchartres.com/evelyn-reads-edge-of-the-breach/'],
         ['Esteban Q Mathieus', 'https://eqmauthor.com/2021/12/31/rift-cycle-halo-scot/'],
+        ['The Road to Nathan', 'https://theroadtonathan.com/indie-books-ive-read'],
 
         ['Poetry'],
         ['The Organic Poet: Born a Flame (Poem)', 'https://www.theorganicpoet.com/post/born-a-flame-halo_scot'],
