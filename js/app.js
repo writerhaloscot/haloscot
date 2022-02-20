@@ -6,7 +6,7 @@ $(function () {
     var s = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400&family=Montserrat:wght@900&display=swap" rel="stylesheet"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">';
     // <link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text:400|Roboto:400,400i,500&display=swap" rel="stylesheet">
     var v = 'img/favicon.png';
-    var c = 'css/style.css?v=1.1.9';
+    var c = 'css/style.css?v=1.2';
     var h = 'includes/header.html';
     var f = 'includes/footer.html';
 
