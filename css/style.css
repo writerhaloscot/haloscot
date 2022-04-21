@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-weight: 400;
-    font-family: 'Cantarell', Helvetica, Arial, sans-serif;
+    font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: subpixel-antialiased;
     /*-moz-osx-font-smoothing: grayscale;*/
     -webkit-box-sizing: border-box;
@@ -25,7 +25,7 @@
 
 body {
     opacity: 1;
-    background: #0B0B0D;
+    background: #000000;
     transition: 0.25s opacity ease;
     transition-delay: 0.25s;
 }
@@ -47,9 +47,9 @@ h5,
 h6 {
     margin-top: 2rem;
     margin-bottom: 1rem;
-    font-weight: 900;
-    font-family: 'Montserrat', Times, serif;
+    font-weight: 700;
     letter-spacing: 0.05em;
+    font-family: 'Big Shoulders Text', serif;
 }
 
 h1 *,
@@ -62,22 +62,22 @@ h6 * {
 }
 
 h1 {
-    font-size: 2.25rem;
+    font-size: 5.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
 }
 
 h2 {
-    font-size: 1.75rem;
+    font-size: 3.4rem;
     margin-top: 1.5rem;
     margin-bottom: 0.25rem;
 }
 
 h3 {
-    font-size: 1.25rem;
-    text-transform: uppercase;
-    font-style: italic;
-    font-weight: bold;
-    margin-top: 27px;
+    font-size: 2rem;
+    margin-top: 1.5rem;
     margin-bottom: 0.25rem;
+    letter-spacing: 0.02em;
 }
 
 h3 small {
@@ -101,12 +101,11 @@ em {
 
 strong {
     font-weight: 700;
-    letter-spacing: -0.05em !important;
 }
 
 hr {
     border: 0;
-    background: #07748C;
+    background: #444;
     margin: 1rem 0;
     height: 1rem;
 }
@@ -143,14 +142,9 @@ iframe {
     color: #d63031 !important;
 }
 
-.blue-color {
-    color: #07748C !important;
-}
-
 .gray-color {
     color: #888888 !important;
     text-transform: uppercase;
-    font-weight: bold;
 }
 
 h1 .red-color,
@@ -172,6 +166,10 @@ h2 .red-color {
 
 .no-margin-bottom {
     margin-bottom: 0 !important;
+}
+
+.no-padding-top {
+    padding-top: 0 !important;
 }
 
 .no-padding-bottom {
@@ -201,9 +199,20 @@ code .red-color {
     left: 0;
     right: 0;
     z-index: 1000;
-    background: #0B0B0D;
-    height: 68px;
-    border-bottom: 8px solid #d63031;
+    background: #000000;
+    height: 60px;
+}
+
+#header:after {
+    content: '';
+    position: fixed;
+    top: 60px;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    height: 8px;
+    background: #555;
+    background-image: linear-gradient(to left, #555, black);
 }
 
 #header a {
@@ -218,6 +227,7 @@ code .red-color {
 #header a.button {
     padding: 7px 10px 5px;
     margin-left: 10px;
+    font-weight: 700;
 }
 
 #header a.button:last-of-type {
@@ -233,10 +243,10 @@ code .red-color {
     position: relative;
     z-index: 0;
     text-transform: uppercase;
-    font-size: 1.4rem !important;
-    font-weight: 900;
-    font-family: 'Montserrat', Times, serif !important;
-    letter-spacing: 0.08em;
+    font-size: 1.8rem !important;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    font-family: 'Big Shoulders Text', serif;
 }
 
 .logo span {
@@ -250,6 +260,7 @@ code .red-color {
 #header .logo {
     margin: 0;
     padding-left: 0;
+    font-weight: 700;
 }
 
 #header .menu {
@@ -272,7 +283,47 @@ code .red-color {
 }
 
 
+/* HERO */
+
+.hero.section {
+    padding: 60px 0 100px;
+}
+
+.hero * {
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 32px black, 0 0 64px black;
+    position: relative;
+    z-index: 1;
+}
+
+.hero h2 {
+    font-size: 2.16rem;
+    margin-bottom: -0.5rem;
+    line-height: 1;
+}
+
+.hero h3 {
+    margin: 0;
+    font-size: 1.75rem;
+    line-height: 1;
+}
+
+.hero img {
+    display: block;
+    margin: -140px auto -110px;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    z-index: -1;
+}
+
+
 /* MAIN */
+
+#main {
+    min-height: calc(100vh - 140px);
+}
 
 #main a:not(.button):not(.pop-up-btn):not(.link) {
     display: inline-block;
@@ -281,8 +332,7 @@ code .red-color {
     color: #d63031;
     font-weight: 700;
     text-transform: uppercase;
-    letter-spacing: -0.05em !important;
-    font-size: .9em;
+    letter-spacing: 0 !important;
     transition: all 0.25s ease;
 }
 
@@ -345,6 +395,27 @@ code .red-color {
 
 .section {
     padding: 50px 0;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+}
+
+.section-content {
+    background-image: url('../img/hero-spray-min.jpg');
+    background-position: top center;
+    overflow: hidden;
+    position: relative;
+    z-index: 1;
+}
+
+.section-content.flip {
+    background-image: url('../img/hero-spray-bottom-min.jpg');
+    background-position: bottom center;
+}
+
+.section-content.flip .section-text {
+    text-align: right;
 }
 
 .section-flex .container {
@@ -352,19 +423,8 @@ code .red-color {
     justify-content: space-between;
 }
 
-.section h1,
-.section.narrow h2 {
-    margin: 0;
-}
-
-
-/*
 .section h1 {
-    text-shadow: 5px 4px 0 #07748C;
-} */
-
-.section.narrow {
-    padding: 25px 0;
+    margin: 0;
 }
 
 .section h2 {
@@ -375,15 +435,15 @@ code .red-color {
 
 .section h2 .echo {
     position: absolute;
-    left: -2px;
-    bottom: 0;
-    font-size: 4rem;
+    left: -1px;
+    bottom: 9px;
+    font-size: 4.5rem;
     line-height: 60px;
-    opacity: .1;
+    opacity: .34;
 }
 
 .section p {
-    font-size: 20px;
+    font-size: 22px;
     letter-spacing: 0rem;
     line-height: 1.4;
 }
@@ -395,7 +455,7 @@ code .red-color {
 }
 
 .section p:not(:last-child) {
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .section a.link {
@@ -403,8 +463,7 @@ code .red-color {
     vertical-align: baseline;
     text-decoration: none;
     text-transform: uppercase;
-    font-family: "Montserrat";
-    font-weight: 900;
+    font-weight: 700;
     font-size: 0.9em;
     letter-spacing: 0.04rem !important;
     color: #ebebeb !important;
@@ -415,41 +474,20 @@ code .red-color {
     color: #d63031 !important;
 }
 
-.section-light {
-    background: #ebebeb;
-}
-
-.section-red {
-    background: #d63031;
-}
-
-.section-blue {
-    background: #07748C;
-}
-
-.section-red *,
-.section-blue *,
-.section-dark * {
-    color: #ebebeb;
-}
-
-.section-blue .link {
-    display: inline !important;
-}
-
 .section-text {
     width: 60%;
 }
 
 .section-img {
     width: 40%;
-    text-align: right;
+    text-align: center;
 }
 
 .section-img img {
-    max-width: 300px;
+    max-width: 400px;
     width: 100%;
     height: auto;
+    box-shadow: 0 0 16px black, 0 0 32px black, 0 0 64px black, 0 0 128px black;
 }
 
 
@@ -459,7 +497,7 @@ code .red-color {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin: 0 -1rem;
+    margin: 2.5rem -1rem 1rem;
 }
 
 .books-grid > a {
@@ -471,19 +509,30 @@ code .red-color {
 .books-grid img {
     display: block;
     max-width: 100%;
-    box-shadow: 1rem 1rem 0px #07748C;
+    box-shadow: 1rem 1rem 0px #202020;
     transition: all 0.25s ease;
+    border: 1px solid #333;
+    border-bottom: 0;
 }
 
-.books-grid > a.standalone {}
+.books-grid > a:nth-of-type(2) img {
+    box-shadow: 1rem 1rem 0px #222;
+}
 
-.books-grid > a.standalone img,
+.books-grid > a:nth-of-type(3) img {
+    box-shadow: 1rem 1rem 0px #303030;
+}
+
+.books-grid > a:nth-of-type(4) img {
+    box-shadow: 1rem 1rem 0px #333;
+}
+
+.books-grid > a:nth-of-type(5) img {
+    box-shadow: 1rem 1rem 0px #404040;
+}
+
 .books-grid > a:hover img {
-    box-shadow: 1rem 1rem 0px #1A2E40;
-}
-
-.books-grid > a.standalone:hover img {
-    box-shadow: 1rem 1rem 0px #0B0B0D;
+    box-shadow: 1rem 1rem 0px #111;
 }
 
 .books-grid > a > span {
@@ -493,8 +542,7 @@ code .red-color {
     padding: 15px;
     background: #d63031;
     color: white;
-    font-family: "Montserrat";
-    font-weight: 900;
+    font-weight: 700;
     transition: background 0.25s ease;
     position: relative;
     z-index: 99;
@@ -504,46 +552,35 @@ code .red-color {
     background: #8C0410;
 }
 
-.books-grid > a.standalone > span {
-    background: #07748C;
-}
-
-.books-grid > a.standalone:hover > span {
-    background: #1A2E40;
-}
-
-.books-desc {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    margin: 0 -1rem;
-}
-
-.books-desc > div {
-    padding: 0 1rem;
-    width: 20%;
-}
-
-.books-desc > div:first-child {
-    width: 80%;
-}
-
-.books-desc p {
-    font-size: 16px;
-}
-
 
 /* END BOOKS */
 
 
+/* DIVIDER */
+
+.div-gradient {
+    height: 8px;
+    background: #555;
+    background-image: linear-gradient(to right, #555, black);
+    position: relative;
+    z-index: 1;
+}
+
+.div-gradient.reverse {
+    background-image: linear-gradient(to left, #555, black);
+}
+
+
+/* END DIVIDER */
+
+
 /* FOOTER */
 
-#footer .section-red h2 {
-    text-transform: none;
+#footer .section h3 {
+    margin-top: -1rem;
 }
 
 .footer-btm {
-    border-top: 8px solid #ebebeb;
     color: #ebebeb;
     height: 40px;
 }
@@ -552,7 +589,7 @@ code .red-color {
     height: 40px;
     line-height: 40px;
     color: #ebebeb;
-    font-size: 13px;
+    font-size: 15px;
     text-align: center;
     display: flex;
     justify-content: space-between;
@@ -561,7 +598,7 @@ code .red-color {
 
 .footer-btm a {
     text-decoration: none;
-    font-size: 12px !important;
+    font-size: 15px !important;
     font-weight: 700 !important;
     color: #d63031 !important;
     transition: color 0.25s ease;
@@ -606,22 +643,6 @@ code .red-color {
 
 /* GRID SYSTEM */
 
-.flex-row {
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: -1rem;
-    margin-right: -1rem;
-}
-
-.flex-col {
-    padding: 1rem;
-    width: 50%;
-}
-
-.flex-quarters .flex-col {
-    width: 25%;
-}
-
 .button {
     cursor: pointer;
     text-decoration: none;
@@ -631,9 +652,8 @@ code .red-color {
     background-color: #d63031;
     color: #ffffff !important;
     text-transform: uppercase;
-    font-weight: 900;
+    font-weight: 700;
     letter-spacing: 0.05em;
-    font-family: "Montserrat" !important;
     font-size: inherit;
     transition: all 0.25s ease !important;
 }
@@ -652,16 +672,6 @@ code .red-color {
     color: #ffffff !important;
 }
 
-.button.blue {
-    background: #07748C;
-    color: #ffffff !important;
-}
-
-.button.blue:hover {
-    background: #1A2E40;
-    color: #ffffff !important;
-}
-
 
 /* TOGGLE & PRESS */
 
@@ -677,7 +687,7 @@ code .red-color {
     padding-right: 45px;
     height: 55px;
     line-height: 55px;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 .toggle:after {
@@ -714,14 +724,13 @@ code .red-color {
 }
 
 .press-item a {
-    color: #07748C !important;
     text-transform: none !important;
     transition: all 0.25s ease !important;
     border-bottom: 0 !important;
 }
 
 .press-item a:hover {
-    color: #1A2E40 !important;
+    color: #8C0410 !important;
 }
 
 .press-item:last-of-type a {
@@ -737,6 +746,12 @@ code .red-color {
     text-decoration: none;
     color: #d63031;
     transition: color 0.25s ease;
+    font-size: 22px;
+}
+
+.pop-up-btn.large {
+    font-size: 32px;
+    vertical-align: middle;
 }
 
 .pop-up-btn:hover {
@@ -771,7 +786,12 @@ code .red-color {
 
 .pop-up-content h3 {
     margin-top: 0;
-    color: #0B0B0D;
+    color: #000000;
+}
+
+.pop-up-content p a {
+    color: inherit;
+    font-weight: 700;
 }
 
 .pop-up-close {
@@ -779,7 +799,7 @@ code .red-color {
     top: 9px;
     right: 12px;
     text-decoration: none;
-    color: #0B0B0D;
+    color: #000000;
     font-size: 25px;
     transition: color 0.25s ease;
 }
@@ -831,6 +851,10 @@ section.policy > div div {
     font: inherit;
 }
 
+section.policy h1 {
+    font-size: 2.25rem;
+}
+
 
 /* END GDPR COMPLIANCE */
 
@@ -847,9 +871,6 @@ section.policy > div div {
     .scrollTop {
         left: 10px;
         margin: 0 auto;
-    }
-    .books-desc p {
-        font-size: 16px;
     }
 }
 
@@ -869,9 +890,6 @@ section.policy > div div {
     .logo {
         max-width: 52px;
     }
-    .flex-quarters .flex-col {
-        width: 50%;
-    }
     #header .social {
         padding: 8px 4px;
         font-size: 15px;
@@ -888,42 +906,18 @@ section.policy > div div {
     .section-img {
         width: 25%;
     }
-    .books-desc {
-        display: block;
-    }
-    .books-grid > a {
-        width: calc(100%/3);
-    }
-    .books-desc > div {
-        width: 100% !important;
-    }
-}
-
-@media only screen and (max-width: 768px) {
-    :not(.flex-quarters) .flex-col {
-        width: 100%;
-    }
     .section-text {
         width: 100%;
     }
     .section-img {
         display: none;
     }
-    .revue-form-controls {
-        margin-right: 0;
-    }
-    #revue-embed form {
-        display: block !important;
-    }
-    .revue-form-footer {
-        width: 100% !important;
-        padding-left: 0 !important;
-        border-left: 0 !important;
-        margin-top: 1rem;
-        padding-top: 1rem;
-        border-top: 4px solid #ebebeb;
+    .section-content.flip .section-text {
+        text-align: left;
     }
 }
+
+@media only screen and (max-width: 768px) {}
 
 @media only screen and (max-width: 640px) {
     #header .logo {
@@ -931,23 +925,26 @@ section.policy > div div {
         width: 150px;
     }
     h1 {
-        font-size: 2rem;
-    }
-    .flex-quarters .flex-col {
-        width: 100%;
-    }
-    .section h2 .echo {
-        font-size: 3rem;
-        bottom: -6px;
+        font-size: 4rem;
+        letter-spacing: 0.02em;
     }
     .books-grid > a {
-        width: 50%;
+        width: calc(100%/3);
     }
     .section p {
         font-size: 17px;
     }
     .toggle-acc {
         padding: 0.5rem;
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .books-grid > a {
+        width: 50%;
+    }
+    .hero img {
+        margin: -80px auto -60px;
     }
 }
 
@@ -1006,37 +1003,6 @@ input.button {
     width: 100%;
     text-align: center;
     font-size: 16px;
-}
-
-#revue-embed form {
-    display: flex;
-    justify-content: space-between;
-}
-
-.revue-form-controls {
-    width: 200px;
-    margin-right: 16px;
-}
-
-.revue-form-group {
-    width: 100%;
-}
-
-.revue-form-controls label,
-.revue-form-controls input {
-    display: block;
-    width: 100%;
-}
-
-#revue-embed label {
-    margin-bottom: 0.5rem;
-    display: block;
-}
-
-.revue-form-footer {
-    width: calc(100% - 216px);
-    padding-left: 1rem;
-    border-left: 4px solid #ebebeb;
 }
 
 
