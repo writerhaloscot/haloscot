@@ -122,7 +122,7 @@ $(function () {
         ['Celthric', 'https://celthric.com/edge-of-the-breach-by-halo-scot/'],
         ['Book Club News', 'https://bookclubnews.com/halo-scot/'],
         ['Rory Michaelson: Queer in a Bookcase 2021', 'https://www.rorymichaelson.com/post/queer-in-a-bookcase-2021'],
-        ['Evelyn Chartres: Evelyn Reads Edge of the Breach', 'https://evelynchartres.com/evelyn-reads-edge-of-the-breach/'],
+        ['Evelyn Chartres: Evelyn Reads the Rift Cycle', 'https://evelynchartres.com/tag/halo-scot/'],
         ['Esteban Q Mathieus', 'https://eqmauthor.com/2021/12/31/rift-cycle-halo-scot/'],
         ['The Road to Nathan', 'https://theroadtonathan.com/indie-books-ive-read'],
 
