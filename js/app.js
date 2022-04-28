@@ -86,6 +86,7 @@ $(function () {
         ['Riv Rains', 'https://rivrains.com/edge-of-the-breach-book-review/'],
         ['J.D. Cunegan: Book Review', 'https://jdcuneganbooks.com/2022/02/02/book-reviews-xv/'],
         ['J.D. Cunegan: My Favorite Self- and Independently-Published Books', 'https://jdcunegan.medium.com/my-favorite-self-and-independently-published-books-7105d9da7abe'],
+        ['Evelyn Chartres: Evelyn Reads the Rift Cycle', 'https://evelynchartres.com/tag/halo-scot/'],
         ['Steve Talks Books: Creeping Death Review', 'https://www.creepingdeath.org/forum/index.php?/blogs/entry/938-edge-of-the-breach-by-halo-scot/'],
         ['Steve Talks Books: YouTube Review', 'https://youtu.be/PfgkEJJOdkE'],
 
@@ -122,7 +123,6 @@ $(function () {
         ['Celthric', 'https://celthric.com/edge-of-the-breach-by-halo-scot/'],
         ['Book Club News', 'https://bookclubnews.com/halo-scot/'],
         ['Rory Michaelson: Queer in a Bookcase 2021', 'https://www.rorymichaelson.com/post/queer-in-a-bookcase-2021'],
-        ['Evelyn Chartres: Evelyn Reads the Rift Cycle', 'https://evelynchartres.com/tag/halo-scot/'],
         ['Esteban Q Mathieus', 'https://eqmauthor.com/2021/12/31/rift-cycle-halo-scot/'],
         ['The Road to Nathan', 'https://theroadtonathan.com/indie-books-ive-read'],
 
