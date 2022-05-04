@@ -67,17 +67,30 @@ h1 {
     letter-spacing: 0.04em;
 }
 
+.text-page h1 {
+    font-size: 2.25rem;
+}
+
 h2 {
     font-size: 3.4rem;
     margin-top: 1.5rem;
     margin-bottom: 0.25rem;
 }
 
+.text-page h2 {
+    font-size: 1.75rem;
+}
+
+
 h3 {
     font-size: 2rem;
     margin-top: 1.5rem;
     margin-bottom: 0.25rem;
     letter-spacing: 0.02em;
+}
+
+.text-page h3 {
+    font-size: 1.5rem;
 }
 
 h3 small {
@@ -127,6 +140,10 @@ iframe {
     margin: 0 auto;
 }
 
+.container.text-page {
+    max-width: 700px;
+}
+
 .container.content {
     margin-top: 2rem;
 }
@@ -145,6 +162,10 @@ iframe {
 .gray-color {
     color: #888888 !important;
     text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
 }
 
 h1 .red-color,
@@ -362,6 +383,13 @@ code .red-color {
     line-height: 1.45;
 }
 
+#main .content.text-page p,
+#main .content.text-page li {
+    font-size: 22px;
+    letter-spacing: 0rem;
+    line-height: 1.4;
+}
+
 #main .content p i {
     vertical-align: middle;
 }
@@ -458,10 +486,11 @@ code .red-color {
     margin-bottom: 1.5rem;
 }
 
-.section a.link {
+.section a.link,
+.content a.link {
     display: inline-block;
     vertical-align: baseline;
-    text-decoration: none;
+    text-decoration: underline;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 0.9em;
@@ -470,7 +499,8 @@ code .red-color {
     transition: all 0.25s ease;
 }
 
-.section a.link:hover {
+.section a.link:hover,
+.content a.link:hover {
     color: #d63031 !important;
 }
 
@@ -855,6 +885,13 @@ section.policy h1 {
     font-size: 2.25rem;
 }
 
+section.policy h2 {
+    font-size: 1.75rem;
+}
+
+section.policy h3 {
+    font-size: 1.5rem;
+}
 
 /* END GDPR COMPLIANCE */
 
@@ -981,7 +1018,6 @@ input.button {
     display: none;
     margin-top: 1rem;
     margin-bottom: 0;
-    font-style: italic;
 }
 
 .form-error {
@@ -1005,5 +1041,8 @@ input.button {
     font-size: 16px;
 }
 
+.form-files {
+    margin-top: 1rem;
+}
 
 /* END FORM */

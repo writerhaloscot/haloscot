@@ -215,10 +215,27 @@ $(function () {
             $(this).find('.form-error').show();
             $(this).find('.form-success').hide();
         }
-        
-        
     });
-
     // END FREE FORM
+    
+    // IWKY FORM, change folder/pw as needed
+    $('#iwky').on('submit', function (e) {
+        e.preventDefault();
+        var pw = 'TeamCorpse!FTW';
+        var pw_input = $(this).find('.form-pw').val();
+
+        if (pw_input == pw) {
+            $(this).find('.form-error, .form-pw, .form-btn').hide();
+            $('.form-desc').hide();
+            $(this).find('.form-success, .form-files').show();
+            var iwky = $('#iwky').html();
+            $('#iwky').html(iwky + '<p class="form-files"><a href="/team-corpse-iwky/file882022/iwky.epub" download class="button">epub</a> <a href="/team-corpse-iwky/file882022/iwky.mobi" download class="button blue">mobi</a> <a href="/team-corpse-iwky/file882022/iwky.pdf" download class="button white">pdf</a></p>');
+        } else {
+            $(this).find('.form-error, .form-pw, .form-btn').show();
+            $('.form-desc').show();
+            $(this).find('.form-success, .form-files').hide();
+        }
+    });
+    // IWKY FREE FORM
 
 });
