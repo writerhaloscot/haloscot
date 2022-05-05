@@ -1025,7 +1025,7 @@ input.button {
 }
 
 .form-success {
-    color: #D6D445;
+    color: #fff600;
 }
 
 .form-free {
@@ -1050,6 +1050,13 @@ input.button {
     width: 100%;
     max-width: 750px;
     margin-top: 1rem;
+}
+
+.form-files span {
+    display: block;
+    margin: 2rem auto 0.5rem;
+    font-size: 17px;
+    color: #fff600;
 }
 
 /* END FORM */
