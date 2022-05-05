@@ -1045,4 +1045,11 @@ input.button {
     margin-top: 1rem;
 }
 
+.form-files img {
+    display: block;
+    width: 100%;
+    max-width: 750px;
+    margin-top: 1rem;
+}
+
 /* END FORM */

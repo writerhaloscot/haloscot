@@ -229,7 +229,7 @@ $(function () {
             $('.form-desc').hide();
             $(this).find('.form-success, .form-files').show();
             var iwky = $('#iwky').html();
-            $('#iwky').html(iwky + '<p class="form-files"><a href="/team-corpse-iwky/file882022/iwky.epub" download class="button">epub</a> <a href="/team-corpse-iwky/file882022/iwky.mobi" download class="button blue">mobi</a> <a href="/team-corpse-iwky/file882022/iwky.pdf" download class="button white">pdf</a></p>');
+            $('#iwky').html(iwky + '<p class="form-files"><a href="/team-corpse-iwky/file882022/iwky.epub" download class="button">epub</a> <a href="/team-corpse-iwky/file882022/iwky.mobi" download class="button blue">mobi</a> <a href="/team-corpse-iwky/file882022/iwky.pdf" download class="button white">pdf</a><a href="/img/team-corpse-card.png" download><img src="/img/team-corpse-card.png"></a></p>');
         } else {
             $(this).find('.form-error, .form-pw, .form-btn').show();
             $('.form-desc').show();
