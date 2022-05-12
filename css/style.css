@@ -508,6 +508,10 @@ code .red-color {
     width: 60%;
 }
 
+.section-text .link {
+    display: inline !important;
+}
+
 .section-img {
     width: 40%;
     text-align: center;
