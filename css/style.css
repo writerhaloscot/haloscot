@@ -307,7 +307,7 @@ code .red-color {
 /* HERO */
 
 .hero.section {
-    padding: 60px 0 100px;
+    padding: 60px 0;
 }
 
 .hero * {
@@ -532,7 +532,7 @@ code .red-color {
 
 .books-grid > a {
     padding: 1rem;
-    width: 20%;
+    width: calc(100% / 6);
     border-bottom: 0 !important;
 }
 
@@ -951,6 +951,9 @@ section.policy h3 {
     }
     .section-content.flip .section-text {
         text-align: left;
+    }
+    .books-grid > a {
+        width: 25%;
     }
 }
 
