@@ -317,8 +317,8 @@ code .red-color {
 }
 
 .hero h1,
-h2,
-h3 {
+.hero h2,
+.hero h3 {
     text-shadow: 0 0 32px black, 0 0 64px black;
 }
 
@@ -845,6 +845,7 @@ h3 {
 .pop-up-content h3 {
     margin-top: 0;
     color: #000000;
+    text-shadow: none;
 }
 
 .pop-up-content p a {
