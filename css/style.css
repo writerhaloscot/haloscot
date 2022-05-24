@@ -81,7 +81,6 @@ h2 {
     font-size: 1.75rem;
 }
 
-
 h3 {
     font-size: 2rem;
     margin-top: 1.5rem;
@@ -313,9 +312,14 @@ code .red-color {
 .hero * {
     text-align: center;
     color: white;
-    text-shadow: 0 0 32px black, 0 0 64px black;
     position: relative;
     z-index: 1;
+}
+
+.hero h1,
+h2,
+h3 {
+    text-shadow: 0 0 32px black, 0 0 64px black;
 }
 
 .hero h2 {
@@ -479,7 +483,7 @@ code .red-color {
 .section p small {
     display: inline-block;
     line-height: 1.3;
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .section p:not(:last-child) {
@@ -692,6 +696,14 @@ code .red-color {
     transition: all 0.25s ease !important;
 }
 
+.button span {
+    font: inherit;
+}
+
+.button em {
+    font-style: italic;
+}
+
 .button:hover {
     background: #8C0410;
 }
@@ -704,6 +716,18 @@ code .red-color {
 .button.white:hover {
     background: #d63031;
     color: #ffffff !important;
+}
+
+.button.white small,
+.button.white span {
+    color: inherit;
+    font-weight: inherit;
+}
+
+.button.white small {
+    padding-bottom: 4px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 
@@ -897,6 +921,7 @@ section.policy h3 {
     font-size: 1.5rem;
 }
 
+
 /* END GDPR COMPLIANCE */
 
 
@@ -1065,5 +1090,6 @@ input.button {
     font-size: 17px;
     color: #fff600;
 }
+
 
 /* END FORM */
