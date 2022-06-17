@@ -43,6 +43,35 @@ $(function () {
 
     // PRESS RELEASES
     var press = [
+        ['Reviews'],
+        ['I Will Kill You'],
+        ['Best Thriller Books: Kashif Hussain Review', 'https://www.bestthrillerbooks.com/kashif-hussain/i-will-kill-you-by-halo-scot'],
+        ['The Heartbeat of a Million Dreams'],
+        ['A.J. Calvin: The Heartbeat of a Million Dreams by Halo Scot', 'https://ajcalvin.net/book-review-the-heartbeat-of-a-million-dreams-by-halo-scot/'],
+        ['Rift Cycle'],
+        ['GBHBL Reviews', 'https://www.gbhbl.com/?s=halo+scot'],
+        ['Morgan K Tanner Reviews', 'https://morganktanner.com/?s=halo+scot'],
+        ['Sahreth (Baphy) Bowden Reviews', 'https://baphy1428.com/?s=halo+scot+book+review+rift+cycle'],
+        ['Christine Morgan&rsquo;s World of Words', 'https://christinemariemorgan.wordpress.com/2021/03/11/reviews-march-2021/'],
+        ['Andy James Trevors', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
+        ['Ria&rsquo;s Readviews', 'https://www.youtube.com/watch?v=MaZiM8VO8G4'],
+        ['Mary Cook', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
+        ['Daniel Forbes', 'https://youtu.be/8j1qwKr8kbE'],
+        // ['Corey Toomey', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
+        // ['Quinn Buckland', 'https://youtu.be/N7MOUWumu8g'],
+        ['Jason Kilgore', 'https://jasonkilgore.blogspot.com/2020/06/review-of-edge-of-breach-by-halo-scot.html'],
+        ['Bookish Bellee', 'https://bookishbellee.wordpress.com/2020/09/20/edge-of-the-breach-by-halo-scot-review/'],
+        ['A.J. Calvin: Book Reviews, May 2021', 'https://ajcalvin.net/book-reviews-may-2021/'],
+        ['A D Green', 'https://adgreenauthor.com/2021/06/04/into-the-breach-by-halo-scot/'],
+        ['KittyLisha Reviews', 'https://kittylishareviews.blogspot.com/2021/08/book-review-edge-of-breach-by-halo-scot.html'],
+        ['K.B. Davenport', 'https://davenportbooks.wixsite.com/home/post/indie-review-edge-of-the-breach-by-halo-scot'],
+        ['Riv Rains', 'https://rivrains.com/edge-of-the-breach-book-review/'],
+        ['J.D. Cunegan: Book Review', 'https://jdcuneganbooks.com/2022/02/02/book-reviews-xv/'],
+        ['J.D. Cunegan: My Favorite Self- and Independently-Published Books', 'https://jdcunegan.medium.com/my-favorite-self-and-independently-published-books-7105d9da7abe'],
+        ['Evelyn Chartres: Evelyn Reads the Rift Cycle', 'https://evelynchartres.com/tag/halo-scot/'],
+        ['Steve Talks Books: Creeping Death Review', 'https://www.creepingdeath.org/forum/index.php?/blogs/entry/938-edge-of-the-breach-by-halo-scot/'],
+        ['Steve Talks Books: YouTube Review', 'https://youtu.be/PfgkEJJOdkE'],
+
         ['Interviews'],
         ['The Writing Community Chat Show', 'https://anchor.fm/writingcommunitychatshow/episodes/03-Halo-interview-ecll67/a-a1u74aq'],
         ['Story of a Storyteller', 'https://storyofastoryteller.buzzsprout.com/1229831/5314054-s1-ep4-halo-scot-is-a-storyteller'],
@@ -61,35 +90,10 @@ $(function () {
         ['What The Book', 'https://www.podbean.com/ei/pb-rm2j3-11d7f10'],
         ['Steve Talks Books', 'https://youtu.be/0STUKc9adEQ'],
         ['Steve Talks Books SPOILER Discussion', 'https://youtu.be/u3nZEzY3rYk'],
-        
-        ['Guest Posts'], 
+
+        ['Guest Posts'],
         // ['&ldquo;Write Your Way&rdquo; on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
         ['&ldquo;The best dystopian books to devour your soul&rdquo; on Shepherd.com', 'https://shepherd.com/best-books/dystopian-books-to-devour-your-soul'],
-
-        ['Reviews'],
-        ['GBHBL Reviews', 'https://www.gbhbl.com/?s=halo+scot'],
-        ['Morgan K Tanner Reviews', 'https://morganktanner.com/?s=halo+scot'],
-        ['Sahreth (Baphy) Bowden Reviews', 'https://baphy1428.com/?s=halo+scot+book+review+rift+cycle'],
-        ['Christine Morgan&rsquo;s World of Words', 'https://christinemariemorgan.wordpress.com/2021/03/11/reviews-march-2021/'],
-        ['Andy James Trevors', 'https://www.ajtrevors.com/post/edge-of-the-breach-by-halo-scot-review'],
-        ['Ria&rsquo;s Readviews', 'https://www.youtube.com/watch?v=MaZiM8VO8G4'],
-        ['Mary Cook', 'https://www.youtube.com/watch?v=TFqGuHGZyOE'],
-        ['Daniel Forbes', 'https://youtu.be/8j1qwKr8kbE'],
-        // ['Corey Toomey', 'https://www.youtube.com/watch?v=NmcJDWjxiH0'],
-        // ['Quinn Buckland', 'https://youtu.be/N7MOUWumu8g'],
-        ['Jason Kilgore', 'https://jasonkilgore.blogspot.com/2020/06/review-of-edge-of-breach-by-halo-scot.html'],
-        ['Bookish Bellee', 'https://bookishbellee.wordpress.com/2020/09/20/edge-of-the-breach-by-halo-scot-review/'],
-        ['A.J. Calvin: Book Reviews, May 2021', 'https://ajcalvin.net/book-reviews-may-2021/'],
-        ['A.J. Calvin: The Heartbeat of a Million Dreams by Halo Scot', 'https://ajcalvin.net/book-review-the-heartbeat-of-a-million-dreams-by-halo-scot/'],
-        ['A D Green', 'https://adgreenauthor.com/2021/06/04/into-the-breach-by-halo-scot/'],
-        ['KittyLisha Reviews', 'https://kittylishareviews.blogspot.com/2021/08/book-review-edge-of-breach-by-halo-scot.html'],
-        ['K.B. Davenport', 'https://davenportbooks.wixsite.com/home/post/indie-review-edge-of-the-breach-by-halo-scot'],
-        ['Riv Rains', 'https://rivrains.com/edge-of-the-breach-book-review/'],
-        ['J.D. Cunegan: Book Review', 'https://jdcuneganbooks.com/2022/02/02/book-reviews-xv/'],
-        ['J.D. Cunegan: My Favorite Self- and Independently-Published Books', 'https://jdcunegan.medium.com/my-favorite-self-and-independently-published-books-7105d9da7abe'],
-        ['Evelyn Chartres: Evelyn Reads the Rift Cycle', 'https://evelynchartres.com/tag/halo-scot/'],
-        ['Steve Talks Books: Creeping Death Review', 'https://www.creepingdeath.org/forum/index.php?/blogs/entry/938-edge-of-the-breach-by-halo-scot/'],
-        ['Steve Talks Books: YouTube Review', 'https://youtu.be/PfgkEJJOdkE'],
 
         ['Features'],
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
@@ -144,6 +148,8 @@ $(function () {
 
         if (p == 'Interviews' || p == 'Guest Posts' || p == 'Reviews' || p == 'Features' || p == 'Poetry') {
             pressHTML += '<h3>' + p + '</h3>';
+        } else if (p == 'Rift Cycle' || p == 'The Heartbeat of a Million Dreams' || p == 'I Will Kill You') {
+            pressHTML += '<h4>' + p + '</h4>';
         } else if (p == 'WCCS') {
             pressHTML += '<h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection&nbsp;›</a></p>';
         } else {
@@ -219,7 +225,7 @@ $(function () {
         }
     });
     // END FREE FORM
-    
+
     // IWKY FORM, change folder/pw as needed
     $('#iwky').on('submit', function (e) {
         e.preventDefault();

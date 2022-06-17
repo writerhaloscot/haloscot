@@ -776,6 +776,11 @@ code .red-color {
     margin-top: 0;
 }
 
+#press h4 {
+    margin-bottom: 0;
+    font-size: 1.3rem;
+}
+
 .press-item {
     margin-bottom: 0px !important;
     margin-left: 15px;
