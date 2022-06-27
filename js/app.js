@@ -96,6 +96,11 @@ $(function () {
         ['&ldquo;The best dystopian books to devour your soul&rdquo; on Shepherd.com', 'https://shepherd.com/best-books/dystopian-books-to-devour-your-soul'],
 
         ['Features'],
+        ['I Will Kill You'],
+        ['Reading Wryly: 2022 Q3 Book Releases, Thriller &amp; Horror', 'https://youtu.be/BUONvwGnlMY?t=1230'],
+        ['The Heartbeat of a Million Dreams'],
+        ['Reads Rainbow: The Heartbeat of a Million Dreams', 'https://readsrainbow.com/2022/01/book-releases-2022-sapphic-releases-january-to-june'],
+        ['Rift Cycle'],
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
         ['Queer Indie', 'https://queerindie.com/'],
         ['BookCon', 'https://www.facebook.com/bookcon/videos/191013518970325'],
@@ -130,7 +135,6 @@ $(function () {
         ['Rory Michaelson: Queer in a Bookcase 2021', 'https://www.rorymichaelson.com/post/queer-in-a-bookcase-2021'],
         ['Esteban Q Mathieus', 'https://eqmauthor.com/2021/12/31/rift-cycle-halo-scot/'],
         ['The Road to Nathan', 'https://theroadtonathan.com/indie-books-ive-read'],
-        ['Reads Rainbow: The Heartbeat of a Million Dreams', 'https://readsrainbow.com/2022/01/book-releases-2022-sapphic-releases-january-to-june'],
 
         ['Poetry'],
         ['The Organic Poet: Born a Flame (Poem)', 'https://www.theorganicpoet.com/post/born-a-flame-halo_scot'],
