@@ -90,6 +90,7 @@ $(function () {
         ['What The Book', 'https://www.podbean.com/ei/pb-rm2j3-11d7f10'],
         ['Steve Talks Books', 'https://youtu.be/0STUKc9adEQ'],
         ['Steve Talks Books SPOILER Discussion', 'https://youtu.be/u3nZEzY3rYk'],
+        ['Human Chapters', 'https://youtu.be/b6ESz-4Vudk'],
 
         ['Guest Posts'],
         // ['&ldquo;Write Your Way&rdquo; on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
