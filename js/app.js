@@ -101,6 +101,7 @@ $(function () {
         ['Reading Wryly: 2022 Q3 Book Releases, Thriller &amp; Horror', 'https://youtu.be/BUONvwGnlMY?t=1230'],
         ['The Heartbeat of a Million Dreams'],
         ['Reads Rainbow: The Heartbeat of a Million Dreams', 'https://readsrainbow.com/2022/01/book-releases-2022-sapphic-releases-january-to-june'],
+        ['Beautifully Bookish Bethany: Publisher Mail & Preorders! A Vlog-Style Book Haul Experiment', 'https://youtu.be/EB3NPcz124o?t=856'],
         ['Rift Cycle'],
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
         ['Queer Indie', 'https://queerindie.com/'],
