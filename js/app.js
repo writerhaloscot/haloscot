@@ -47,6 +47,7 @@ $(function () {
         ['I Will Kill You'],
         ['Best Thriller Books: Kashif Hussain Review', 'https://www.bestthrillerbooks.com/kashif-hussain/i-will-kill-you-by-halo-scot'],
         ['PowerLibrarian Book Reviews', 'https://powerlibrarian.wordpress.com/2022/07/26/i-will-kill-you/'],
+        ['GBHBL Horror Book Reviews', 'https://www.gbhbl.com/horror-book-review-i-will-kill-you-halo-scot/'],
         ['The Heartbeat of a Million Dreams'],
         ['A.J. Calvin', 'https://ajcalvin.net/book-review-the-heartbeat-of-a-million-dreams-by-halo-scot/'],
         ['Jude in the Stars', 'https://judeinthestars.com/2022/07/28/the-heartbeat-of-a-million-dreams-halo-scot/'],
