@@ -106,6 +106,7 @@ $(function () {
         ['Reading Wryly: 2022 Q3 Book Releases, Thriller &amp; Horror', 'https://youtu.be/BUONvwGnlMY?t=1230'],
         ['Lu&rsquo;s Wonderland: Release Blast &amp; Excerpt', 'https://www.lus-wonderland.co.uk/2022/08/release-blast-excerpt-i-will-kill-you.html'],
         ['Maryse&rsquo;s Book Blog: Monday Early Bird Book Releases – 08-08-2022', 'https://www.maryse.net/book-releases/monday-early-bird-book-releases-08-08-2022.html'],
+        ['JennyLou&rsquo;s Book Reviews: New UK Book Releases: 2022 Week #32', 'https://jennylousbookreviews.wordpress.com/2022/08/10/new-uk-book-releases-2022-week-32/'],
         ['The Heartbeat of a Million Dreams'],
         ['Reads Rainbow: The Heartbeat of a Million Dreams', 'https://readsrainbow.com/2022/01/book-releases-2022-sapphic-releases-january-to-june'],
         ['Beautifully Bookish Bethany: Publisher Mail &amp; Preorders', 'https://youtu.be/EB3NPcz124o?t=856'],
