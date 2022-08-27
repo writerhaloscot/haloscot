@@ -131,6 +131,18 @@ iframe {
 }
 
 
+/* LAZY LOAD */
+.lazy-img {
+    opacity: 0;
+    transition: opacity .25s ease;
+}
+
+.lazy-img.loaded {
+    opacity: 1;
+    transition: opacity .25s ease 0.25s;
+}
+
+
 /* LAYOUTS */
 
 .container {
@@ -332,6 +344,7 @@ code .red-color {
     margin: 0;
     font-size: 1.75rem;
     line-height: 1;
+    text-shadow: 0 0 32px black, 0 0 32px black, 0 0 64px black, 0 0 64px black, 0 0 96px black, 0 0 96px black !important;
 }
 
 .hero img {
@@ -434,16 +447,24 @@ code .red-color {
 }
 
 .section-content {
-    background-image: url('../img/hero-spray-min.jpg');
+    background-color: #000000;
     background-position: top center;
     overflow: hidden;
     position: relative;
     z-index: 1;
 }
 
+.section-content.loaded {
+    background-image: url('../img/hero-spray-min.jpg');
+}
+
 .section-content.flip {
-    background-image: url('../img/hero-spray-bottom-min.jpg');
+    background-color: #000000;
     background-position: bottom center;
+}
+
+.section-content.flip.loaded {
+    background-image: url('../img/hero-spray-bottom-min.jpg');
 }
 
 .section-content.flip .section-text {
@@ -850,7 +871,7 @@ code .red-color {
 .pop-up-content h3 {
     margin-top: 0;
     color: #000000;
-    text-shadow: none;
+    text-shadow: none !important;
 }
 
 .pop-up-content p a {

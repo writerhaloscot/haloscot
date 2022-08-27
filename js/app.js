@@ -41,6 +41,18 @@ $(function () {
     });
 
 
+    // LAZY LOAD IMAGES: after all images loaded
+    $(window).on('load', function () {
+        setTimeout(function () {
+            $('.section-content').addClass('loaded');
+            $('.lazy-img').each(function () {
+                $(this).attr('src', $(this).attr('data-src'));
+                $(this).addClass('loaded');
+            });
+        }, 200);
+    });
+
+
     // PRESS RELEASES
     var press = [
         ['Reviews'],
