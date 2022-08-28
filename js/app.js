@@ -42,7 +42,8 @@ $(function () {
 
 
     // LAZY LOAD IMAGES: after all images loaded
-    $(document).ready(function () {
+    window.onload = function(){
+        console.log('page loaded');
         setTimeout(function () {
             $('.section-content').addClass('loaded');
             $('.lazy-img').each(function () {
