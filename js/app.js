@@ -42,7 +42,6 @@ $(function () {
 
 
     // LAZY LOAD IMAGES: after all images loaded
-    console.log('update ready');
     $(document).ready(function () {
         setTimeout(function () {
             $('.section-content').addClass('loaded');
