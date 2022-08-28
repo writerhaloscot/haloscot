@@ -51,7 +51,7 @@ $(function () {
                 $(this).addClass('loaded');
             });
         }, 200);
-    });
+    };
 
 
     // PRESS RELEASES
