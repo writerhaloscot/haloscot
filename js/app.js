@@ -42,14 +42,8 @@ $(function () {
 
 
     // LAZY LOAD IMAGES: after all images loaded
-    var iOS8 = navigator.userAgent.match(/(iPad|iPhone|iPod).*OS 8_\d/i);
-    if (iOS8) {
-        setTimeout(function () {
-            $(window).trigger('load');
-        }, 500);
-    }
-    console.log('update');
-    $(window).load(function () {
+    console.log('update ready');
+    $(document).ready(function () {
         setTimeout(function () {
             $('.section-content').addClass('loaded');
             $('.lazy-img').each(function () {
