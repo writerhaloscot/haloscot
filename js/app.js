@@ -42,8 +42,7 @@ $(function () {
 
 
     // LAZY LOAD IMAGES: after all images loaded
-    window.onload = function(){
-        console.log('page loaded');
+    $(window).on('load', function(){
         setTimeout(function () {
             $('.section-content').addClass('loaded');
             $('.lazy-img').each(function () {
@@ -51,7 +50,7 @@ $(function () {
                 $(this).addClass('loaded');
             });
         }, 200);
-    };
+    });
 
 
     // PRESS RELEASES
