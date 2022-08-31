@@ -57,6 +57,7 @@ $(function () {
     var press = [
         ['Reviews'],
         ['I Will Kill You'],
+        ['Publishers Weekly Review', 'https://booklife.com/pwreview/259732'],
         ['Best Thriller Books: Kashif Hussain Review', 'https://www.bestthrillerbooks.com/kashif-hussain/i-will-kill-you-by-halo-scot'],
         ['Power Librarian Book Reviews', 'https://powerlibrarian.wordpress.com/2022/07/26/i-will-kill-you/'],
         ['GBHBL Horror Book Reviews', 'https://www.gbhbl.com/horror-book-review-i-will-kill-you-halo-scot/'],
@@ -121,6 +122,7 @@ $(function () {
         ['The Heartbeat of a Million Dreams'],
         ['Reads Rainbow: The Heartbeat of a Million Dreams', 'https://readsrainbow.com/2022/01/book-releases-2022-sapphic-releases-january-to-june'],
         ['Beautifully Bookish Bethany: Publisher Mail &amp; Preorders', 'https://youtu.be/EB3NPcz124o?t=856'],
+        ['Beautifully Bookish Bethany: Bring on the Fall Reads! September TBR', 'https://youtu.be/RdVfbTxewuE?t=475'],
         ['Rift Cycle'],
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
         ['Queer Indie', 'https://queerindie.com/'],
