@@ -23,7 +23,7 @@ $(function () {
 
     setTimeout(function () {
         $('body').addClass('show');
-    }, 340);
+    }, 200);
 
     // SCROLL TO TOP
     $('body').on('click', '.scrollTop', function (e) {
