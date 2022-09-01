@@ -27,7 +27,6 @@ body {
     background: #000000;
     opacity: 0;
     transition: 0.25s opacity ease;
-    transition-delay: 0.25s;
 }
 
 body.show {
