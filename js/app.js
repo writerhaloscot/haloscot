@@ -21,6 +21,9 @@ $(function () {
     $('#header').load(h);
     $('#footer').load(f);
 
+    setTimeout(function () {
+        $('body').addClass('show');
+    }, 700);
 
     // SCROLL TO TOP
     $('body').on('click', '.scrollTop', function (e) {
@@ -42,7 +45,7 @@ $(function () {
 
 
     // LAZY LOAD IMAGES: after all images loaded
-    $(window).on('load', function(){
+    $(window).on('load', function () {
         setTimeout(function () {
             $('.section-content').addClass('loaded');
             $('.lazy-img').each(function () {
