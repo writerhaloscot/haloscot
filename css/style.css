@@ -898,9 +898,9 @@ code .red-color {
 /* GDPR COMPLIANCE */
 
 .cc_css_reboot.cc_dialog {
-    position: fixed;
-    bottom: 0;
-    top: auto;
+    position: fixed !important;
+    bottom: 0 !important;
+    top: auto !important;
     padding: 0;
     box-shadow: 0 0 30px #d63031;
 }
