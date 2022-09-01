@@ -24,10 +24,10 @@
 }
 
 body {
-    opacity: 1;
     background: #000000;
+    /* opacity: 1;
     transition: 0.25s opacity ease;
-    transition-delay: 0.25s;
+    transition-delay: 0.25s; */
 }
 
 .wrapper {
