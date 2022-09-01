@@ -21,9 +21,9 @@ $(function () {
     $('#header').load(h);
     $('#footer').load(f);
 
-    setTimeout(function () {
+    // setTimeout(function () {
         $('body').addClass('show');
-    }, 200);
+    // }, 200);
 
     // SCROLL TO TOP
     $('body').on('click', '.scrollTop', function (e) {
