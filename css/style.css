@@ -135,6 +135,7 @@ iframe {
 
 
 /* LAZY LOAD */
+
 .lazy-img {
     opacity: 0;
     transition: opacity .25s ease;
@@ -572,7 +573,7 @@ code .red-color {
 
 .books-grid > a {
     padding: 1rem;
-    width: calc(100% / 6);
+    width: calc(100% / 7);
     border-bottom: 0 !important;
 }
 
@@ -583,22 +584,6 @@ code .red-color {
     transition: all 0.25s ease;
     border: 1px solid #333;
     border-bottom: 0;
-}
-
-.books-grid > a:nth-of-type(2) img {
-    box-shadow: 1rem 1rem 0px #222;
-}
-
-.books-grid > a:nth-of-type(3) img {
-    box-shadow: 1rem 1rem 0px #303030;
-}
-
-.books-grid > a:nth-of-type(4) img {
-    box-shadow: 1rem 1rem 0px #333;
-}
-
-.books-grid > a:nth-of-type(5) img {
-    box-shadow: 1rem 1rem 0px #404040;
 }
 
 .books-grid > a:hover img {
@@ -616,10 +601,21 @@ code .red-color {
     transition: background 0.25s ease;
     position: relative;
     z-index: 99;
+    border: 1px solid #333;
+    border-top: 0;
 }
 
 .books-grid > a:hover > span {
     background: #8C0410;
+}
+
+.books-grid > a.white-btn > span {
+    color: #d63031;
+    background: #ffffff;
+}
+
+.books-grid > a.white-btn:hover > span {
+    background: #eeeeee;
 }
 
 
