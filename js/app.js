@@ -119,7 +119,7 @@ $(function () {
         ['Features'],
         ['I Will Kill You'],
         ['Publishers Weekly First Lines: September 2022', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/90278-first-lines-september-2022.html'],
-        ['Booklife First Lines: September 2022', 'https://booklife.com/news/authors/09/09/2022/first-lines-september-2022.html'],
+        ['BookLife First Lines: September 2022', 'https://booklife.com/news/authors/09/09/2022/first-lines-september-2022.html'],
         ['Reading Wryly: 2022 Q3 Book Releases, Thriller &amp; Horror', 'https://youtu.be/BUONvwGnlMY?t=1230'],
         ['Lu&rsquo;s Wonderland: Release Blast &amp; Excerpt', 'https://www.lus-wonderland.co.uk/2022/08/release-blast-excerpt-i-will-kill-you.html'],
         ['Maryse&rsquo;s Book Blog: Monday Early Bird Book Releases – 08-08-2022', 'https://www.maryse.net/book-releases/monday-early-bird-book-releases-08-08-2022.html'],
