@@ -128,6 +128,7 @@ $(function () {
         ['Reads Rainbow: The Heartbeat of a Million Dreams', 'https://readsrainbow.com/2022/01/book-releases-2022-sapphic-releases-january-to-june'],
         ['Beautifully Bookish Bethany: Publisher Mail &amp; Preorders', 'https://youtu.be/EB3NPcz124o?t=856'],
         ['Beautifully Bookish Bethany: Bring on the Fall Reads! September TBR', 'https://youtu.be/RdVfbTxewuE?t=475'],
+        ['Beautifully Bookish Bethany: 24 Hour Reading Challenge! How Many Novellas Can I Read in 24 Hours?', 'https://youtu.be/1awY-IHwbWI'],
         ['Neen Cohen: August Book Review wrap up', 'https://youtu.be/CumNtU-bULo?t=125'],
         ['Rift Cycle'],
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
