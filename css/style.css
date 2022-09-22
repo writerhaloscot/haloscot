@@ -52,7 +52,7 @@ h6 {
     margin-bottom: 1rem;
     font-weight: 700;
     letter-spacing: 0.05em;
-    font-family: 'Big Shoulders Text', serif;
+    font-family: 'Big Shoulders Text', monospace;
 }
 
 h1 *,
@@ -633,6 +633,60 @@ code .red-color {
 /* END BOOKS */
 
 
+/* SAMPLE TABLE */
+
+.sample-table {}
+
+.sample-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+    padding-top: 1rem;
+    border-top: 1px solid #555;
+}
+
+.sample-item > a {
+    width: 150px;
+    border: 1px solid #555;
+    transition: border 0.25s ease;
+}
+
+.sample-item > a:hover {
+    border-color: #8C0410;
+}
+
+.sample-item > p:first-of-type {
+    width: calc(100% - 320px);
+    padding: 0 1rem;
+}
+
+.sample-item > p:last-of-type {
+    width: 170px;
+}
+
+.sample-item > a > img,
+.sample-item > p:last-of-type > a {
+    width: 100%;
+    text-align: center;
+}
+
+.sample-item > a > img {
+    display: block;
+}
+
+.sample-item small {
+    text-transform: uppercase;
+    opacity: 0.6;
+    margin-top: -0.4rem;
+    margin-bottom: 0.5rem;
+    display: block !important;
+}
+
+
+/* END SAMPLE TABLE */
+
+
 /* DIVIDER */
 
 .div-gradient {
@@ -753,8 +807,7 @@ code .red-color {
 }
 
 .button.white:hover {
-    background: #d63031;
-    color: #ffffff !important;
+    background: #e0e0e0;
 }
 
 .button.white small,
@@ -1091,6 +1144,33 @@ section.policy h3 {
         width: 250px;
         margin-left: -50px;
     }
+    .sample-table {
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        flex-wrap: wrap;
+        margin: 0 -1rem;
+    }
+    .sample-item {
+        display: block;
+        width: 50%;
+        padding: 1rem !important;
+        margin: 0 !important;
+        border: 0 !important;
+    }
+    .sample-item > p:first-of-type {
+        padding: 0;
+        font-size: 16px !important;
+        line-height: 1.2 !important;
+    }
+    .sample-item small {
+        margin-top: -0.2rem;
+    }
+    .sample-item > * {
+        width: 100% !important;
+        display: block !important;
+        margin: 0 auto 1rem;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -1126,6 +1206,28 @@ section.policy h3 {
     .section-bio .section-img,
     .section-books .section-img {
         display: none;
+    }
+    .sample-table {
+        display: block;
+    }
+    .sample-item {
+        width: 100%;
+        margin: 0 auto !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: stretch;
+    }
+    .sample-item > a {
+        max-width: 100px;
+        margin: 0 0 1rem;
+    }
+    .sample-item > p:first-of-type {
+        width: calc(100% - 100px) !important;
+        padding-left: 1rem;
+    }
+    .sample-item > p:last-of-type {
+        width: 100%;
     }
 }
 
