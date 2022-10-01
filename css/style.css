@@ -1,4 +1,4 @@
-/* accessibility checker: https://www.accessibilitychecker.org */
+/* verified compliant for accessibility: https://www.accessibilitychecker.org */
 
 * {
     margin: 0;
@@ -351,6 +351,7 @@ code .red-color {
     font-size: 2.16rem;
     margin-bottom: -0.5rem;
     line-height: 1;
+    text-transform: capitalize !important;
 }
 
 .hero h2 {
