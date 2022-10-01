@@ -361,6 +361,10 @@ code .red-color {
     text-shadow: 0 0 32px black, 0 0 32px black, 0 0 64px black, 0 0 64px black, 0 0 96px black, 0 0 96px black !important;
 }
 
+.hero h2 span {
+    text-shadow: none;
+}
+
 .hero img {
     display: block;
     margin: -140px auto -110px;
