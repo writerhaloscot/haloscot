@@ -1,3 +1,5 @@
+/* accessibility checker: https://www.accessibilitychecker.org */
+
 * {
     margin: 0;
     padding: 0;
@@ -351,7 +353,7 @@ code .red-color {
     line-height: 1;
 }
 
-.hero h3 {
+.hero h2 {
     margin: 0;
     font-size: 1.75rem;
     line-height: 1;
@@ -506,7 +508,7 @@ code .red-color {
     bottom: 9px;
     font-size: 4.5rem;
     line-height: 60px;
-    opacity: .34;
+    opacity: .5;
 }
 
 .section p {
@@ -742,12 +744,12 @@ code .red-color {
 
 .footer-btm .copyright a {
     font: inherit;
-    color: #d63031 !important;
+    color: #ffffff !important;
     margin-left: 0.75rem;
 }
 
 .footer-btm .copyright a:hover {
-    color: #8C0410 !important;
+    color: #eeeeee !important;
 }
 
 .scrollTop {
