@@ -1271,6 +1271,7 @@ input.button {
     display: none;
     margin-top: 1rem;
     margin-bottom: 0;
+    font-size: 19px !important;
 }
 
 .form-error {
@@ -1284,7 +1285,7 @@ input.button {
 .form-free {
     display: block;
     max-width: 320px;
-    margin: 2rem auto 0;
+    margin: 1rem auto 0;
 }
 
 .form-free input {
@@ -1295,6 +1296,7 @@ input.button {
 }
 
 .form-files {
+    display: none;
     margin-top: 1rem;
 }
 
@@ -1310,6 +1312,18 @@ input.button {
     margin: 2rem auto 0.5rem;
     font-size: 17px;
     color: #fff600;
+}
+
+.form-files em {
+    display: block;
+    margin: 1.5rem auto 0.25rem;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.03rem;
+}
+
+.form-desc {
+    font-size: 19px !important;
 }
 
 

@@ -127,8 +127,6 @@ $(function () {
         ['JennyLou&rsquo;s Book Reviews: New UK Book Releases: 2022 Week #32', 'https://jennylousbookreviews.wordpress.com/2022/08/10/new-uk-book-releases-2022-week-32/'],
         ['The Heartbeat of a Million Dreams'],
         ['Reads Rainbow: The Heartbeat of a Million Dreams', 'https://readsrainbow.com/2022/01/book-releases-2022-sapphic-releases-january-to-june'],
-        /* ['Beautifully Bookish Bethany: Publisher Mail &amp; Preorders', 'https://youtu.be/EB3NPcz124o?t=856'],
-        ['Beautifully Bookish Bethany: Bring on the Fall Reads! September TBR', 'https://youtu.be/RdVfbTxewuE?t=475'], */
         ['Beautifully Bookish Bethany: 24 Hour Reading Challenge! How Many Novellas Can I Read in 24 Hours?', 'https://youtu.be/1awY-IHwbWI?t=974'],
         ['Beautifully Bookish Bethany: Polarizing Books &amp; Lots of Novellas! | September Mid-Month Reading Wrap Up', 'https://youtu.be/-6KSpclys4c?t=1559'],
         ['Neen Cohen: August Book Review wrap up', 'https://youtu.be/CumNtU-bULo?t=125'],
@@ -263,24 +261,20 @@ $(function () {
     });
     // END FREE FORM
 
-    // IWKY FORM, change folder/pw as needed
+    // ARC FORM, change folder/pw as needed
     $('#iwky').on('submit', function (e) {
         e.preventDefault();
-        var pw = 'TeamCorpse!FTW';
+        var pw = 'LetChaosReign';
         var pw_input = $(this).find('.form-pw').val();
 
         if (pw_input == pw) {
-            $(this).find('.form-error, .form-pw, .form-btn').hide();
-            $('.form-desc').hide();
+            $(this).find('.form-error').hide();
             $(this).find('.form-success, .form-files').show();
-            var iwky = $('#iwky').html();
-            $('#iwky').html(iwky + '<p class="form-files"><a href="/team-corpse-iwky/file882022/iwky.epub" download class="button">epub</a> <a href="/team-corpse-iwky/file882022/iwky.mobi" download class="button blue">mobi</a> <a href="/team-corpse-iwky/file882022/iwky.pdf" download class="button white">pdf</a><span>Welcome to Team Corpse! Here is your Murder Court membership card. Click to download.</span><a href="/img/team-corpse-card.png" download><img src="/img/team-corpse-card.png"></a></p>');
         } else {
-            $(this).find('.form-error, .form-pw, .form-btn').show();
-            $('.form-desc').show();
+            $(this).find('.form-error').show();
             $(this).find('.form-success, .form-files').hide();
         }
     });
-    // IWKY FREE FORM
+    // END ARC FORM
 
 });
