@@ -320,6 +320,11 @@ code .red-color {
     padding-right: 0;
 }
 
+#header .social.bookbub {
+    font-size: 16px;
+    padding-top: 10px;
+}
+
 #header .menu svg {
     height: 15px;
     width: 20px;
@@ -1130,6 +1135,11 @@ section.policy h3 {
     #header .logo {
         font-size: 0.8rem;
         width: 150px;
+        padding-right: 0;
+    }
+    #header .social {
+        padding: 8px 3px;
+        font-size: 15px;
     }
     h1 {
         font-size: 4rem;
