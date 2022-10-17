@@ -111,7 +111,7 @@ $(function () {
         ['Steve Talks Books SPOILER Discussion', 'https://youtu.be/u3nZEzY3rYk'],
         ['Human Chapters', 'https://youtu.be/b6ESz-4Vudk'],
         ['A.J. Calvin: Guest Author Interview with Halo Scot', 'https://ajcalvin.net/guest-author-interview-with-halo-scot/'],
-        ['Words &amp; Pictures Podcast (episode live Oct. 17, 2022)', 'https://www.djbowmansmith.com/podcast'],
+        ['Words &amp; Pictures Podcast with DJ Bowman-Smith', 'https://www.djbowmansmith.com/podcast/episode/bd6fd4aa/12-truth-in-the-darkness-writing-fiction-on-the-dark-side-with-halo-scot'],
 
         ['Guest Posts'],
         // ['&ldquo;Write Your Way&rdquo; on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
