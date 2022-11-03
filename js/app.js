@@ -69,6 +69,7 @@ $(function () {
         ['A.J. Calvin', 'https://ajcalvin.net/book-review-the-heartbeat-of-a-million-dreams-by-halo-scot/'],
         ['Jude in the Stars', 'https://judeinthestars.com/2022/07/28/the-heartbeat-of-a-million-dreams-halo-scot/'],
         ['Neen Cohen: Sapphic Book Review of The Heartbeat of a Million Dreams by Halo Scot', 'https://youtu.be/7AxIyKpwxyQ'],
+        ['Emily Reads Books: 8 ARC Book Reviews!', 'https://youtu.be/Vm_gn907xTI?t=515'],
         ['Rift Cycle'],
         ['GBHBL Reviews', 'https://www.gbhbl.com/?s=halo+scot'],
         ['Morgan K Tanner Reviews', 'https://morganktanner.com/?s=halo+scot'],
