@@ -122,6 +122,7 @@ $(function () {
         ['I Will Kill You'],
         ['Publishers Weekly First Lines: September 2022', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/90278-first-lines-september-2022.html'],
         ['BookLife First Lines: September 2022', 'https://booklife.com/news/authors/09/09/2022/first-lines-september-2022.html'],
+        ['TCK Publishing Readers Choice Award Winner in Thriller Category: <em>I Will Kill You</em>', 'https://www.tckpublishing.com/2022-readers-choice-award-winners/'],
         ['Talk Wordy 2 Me: Halo Scot', 'https://youtu.be/q9pCRzyVHBc'],
         ['Reading Wryly: 2022 Q3 Book Releases, Thriller &amp; Horror', 'https://youtu.be/BUONvwGnlMY?t=1230'],
         ['Lu&rsquo;s Wonderland: Release Blast &amp; Excerpt', 'https://www.lus-wonderland.co.uk/2022/08/release-blast-excerpt-i-will-kill-you.html'],
