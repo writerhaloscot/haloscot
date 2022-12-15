@@ -6,20 +6,12 @@
     <title>Halo Scot | Newsletter Subscribe</title>
     <meta name="description" content="Sign up for deals & updates!" />
 
-    <!-- HEAD -->
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="UTF-8">
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">
+    <!-- HEAD: different from other pages to make faster -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
     <link rel="shortcut icon" href="../img/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="../css/style.css?v=1.25" />
-    <!-- END HEAD -->
-    
-    <!-- <style>
-        body {
-            background: #000000;
-            opacity: 0;
-        }
-    </style> -->
-    
+
     <!-- TWITTER CARD -->
     <meta itemprop="image" content="https://haloscot.com/img/twitter-subscribe.jpg">
     <meta name="twitter:card" content="summary_large_image" />
@@ -35,48 +27,52 @@
     <!-- TWITTER CARD -->
 
     <style>
-        #header,
-        .content,
-        #footer {
-            display: none;
+        html,
+        body {
+            background: black;
+        }
+        
+        h1 {
+            position: relative;
+            z-index: 2;
+            font-size: 13px;
+            text-align: center;
+            color: white;
+            margin-bottom: 0;
+            margin-top: 32px;
+            font-family: Helvetica, Arial, sans-serif;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 0.07rem;
+            text-shadow: 0 0 16px black, 0 0 32px black;
+        }
+        
+        img {
+            max-width: 300px;
+            width: 100%;
+            margin: -50px auto 0;
+            display: block;
         }
     </style>
+
+
+    <!-- REDIRECT -->
+    <script>
+        window.location.replace("https://haloscot.substack.com/?showWelcome=true");
+    </script>
 </head>
 
 <body>
     <div class="wrapper">
 
-        <!-- HEADER -->
-        <header id="header"></header>
-
-
         <!-- CONTENT -->
         <main id="main">
-            <section class="hero">
-                <span class="hide-SEO">Newsletter Subscribe</span>
-            </section>
-            <section class="container">
-                <h1 class="red-color" style="font-size: 1.75rem; text-align: center;">Subscribe to my newsletter <br class="hide-mobile"/>for the latest deals &amp; updates!</h1>
-                <img style="max-width: 400px; width: 100%; margin: 0 auto; display: block;" src="../img/halo-EotB-min.jpg" alt="Halo Scot" />
-            </section>
+            <h1>Newsletter Subscribe</h1>
+            <img src="../img/halo-EotB-min.jpg" alt="Halo Scot" />
         </main>
 
-
-        <!-- FOOTER -->
-        <footer id="footer"></footer>
-
-
-        <!-- SCRIPTS -->
-        <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-        <script src="../js/app.js?v=1.25"></script>
-
-        <!-- REDIRECT -->
-        <script>
-            window.location.replace("https://haloscot.substack.com/?showWelcome=true");
-        </script>
-
     </div>
-    
+
 </body>
 
 </html>
