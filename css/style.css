@@ -660,12 +660,6 @@ code .red-color {
 
 .sample-item > a {
     width: 150px;
-    border: 1px solid #555;
-    transition: border 0.25s ease;
-}
-
-.sample-item > a:hover {
-    border-color: #8C0410;
 }
 
 .sample-item > p:first-of-type {
@@ -685,6 +679,12 @@ code .red-color {
 
 .sample-item > a > img {
     display: block;
+    border: 1px solid #555;
+    transition: border 0.25s ease;
+}
+
+.sample-item > a:hover img {
+    border-color: #8C0410;
 }
 
 .sample-item small {
