@@ -61,6 +61,7 @@ $(function () {
         ['Reviews'],
         ['Girl of Dust and Smoke'],
         ['Author J. Crayton Smith&rsquo;s Book Review', 'https://youtu.be/4HukUIKBTew'],
+        ['JJ Currie / The Last Chapter', 'https://thelastchapter.ca/2023/01/16/book-review-the-girl-of-dust-and-smoke/'],
         ['I Will Kill You'],
         ['Publishers Weekly Review', 'https://booklife.com/pwreview/259732'],
         ['Best Thriller Books: Kashif Hussain Review', 'https://www.bestthrillerbooks.com/kashif-hussain/i-will-kill-you-by-halo-scot'],
