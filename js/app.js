@@ -131,6 +131,7 @@ $(function () {
         ['Lu&rsquo;s Wonderland: Release Blast &amp; Excerpt', 'https://www.lus-wonderland.co.uk/2022/08/release-blast-excerpt-i-will-kill-you.html'],
         ['Maryse&rsquo;s Book Blog: Monday Early Bird Book Releases – 08-08-2022', 'https://www.maryse.net/book-releases/monday-early-bird-book-releases-08-08-2022.html'],
         ['JennyLou&rsquo;s Book Reviews: New UK Book Releases: 2022 Week #32', 'https://jennylousbookreviews.wordpress.com/2022/08/10/new-uk-book-releases-2022-week-32/'],
+        ['Steve Talks Books: I WILL KILL YOU Discussion with author Halo Scot', 'https://www.youtube.com/live/-A-SRg0jsz4?feature=share'],
         ['The Heartbeat of a Million Dreams'],
         ['Reads Rainbow: The Heartbeat of a Million Dreams', 'https://readsrainbow.com/2022/01/book-releases-2022-sapphic-releases-january-to-june'],
         ['Beautifully Bookish Bethany: 24 Hour Reading Challenge! How Many Novellas Can I Read in 24 Hours?', 'https://youtu.be/1awY-IHwbWI?t=974'],
