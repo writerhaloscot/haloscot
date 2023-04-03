@@ -59,6 +59,8 @@ $(function () {
     // PRESS RELEASES
     var press = [
         ['Reviews'],
+        ['The Mortality Experiment'],
+        ['A.J. Calvin&rsquo;s Review: The Mortality Experiment by Halo Scot', 'https://escapistbookcompany.com/2023/04/02/review-the-mortality-experiment-by-halo-scot/'],
         ['Girl of Dust and Smoke'],
         ['Author J. Crayton Smith&rsquo;s Book Review', 'https://youtu.be/4HukUIKBTew'],
         ['JJ Currie / The Last Chapter', 'https://thelastchapter.ca/2023/01/16/book-review-the-girl-of-dust-and-smoke/'],
@@ -194,7 +196,7 @@ $(function () {
 
         if (p == 'Interviews' || p == 'Guest Posts' || p == 'Reviews' || p == 'Features' || p == 'Poetry') {
             pressHTML += '<h3>' + p + '</h3>';
-        } else if (p == 'Rift Cycle' || p == 'The Heartbeat of a Million Dreams' || p == 'I Will Kill You' || p == 'Girl of Dust and Smoke') {
+        } else if (p == 'Rift Cycle' || p == 'The Heartbeat of a Million Dreams' || p == 'I Will Kill You' || p == 'Girl of Dust and Smoke' || p == 'The Mortality Experiment') {
             pressHTML += '<h4>' + p + '</h4>';
         } else if (p == 'WCCS') {
             pressHTML += '<h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection&nbsp;›</a></p>';
