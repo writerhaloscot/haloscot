@@ -146,29 +146,39 @@
 
     </div>
 
-    <!-- Cookie Consent by https://www.PrivacyPolicies.com -->
-    <script type="text/javascript" src="//www.privacypolicies.com/public/cookie-consent/3.1.0/cookie-consent.js"></script>
-    <script type="text/javascript">
-        document.addEventListener('DOMContentLoaded', function () {
+    <!-- Cookie Consent by PrivacyPolicies.com https://www.PrivacyPolicies.com -->
+    <script type="text/javascript" src="//www.privacypolicies.com/public/cookie-consent/4.1.0/cookie-consent.js" charset="UTF-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+        document.addEventListener('DOMContentLoaded', function() {
             cookieconsent.run({
-                "notice_banner_type": "headline",
+                "notice_banner_type": "simple",
                 "consent_type": "express",
                 "palette": "dark",
                 "language": "en",
+                "page_load_consent_levels": ["strictly-necessary"],
+                "notice_banner_reject_button_hide": false,
+                "preferences_center_close_button_hide": false,
+                "page_refresh_confirmation_buttons": false,
                 "website_name": "Halo Scot",
-                "change_preferences_selector": "#changePref",
-                "cookies_policy_url": "https://haloscot.com/policy/"
+                "website_privacy_policy_url": "https://haloscot.com/policy/"
             });
         });
+
     </script>
 
-    <!-- Google Tag Manager -->
-    <!-- <script type="text/plain" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=UA-152375493-1"></script> -->
-    <script type="text/plain" cookie-consent="tracking">window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag("js", new Date()); gtag("config", "UA-152375493-1");</script>
-    <!-- end of Google Tag Manager-->
+    <!-- Google Tag Manager and Google Analytics -->
+    <script type="text/plain" data-cookie-consent="tracking">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PGVB9PL');</script>
+    <!-- end of Google Tag Manager and Google Analytics-->
 
-    <noscript>Cookie Consent by <a href="https://www.PrivacyPolicies.com/cookie-consent/" rel="nofollow noopener">PrivacyPolicies.com</a></noscript>
-    <!-- End Cookie Consent -->
+    <noscript>Cookie Consent by <a href="https://www.privacypolicies.com/">Privacy Policies website</a></noscript>
+    <!-- End Cookie Consent by PrivacyPolicies.com https://www.PrivacyPolicies.com -->
+
+    <!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+    <a href="#" id="open_preferences_center" class="button white">Cookies preferences</a>
 
 </body>
 

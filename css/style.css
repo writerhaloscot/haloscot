@@ -986,34 +986,27 @@ code .red-color {
 
 /* GDPR COMPLIANCE */
 
-.cc_css_reboot.cc_dialog {
+.cc-nb-main-container {
     position: fixed !important;
     bottom: 0 !important;
     top: auto !important;
-    padding: 0;
+    left: 0;
+    right: 0;
+    z-index: 999;
+    padding: 1rem 2rem !important;
+    background: black;
     box-shadow: 0 0 30px #d63031;
 }
 
-.cc_css_reboot.cc_dialog > div {
-    padding: 16px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.cc_dialog_headline {
-    font-size: 14px !important;
-    margin-bottom: 4px !important;
-    text-transform: uppercase;
-}
-
-.cc_dialog_text {
-    font-size: 13px !important;
-    margin-bottom: 12px !important;
-}
-
-.cc_css_reboot button {
-    font-size: 13px !important;
-    padding: 4px 8px !important;
+#open_preferences_center {
+    position: fixed;
+    left: 0;
+    bottom: 48px;
+    z-index: 999;
+    font-size: 11px;
+    max-width: 93px;
+    line-height: 1;
+    padding: 0.5rem !important;
 }
 
 section.policy ul {
