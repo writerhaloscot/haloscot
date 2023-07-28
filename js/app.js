@@ -98,6 +98,7 @@ $(function () {
         ['Evelyn Chartres: Evelyn Reads the Rift Cycle', 'https://evelynchartres.com/tag/halo-scot/'],
         ['Steve Talks Books: Creeping Death Review', 'https://www.creepingdeath.org/forum/index.php?/blogs/entry/938-edge-of-the-breach-by-halo-scot/'],
         ['Steve Talks Books: YouTube Review', 'https://youtu.be/PfgkEJJOdkE'],
+        ['Steve Vimes: Author Links', 'https://stevevimes.com/author-links'],
 
         ['Interviews'],
         ['The Writing Community Chat Show', 'https://anchor.fm/writingcommunitychatshow/episodes/03-Halo-interview-ecll67/a-a1u74aq'],
