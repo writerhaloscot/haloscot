@@ -1060,50 +1060,65 @@ section.policy h3 {
     .hide-mobile {
         display: none !important;
     }
+
     .hide-desktop {
         display: initial;
     }
+
     .hide-desktop-block {
         display: block;
     }
+
     .logo {
         max-width: 52px;
     }
+
     #header .social {
         padding: 8px 4px;
         font-size: 15px;
     }
+
     #header nav {
         margin-right: -4px;
     }
+
     .footer-btm .copyright {
         padding: 0 6px;
     }
+
     .section-content.flip .section-text {
         text-align: left;
     }
+
     .section-content:not(.flip) .container {
         flex-direction: row;
     }
+
     .section-content.flip .container {
         flex-direction: row-reverse;
     }
+
     .section-text {
         width: 67%;
     }
+
     .section-img {
         width: 33%;
     }
+
     .books-grid > a {
         width: calc(20% - 0.5rem);
     }
+
     .section-bio {
         background-position: top center, bottom center;
         background-repeat: no-repeat, no-repeat;
     }
+
     .section-bio.loaded {
         background-image: url('../img/hero-spray-min.jpg'), url('../img/hero-spray-bottom-min.jpg');
     }
+
     .section-bio.no-padding-bottom {
         padding-bottom: 50px !important;
     }
@@ -1113,15 +1128,19 @@ section.policy h3 {
     .books-grid > a {
         width: calc(25% - 0.5rem);
     }
+
     .section-content .container {
         align-items: center;
     }
+
     .section-text {
         width: calc(100% - 150px);
     }
+
     .section-img {
         width: 150px;
     }
+
     .section-img img {
         width: 300px;
         margin-left: -100px;
@@ -1132,35 +1151,44 @@ section.policy h3 {
     .books-grid > a {
         width: calc(calc(100% / 3) - 0.5rem);
     }
+
     #header .logo {
         font-size: 0.8rem;
         width: 150px;
         padding-right: 0;
     }
+
     #header .social {
         padding: 8px 3px;
         font-size: 15px;
     }
+
     h1 {
         font-size: 4rem;
         letter-spacing: 0.02em;
     }
+
     .section p {
         font-size: 17px !important;
     }
+
     .toggle-acc {
         padding: 0.5rem;
     }
+
     .section-text {
         width: calc(100% - 150px);
     }
+
     .section-img {
         width: 150px;
     }
+
     .section-img img {
         width: 250px;
         margin-left: -50px;
     }
+
     .sample-table {
         display: flex;
         justify-content: center;
@@ -1168,6 +1196,7 @@ section.policy h3 {
         flex-wrap: wrap;
         margin: 0 -1rem;
     }
+
     .sample-item {
         display: block;
         width: 50%;
@@ -1175,14 +1204,17 @@ section.policy h3 {
         margin: 0 !important;
         border: 0 !important;
     }
+
     .sample-item > p:first-of-type {
         padding: 0;
         font-size: 16px !important;
         line-height: 1.2 !important;
     }
+
     .sample-item small {
         margin-top: -0.2rem;
     }
+
     .sample-item > * {
         width: 100% !important;
         display: block !important;
@@ -1194,39 +1226,50 @@ section.policy h3 {
     .books-grid > a {
         width: calc(50% - 0.5rem);
     }
+
     .hero img {
         margin: -80px auto -60px;
     }
+
     .section-content:not(.flip) .container {
         flex-direction: column-reverse;
     }
+
     .section-content.flip .container {
         flex-direction: column;
     }
+
     .section-text,
     .section-img {
         width: 100%;
     }
+
     .section-content:not(.section-bio):not(.section-books) {
         padding-top: 0 !important;
     }
+
     .section-content:not(.flip):not(.section-bio):not(.section-books) {
         padding-bottom: 0 !important;
     }
+
     .section-img {
         margin: 25px auto -40px;
     }
+
     .section-img img {
         width: 200px;
         margin: 0 auto;
     }
+
     .section-bio .section-img,
     .section-books .section-img {
         display: none;
     }
+
     .sample-table {
         display: block;
     }
+
     .sample-item {
         width: 100%;
         margin: 0 auto !important;
@@ -1235,14 +1278,17 @@ section.policy h3 {
         justify-content: center;
         align-items: stretch;
     }
+
     .sample-item > a {
         max-width: 100px;
         margin: 0 0 1rem;
     }
+
     .sample-item > p:first-of-type {
         width: calc(100% - 100px) !important;
         padding-left: 1rem;
     }
+
     .sample-item > p:last-of-type {
         width: 100%;
     }
@@ -1338,3 +1384,37 @@ input.button {
 
 
 /* END FORM */
+
+
+/* SALE */
+.sale h1 {
+    text-align: center;
+    font-size: 100px !important;
+    text-shadow: 3px 1px 10px #000, 11px 5px 0 #d63031;
+    margin-bottom: -70px;
+    position: relative;
+    z-index: 99;
+    line-height: 1;
+}
+
+.sale-img {
+    display: block;
+    margin: 0 auto -4rem;
+    width: 100%;
+    max-width: 500px;
+}
+
+@media only screen and (min-width: 992px) {
+    .books-grid.sales-grid > a {
+        width: calc(calc(100% / 6) - 0.5rem)
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .sale h1 {
+        font-size: 70px !important;
+        margin-bottom: -50px;
+    }
+}
+
+/* END SALE */
