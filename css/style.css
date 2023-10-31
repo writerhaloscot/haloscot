@@ -1404,6 +1404,20 @@ input.button {
     max-width: 500px;
 }
 
+.sale-icon {
+    display: inline-block !important;
+    vertical-align: middle;
+    margin-top: -6px;
+    width: 23px;
+    margin-left: 10px;
+}
+
+.books-grid.sales-grid > a > span {
+    font-size: 32px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 @media only screen and (min-width: 992px) {
     .books-grid.sales-grid > a {
         width: calc(calc(100% / 6) - 0.5rem)
