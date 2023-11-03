@@ -1397,6 +1397,10 @@ input.button {
     line-height: 1;
 }
 
+.sale h2 {
+    text-shadow: 3px 1px 10px #000, 5px 5px 15px #000, 5px 2px 0 #000;
+}
+
 .sale-img {
     display: block;
     margin: 0 auto -4rem;
