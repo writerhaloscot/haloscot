@@ -144,6 +144,7 @@ $(function () {
         ['Neen Cohen: August Book Review wrap up', 'https://youtu.be/CumNtU-bULo?t=125'],
         ['Neen Cohen: My 22ish top reads of 2022', 'https://youtu.be/MbtUClxod04?t=368'],
         ['Jude in the Stars: 2022 – My Favourite Books of the Year', 'https://judeinthestars.com/2022/12/28/2022-my-favourite-books-of-the-year/'],
+        ['C. J. Daley: Intro to Indie Science Fiction + Representation', 'https://fanfiaddict.com/intro-to-indie-science-fiction-representation/'],
         ['Rift Cycle'],
         ['Publishers Weekly&rsquo;s Indie Spotlight: End of June 2021', 'https://www.publishersweekly.com/pw/by-topic/authors/pw-select/article/86757-indie-spotlight-end-of-june-2021.html'],
         ['Queer Indie', 'https://queerindie.com/'],
