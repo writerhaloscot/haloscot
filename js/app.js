@@ -70,6 +70,7 @@ $(function () {
         ['Power Librarian Book Reviews', 'https://powerlibrarian.wordpress.com/2022/07/26/i-will-kill-you/'],
         ['GBHBL Horror Book Reviews', 'https://www.gbhbl.com/horror-book-review-i-will-kill-you-halo-scot/'],
         ['Morgan K Tanner: Book Review', 'https://morganktanner.com/2022/08/08/book-review-i-will-kill-you-by-halo-scot/'],
+        ['Writing With Vaughn', 'https://www.writingwithvaughn.com/thriller#comp-lxgc7rqf'],
         ['The Heartbeat of a Million Dreams'],
         ['A.J. Calvin', 'https://ajcalvin.net/book-review-the-heartbeat-of-a-million-dreams-by-halo-scot/'],
         ['Jude in the Stars', 'https://judeinthestars.com/2022/07/28/the-heartbeat-of-a-million-dreams-halo-scot/'],
