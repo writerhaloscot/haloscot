@@ -294,5 +294,21 @@ $(function () {
         }
     });
     // END ARC FORM
+    
+    // ARC FORM, change folder/pw as needed
+    $('#evil').on('submit', function (e) {
+        e.preventDefault();
+        var pw = 'tentacles';
+        var pw_input = $(this).find('.form-pw').val();
+
+        if (pw_input == pw) {
+            $(this).find('.form-error').hide();
+            $(this).find('.form-success, .form-files').show();
+        } else {
+            $(this).find('.form-error').show();
+            $(this).find('.form-success, .form-files').hide();
+        }
+    });
+    // END ARC FORM
 
 });
