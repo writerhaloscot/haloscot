@@ -597,7 +597,7 @@ code .red-color {
 .books-grid > a {
     display: block !important;
     margin: 0.25rem;
-    width: calc(calc(100% / 9) - 0.5rem);
+    width: calc(calc(100% / 5) - 0.5rem);
     border: 1px solid #333333;
     transition: border 0.25s ease;
 }
@@ -1107,7 +1107,7 @@ section.policy h3 {
     }
 
     .books-grid > a {
-        width: calc(20% - 0.5rem);
+        width: calc(25% - 0.5rem);
     }
 
     .section-bio {
@@ -1145,7 +1145,7 @@ section.policy h3 {
 
 @media only screen and (max-width: 640px) {
     .books-grid > a {
-        width: calc(calc(100% / 3) - 0.5rem);
+        width: calc(calc(100% / 2) - 0.5rem);
     }
 
     #header .logo {
