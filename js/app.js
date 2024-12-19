@@ -102,6 +102,7 @@ $(function () {
         ['Steve Vimes: Author Links', 'https://stevevimes.com/author-links'],
 
         ['Interviews'],
+        ['CanvasRebel: Meet Halo Scot', 'https://canvasrebel.com/meet-halo-scot/'],
         ['The Writing Community Chat Show', 'https://anchor.fm/writingcommunitychatshow/episodes/03-Halo-interview-ecll67/a-a1u74aq'],
         ['Story of a Storyteller', 'https://storyofastoryteller.buzzsprout.com/1229831/5314054-s1-ep4-halo-scot-is-a-storyteller'],
         ['The Tiny Bookcase', 'https://buzzsprout.com/1129067/8142253'],
