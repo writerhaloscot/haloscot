@@ -153,6 +153,8 @@ $(function () {
         ['BookCon', 'https://www.facebook.com/bookcon/videos/191013518970325'],
         ['Brooklyn Book Festival 2022', 'https://youtu.be/LkecLJ6N62I'],
         ['Brooklyn Book Festival 2023', 'https://www.youtube.com/live/8Q4GoZUf2Ys?si=kNZ4gMdE6IVgdSv7'],
+        ['Brooklyn Book Festival 2024', 'https://www.youtube.com/live/mrysCfz_V7Q?si=tKvF41iSYoqG7w20'],
+        ['TBRCon 2025 | Space Horror: Monsters in Zero Gravity', 'https://www.youtube.com/live/z2dXUBmnLj4?si=J7cs3PS8OEQDBGGx'],
         ['Media Death Cult', 'https://youtu.be/8F5bLxSW-8s'],
         ['RedStarReviews: SPSFC (Self-Published Science Fiction Competition)', 'https://redstarreviews.com/2021/08/'],
         ['University of Edinburgh Alumni Bookshelf', 'https://www.ed.ac.uk/alumni/services/news/alumni-bookshelf/february-2020'],
