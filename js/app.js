@@ -5,7 +5,7 @@ $(function () {
     /* var m = '<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="UTF-8">';
     var s = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">'; 
     var v = 'img/favicon.png';
-    var c = 'css/style.css?v=1.26';*/
+    var c = 'css/style.css?v=1.27';*/
     var h = 'includes/header.html';
     var f = 'includes/footer.html';
 
@@ -314,5 +314,37 @@ $(function () {
         }
     });
     // END ARC FORM
+    
+    // GDS FORM
+    $('#gdsFREE').on('submit', function (e) {
+        e.preventDefault();
+        var pw = 'what-the-duck';
+        var pw_input = $(this).find('.form-pw').val();
+
+        if (pw_input == pw) {
+            $(this).find('.form-error').hide();
+            $(this).find('.form-success, .form-files').show();
+        } else {
+            $(this).find('.form-error').show();
+            $(this).find('.form-success, .form-files').hide();
+        }
+    });
+    // END GDS FORM
+    
+    // IWKY FORM
+    $('#iwkyFREE').on('submit', function (e) {
+        e.preventDefault();
+        var pw = 'psychopath-wet-dream';
+        var pw_input = $(this).find('.form-pw').val();
+
+        if (pw_input == pw) {
+            $(this).find('.form-error').hide();
+            $(this).find('.form-success, .form-files').show();
+        } else {
+            $(this).find('.form-error').show();
+            $(this).find('.form-success, .form-files').hide();
+        }
+    });
+    // END GDS FORM
 
 });
