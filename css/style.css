@@ -1379,23 +1379,29 @@ input.button {
 
 
 /* SALE */
+.container.content.sale {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0 !important;
+}
 .sale h1 {
     text-align: center;
-    font-size: 100px !important;
-    text-shadow: 3px 1px 10px #000, 11px 5px 0 #d63031;
-    margin-bottom: -70px;
+    letter-spacing: 0.1px;
+    /* text-shadow: 3px 1px 10px #000, 9px 5px 0 #d63031; */
+    margin: 0 auto;
     position: relative;
     z-index: 99;
     line-height: 1;
 }
 
-.sale h2 {
-    text-shadow: 3px 1px 10px #000, 5px 5px 15px #000, 5px 2px 0 #000;
+.sale p {
+    line-height: 1.24 !important;
+    margin-top: 30px;
 }
 
 .sale-img {
     display: block;
-    margin: 0 auto -4rem;
+    margin: 0 auto;
     width: 100%;
     max-width: 500px;
 }
@@ -1406,6 +1412,33 @@ input.button {
     margin-top: -6px;
     width: 23px;
     margin-left: 10px;
+}
+
+.sale-button {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 100px;
+    padding: 15px 50px;
+    letter-spacing: normal;
+    text-shadow: 3px 1px 10px #000;
+    box-shadow: inset 1px 1px 10px 0 rgba(255,255,255,0.5), 10px 10px 0 0 #333;
+    margin-bottom: 10px;
+    background: #EB0707;
+}
+
+.sale-button:hover {
+    background: #9E0505;
+}
+
+.sale-button svg {
+    position: absolute;
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    top: 35px;
+    right: 15px;
+    opacity: 0.61;
 }
 
 .books-grid.sales-grid > a > span {
@@ -1422,8 +1455,18 @@ input.button {
 
 @media only screen and (max-width: 640px) {
     .sale h1 {
-        font-size: 70px !important;
-        margin-bottom: -50px;
+        font-size: 25px !important;
+        margin: 0 auto -5px;
+    }
+    .sale-button {
+        font-size: 70px;
+        padding: 10px 30px;
+    }
+    .sale-button svg {
+        width: 15px;
+        height: 15px;
+        top: 24px;
+        right: 10px;
     }
 }
 
