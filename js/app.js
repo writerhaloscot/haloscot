@@ -110,6 +110,7 @@ $(function () {
         ['TBRCon 2025 | Space Horror: Monsters in Zero Gravity', 'https://www.youtube.com/live/z2dXUBmnLj4?si=J7cs3PS8OEQDBGGx'],
         ['CanvasRebel: Meet Halo Scot', 'https://canvasrebel.com/meet-halo-scot/'],
         ['CanvasRebel: Rising Stars: Meet Halo Scot', 'https://canvasrebel.com/rising-stars-meet-halo-scot/'],
+        ['Bold Journey: An Inspired Chat with Halo Scot', 'https://boldjourney.com/an-inspired-chat-with-halo-scot-of-tri-state-area-highlight/'],
         ['The Writing Community Chat Show', 'https://anchor.fm/writingcommunitychatshow/episodes/03-Halo-interview-ecll67/a-a1u74aq'],
         ['Story of a Storyteller', 'https://storyofastoryteller.buzzsprout.com/1229831/5314054-s1-ep4-halo-scot-is-a-storyteller'],
         ['The Tiny Bookcase', 'https://buzzsprout.com/1129067/8142253'],
