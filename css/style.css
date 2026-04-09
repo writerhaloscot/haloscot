@@ -1441,6 +1441,19 @@ input.button {
     opacity: 0.61;
 }
 
+.button svg {
+    display: inline-block;
+    vertical-align: middle;
+    width: 15px;
+    height: 15px;
+    margin-bottom: 2px;
+}
+
+.btn-svg {
+    white-space: nowrap;
+    margin-bottom: 5px;
+}
+
 .books-grid.sales-grid > a > span {
     font-size: 32px;
     padding-left: 5px;
