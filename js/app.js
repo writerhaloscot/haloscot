@@ -2,11 +2,7 @@ $(function () {
 
 
     // LOAD INCLUDES
-    /* var m = '<meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta name="viewport" content="width=device-width, initial-scale=1"><meta charset="UTF-8">';
-    var s = '<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Text:wght@700&family=Roboto+Condensed:wght@400;700&display=swap" rel="stylesheet">'; 
-    var v = 'img/favicon.png';
-    var c = 'css/style.css?v=1.28';*/
-    var h = 'includes/header.html';
+    var h = 'includes/header.html?v=1';
     var f = 'includes/footer.html';
 
     if (window.location.pathname != '/') {
@@ -16,8 +12,6 @@ $(function () {
         f = '../' + f;
     }
 
-    // $('head').prepend(m + s);
-    // $('head').append('<link rel="shortcut icon" href="' + v + '" type="image/x-icon" /><link rel="stylesheet" href="' + c + '" />');
     $('#header').load(h);
     $('#footer').load(f);
 
@@ -196,7 +190,7 @@ $(function () {
         ['The Organic Poet: Bleeding Soul (Poem)', 'https://www.theorganicpoet.com/post/bleeding-soul-halo_scot'],
         ['The Organic Poet: Severed Star (Poem)', 'https://www.theorganicpoet.com/post/severed-star-halo_scot'],
 
-        ['WCCS'],
+        // ['WCCS'],
     ];
     var pressHTML = '';
 
@@ -210,7 +204,7 @@ $(function () {
         } else if (p == 'Rift Cycle' || p == 'The Heartbeat of a Million Dreams' || p == 'I Will Kill You' || p == 'Girl of Dust and Smoke' || p == 'The Mortality Experiment') {
             pressHTML += '<h4>' + p + '</h4>';
         } else if (p == 'WCCS') {
-            pressHTML += '<h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection&nbsp;›</a></p>';
+            pressHTML += '<h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i><span class="hide-SEO"> (opens in new tab)</span></a></p>';
         } else {
             for (var j = 0; j < p.length; j++) {
                 if (j == 0) {
@@ -219,7 +213,7 @@ $(function () {
                     u = p[j];
                 }
             }
-            pressHTML += '<p class="press-item"><a href="' + u + '" target="_blank">' + t + '&nbsp;&rsaquo;</a></p>';
+            pressHTML += '<p class="press-item"><a href="' + u + '" target="_blank">' + t + '&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i><span class="hide-SEO"> (opens in new tab)</span></a></p>';
         }
     }
 
@@ -249,6 +243,7 @@ $(function () {
             $(a).slideDown();
         }
     });
+    $('.toggle').click().hide();
 
     // POP UP
     $('.pop-up-content').on('click', function (e) {
