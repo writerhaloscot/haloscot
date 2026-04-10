@@ -1469,3 +1469,47 @@ p.sale-legal {
 }
 
 /* END SALE */
+
+
+/* QUOTES */
+.quotes * {
+    text-align: center;
+}
+.quotes h1 {
+    font-size: 100px;
+    margin-bottom: 0;
+    line-height: 90%;
+}
+.quotes h2 {
+    font-size: 50px;
+    margin-top: 0;
+    line-height: 90%;
+    text-transform: uppercase;
+}
+
+#quote p {
+    font-family: Times, serif;
+    font-size: 25px !important;
+    line-height: 120% !important;
+    width: min(700px, 90%);
+    margin: 50px auto 60px !important;
+}
+
+#quote p small {
+    margin-top: 10px;
+}
+
+#quote p a {
+    font-family: Times, serif;
+    font-style: italic;
+    text-transform: none !important;
+}
+@media only screen and (max-width: 640px) {
+    .quotes h1 {
+        font-size: 60px;
+    }
+    .quotes h2 {
+        font-size: 30px;
+    }
+}
+/* END QUOTES */
