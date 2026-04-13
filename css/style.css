@@ -1455,6 +1455,21 @@ p.sale-legal {
     opacity: 0.7;
 }
 
+.expired {
+    opacity: 0.5;
+}
+
+.expired * {
+    font-style: italic;
+}
+
+.expired a,
+.expired a:hover,
+.expired a:focus {
+    pointer-events: none;
+    background: #444;
+}
+
 @media only screen and (min-width: 992px) {
     .books-grid.sales-grid > a {
         width: calc(calc(100% / 6) - 0.5rem)
