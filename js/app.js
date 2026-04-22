@@ -2,7 +2,7 @@ $(function () {
 
 
     // LOAD INCLUDES
-    var h = 'includes/header.html?v=1';
+    var h = 'includes/header.html?v=2';
     var f = 'includes/footer.html';
 
     if (window.location.pathname != '/') {
@@ -200,11 +200,11 @@ $(function () {
         var u = '';
 
         if (p == 'Interviews' || p == 'Guest Posts' || p == 'Reviews' || p == 'Features' || p == 'Poetry') {
-            pressHTML += '<h3>' + p + '</h3>';
+            pressHTML += '<hr /><h3>' + p + '</h3>';
         } else if (p == 'Rift Cycle' || p == 'The Heartbeat of a Million Dreams' || p == 'I Will Kill You' || p == 'Girl of Dust and Smoke' || p == 'The Mortality Experiment') {
             pressHTML += '<h4>' + p + '</h4>';
         } else if (p == 'WCCS') {
-            pressHTML += '<h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i><span class="hide-SEO"> (opens in new tab)</span></a></p>';
+            pressHTML += '<hr /><h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i><span class="hide-SEO"> (opens in new tab)</span></a></p>';
         } else {
             for (var j = 0; j < p.length; j++) {
                 if (j == 0) {
