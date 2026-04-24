@@ -2,7 +2,7 @@ $(function () {
 
 
     // LOAD INCLUDES
-    var h = 'includes/header.html?v=2';
+    var h = 'includes/header.html?v=3.1';
     var f = 'includes/footer.html';
 
     if (window.location.pathname != '/') {
@@ -17,6 +17,7 @@ $(function () {
 
     setTimeout(function () {
         $('body').addClass('show');
+        $('.menu a[href*="' + window.location.pathname.replaceAll('/', '') + '"]').addClass('active');
     }, 100);
 
     // SCROLL TO TOP
@@ -48,8 +49,34 @@ $(function () {
             });
         }, 200);
     });
+    
+    
+    // COLOR THEME
+    $(document).ready(function() {
+        $('body').attr('id', getCookie('colortheme'));
+        $('.color-theme a').removeClass('active-theme');
+        $('a[href="#' + getCookie('colortheme') + '"]').addClass('active-theme');
+    });
+    $('.color-theme a').on('click', function (e) {
+        e.preventDefault();
+        var colortheme = $(this).attr('href').replace('#', '');
+        $('body').attr('id', colortheme);
+        setCookie("colortheme", colortheme, 7);
+        $('.color-theme a').removeClass('active-theme');
+        $('a[href="#' + colortheme + '"]').addClass('active-theme');
+    });
+    
+    // https://www.w3schools.com/js/js_cookies.asp
+    function setCookie(cname, cvalue, exdays) {
+        document.cookie = cname + "=" + cvalue + ";path=/";
+    }
+    // https://www.regex-tutorial.com/getCookieWithRegex.html
+    function getCookie(name) {
+        var match = document.cookie.match(new RegExp("(^| )" + name + "=([^;]+)"));
+        return match ? match[2] : "";
+    }
 
-
+    
     // PRESS RELEASES
     var press = [
         ['Reviews'],
@@ -204,7 +231,7 @@ $(function () {
         } else if (p == 'Rift Cycle' || p == 'The Heartbeat of a Million Dreams' || p == 'I Will Kill You' || p == 'Girl of Dust and Smoke' || p == 'The Mortality Experiment') {
             pressHTML += '<h4>' + p + '</h4>';
         } else if (p == 'WCCS') {
-            pressHTML += '<hr /><h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i><span class="hide-SEO"> (opens in new tab)</span></a></p>';
+            pressHTML += '<hr /><h3><a class="button" style="display:inline-block !important;margin-top: 0;" href="https://www.thewritingcommunitychatshow.com/" target="_blank">WCCS</a> Swag</h3><p class="press-item"><a href="https://teespring.com/halo-collection?tsmac=store&pid=227" target="_blank">Use promo code <strong>HALO2020</strong> to get 15% off the WCCS Halo collection<span class="hide-SEO"> (opens in new tab)</span></a></p>';
         } else {
             for (var j = 0; j < p.length; j++) {
                 if (j == 0) {
@@ -213,7 +240,7 @@ $(function () {
                     u = p[j];
                 }
             }
-            pressHTML += '<p class="press-item"><a href="' + u + '" target="_blank">' + t + '&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i><span class="hide-SEO"> (opens in new tab)</span></a></p>';
+            pressHTML += '<p class="press-item"><a href="' + u + '" target="_blank">' + t + '<span class="hide-SEO"> (opens in new tab)</span></a></p>';
         }
     }
 
