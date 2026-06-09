@@ -143,7 +143,7 @@ body#theme-silver {
     background-color: #808e9b;
 }
 
-.hero img,
+/* .hero img, */
 .section-img img,
 .books-grid a:has(img),
 .sample-item a img {
@@ -735,6 +735,18 @@ code .red-color {
 .section a.link:focus,
 .content a.link:focus {
     color: var(--brand) !important;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    background-clip: text;
+    color: transparent !important;
+}
+
+.section a.link:hover i,
+.content a.link:hover i,
+.section a.link:focus i,
+.content a.link:focus i {
+    color: inherit;
+    background: inherit;
+    background-clip: inherit;
 }
 
 .section-text {
@@ -1136,10 +1148,17 @@ code .red-color {
     display: inline-block !important;
     line-height: 140%;
     letter-spacing: 1px !important;
-    background: rgba(255, 255, 255, 0.8);
-    color: #000 !important;
+    color: #bbb !important;
     padding: 2px 4px;
     margin-bottom: 1px;
+    /* https://stackoverflow.com/questions/23751274/can-we-set-a-gradient-color-to-border-bottom-property */
+    background:
+        linear-gradient(to right,
+            #5b42f3 0%,
+            #af40ff 12%,
+            #00ddeb 47%,
+            transparent 100%) left bottom transparent no-repeat;
+    background-size: 100% 1px;
 }
 
 .press-item a:after {
@@ -1861,7 +1880,6 @@ a.gradient-text.lk:active:after {
 .button-fancy.invert span {
     background: none;
     color: #000;
-    font-weight: bold;
 }
 
 .button-fancy.invert:hover span,

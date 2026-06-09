@@ -1,9 +1,8 @@
 $(function () {
 
-
     // LOAD INCLUDES
-    var h = 'includes/header.html?v=3.2';
-    var f = 'includes/footer.html?v=3.2';
+    var h = 'includes/header.html?v=1.54';
+    var f = 'includes/footer.html?v=1.54';
 
     if (window.location.pathname != '/') {
         // v = '../' + v;
