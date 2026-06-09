@@ -2,8 +2,8 @@ $(function () {
 
 
     // LOAD INCLUDES
-    var h = 'includes/header.html?v=3.1';
-    var f = 'includes/footer.html';
+    var h = 'includes/header.html?v=3.2';
+    var f = 'includes/footer.html?v=3.2';
 
     if (window.location.pathname != '/') {
         // v = '../' + v;
@@ -17,7 +17,7 @@ $(function () {
 
     setTimeout(function () {
         $('body').addClass('show');
-        $('.menu a[href*="' + window.location.pathname.replaceAll('/', '') + '"]').addClass('active');
+        $('.menu a[href*="' + window.location.pathname.replaceAll('/', '') + '"]').addClass('active').addClass('gradient-text');
     }, 100);
 
     // SCROLL TO TOP
@@ -49,10 +49,10 @@ $(function () {
             });
         }, 200);
     });
-    
-    
+
+
     // COLOR THEME
-    $(document).ready(function() {
+    /* $(document).ready(function() {
         $('body').attr('id', getCookie('colortheme'));
         $('.color-theme a').removeClass('active-theme');
         $('a[href="#' + getCookie('colortheme') + '"]').addClass('active-theme');
@@ -64,8 +64,9 @@ $(function () {
         setCookie("colortheme", colortheme, 7);
         $('.color-theme a').removeClass('active-theme');
         $('a[href="#' + colortheme + '"]').addClass('active-theme');
-    });
-    
+    }); */
+    setCookie("colortheme", "theme-silver", 7);
+
     // https://www.w3schools.com/js/js_cookies.asp
     function setCookie(cname, cvalue, exdays) {
         document.cookie = cname + "=" + cvalue + ";path=/";
@@ -76,7 +77,7 @@ $(function () {
         return match ? match[2] : "";
     }
 
-    
+
     // PRESS RELEASES
     var press = [
         ['Reviews'],
@@ -252,9 +253,9 @@ $(function () {
         var d = '';
 
         switch (a) {
-        case '#press':
-            d = pressHTML;
-            break;
+            case '#press':
+                d = pressHTML;
+                break;
         }
 
         if (!$(a).hasClass('content-loaded')) {
@@ -322,7 +323,7 @@ $(function () {
         }
     });
     // END ARC FORM
-    
+
     // ARC FORM, change folder/pw as needed
     $('#evil').on('submit', function (e) {
         e.preventDefault();
@@ -338,7 +339,7 @@ $(function () {
         }
     });
     // END ARC FORM
-    
+
     // GDS FORM
     $('#gdsFREE').on('submit', function (e) {
         e.preventDefault();
@@ -354,7 +355,7 @@ $(function () {
         }
     });
     // END GDS FORM
-    
+
     // IWKY FORM
     $('#iwkyFREE').on('submit', function (e) {
         e.preventDefault();

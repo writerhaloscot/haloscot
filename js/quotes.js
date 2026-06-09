@@ -1,5 +1,5 @@
 $(function () {
-    
+
     /* ARRAY */
     const quotes = [
         ['I want to be a fly on the wall. Unseen. Unnoticed. But then I’d have to stop lighting things on fire. That’s not going to happen.', 'Rift Cycle', 'https://mybook.to/RiftCycle'],
@@ -374,7 +374,7 @@ $(function () {
         ['Everything is a mirror. A circle. A cycle. A season for every struggle. The endlessness of suffering.', 'Rift Cycle', 'https://mybook.to/RiftCycle'],
         ['Too soon, one more becomes one last becomes never again.', 'Rift Cycle', 'https://mybook.to/RiftCycle'],
         ['We always find a way back to each other.', 'Rift Cycle', 'https://mybook.to/RiftCycle'],
-        
+
         ['The sky is alive with a million whispers.', 'The Heartbeat of a Million Dreams', 'https://haloscot.substack.com'],
         ['I’m a walking death sentence for all who help me, a consequence for kindness.', 'The Heartbeat of a Million Dreams', 'https://haloscot.substack.com'],
         ['You’re beautiful, not broken. Different, not damaged.', 'The Heartbeat of a Million Dreams', 'https://haloscot.substack.com'],
@@ -409,7 +409,7 @@ $(function () {
         ['I love you all infinity. I love you impossibility. I love you immortality. I love you magic and music, beauty and glory. I love you deathbed wishes and childhood dreams.', 'The Heartbeat of a Million Dreams', 'https://haloscot.substack.com'],
         ['Surrender becomes forever as our tongues dance in silent promises. And when it’s over, when it’s done, when hair sticks to flushed faces and chests heave with glittering skin, she smiles my smile, and I smile hers.', 'The Heartbeat of a Million Dreams', 'https://haloscot.substack.com'],
         ['“You are my heartbeat,” I whisper. Koa beams. “And you are my dream.”', 'The Heartbeat of a Million Dreams', 'https://haloscot.substack.com'],
-        
+
         ['The dead don’t fear.', 'I Will Kill You', 'https://mybook.to/IWKY'],
         ['I’m no poster child, so I’m labeled the problem child, ushered into shadows while some palatable kid with the same socioeconomic crutches but a better attitude takes center stage.', 'I Will Kill You', 'https://mybook.to/IWKY'],
         ['Naked glitter parties fix all problems, just saying.', 'I Will Kill You', 'https://mybook.to/IWKY'],
@@ -459,7 +459,7 @@ $(function () {
         ['Kids should see the big, bad, scary world and know they can fight, not hide. Sometimes you need a sword, not a shield.', 'I Will Kill You', 'https://mybook.to/IWKY'],
         ['There are monsters in the dark, but those monsters are you. Become the beast you fear.', 'I Will Kill You', 'https://mybook.to/IWKY'],
         ['If it takes a sinner to make a saint, why punish the sinner?', 'I Will Kill You', 'https://mybook.to/IWKY'],
-        
+
         ['Earth is not lost. It’s worse. It’s forgotten.', 'The Mortality Experiment', 'https://mybook.to/TheMortalityExperiment'],
         ['I don’t care if you agree, but one day, even if you don’t believe what I believe, I hope you will believe in me.', 'The Mortality Experiment', 'https://mybook.to/TheMortalityExperiment'],
         ['They’re wicked ordinary, corporate, and careful, climbing a ladder that never moves. I want to learn how to fly upside down.', 'The Mortality Experiment', 'https://mybook.to/TheMortalityExperiment'],
@@ -490,7 +490,7 @@ $(function () {
         ['Though I built a beautiful tomorrow, yesterday came crashing down.', 'The Mortality Experiment', 'https://mybook.to/TheMortalityExperiment'],
         ['Some books burn.', 'The Mortality Experiment', 'https://mybook.to/TheMortalityExperiment'],
         ['I’d like to travel, to see strange worlds and live strange lives, full of strange tomorrows. And I’d like to live this life…with you.', 'The Mortality Experiment', 'https://mybook.to/TheMortalityExperiment'],
-        
+
         ['In new worlds, old ways must die.', 'Burn the Sun', 'https://mybook.to/BurnTheSun'],
         ['A princess who pleads has little power. A woman who asks has little control.', 'Burn the Sun', 'https://mybook.to/BurnTheSun'],
         ['Everything is only what we pretend it to be.', 'Burn the Sun', 'https://mybook.to/BurnTheSun'],
@@ -529,7 +529,7 @@ $(function () {
         ['May the stars bless the shadows, and may the sun bleed the night.', 'Burn the Sun', 'https://mybook.to/BurnTheSun'],
         ['This is what death does. It kills us before it takes us. Breaks us before it destroys us. Powders us to dust, then sweeps us off the map.', 'Burn the Sun', 'https://mybook.to/BurnTheSun'],
         ['Pain is proof we can survive.', 'Burn the Sun', 'https://mybook.to/BurnTheSun'],
-        
+
         ['Do not be afraid to choose the wild path.', 'Girl of Dust and Smoke', 'https://mybook.to/GDS'],
         ['Strength means forging flaws into armor.', 'Girl of Dust and Smoke', 'https://mybook.to/GDS'],
         ['Disaster was exciting when it wasn’t your own.', 'Girl of Dust and Smoke', 'https://mybook.to/GDS'],
@@ -556,18 +556,18 @@ $(function () {
         ['Power is not a thing to earn; it is a thing to conquer.', 'Girl of Dust and Smoke', 'https://mybook.to/GDS'],
         ['We are all born into different worlds, and you survived your world the only way you could.', 'Girl of Dust and Smoke', 'https://mybook.to/GDS'],
         ['Power is not a thing to earn; it is a thing to conquer.', 'Girl of Dust and Smoke', 'https://mybook.to/GDS'],
-        
+
     ];
-    
-    
+
+
     /* RANDOM REC */
     function randomRec() {
         var rQ = Math.floor(Math.random() * quotes.length);
-        $('#quote').html('<p>&ldquo;' + quotes[rQ][0] + '&rdquo;<br /><small><a target="_blank" href="' + quotes[rQ][2] + '">&ndash;&nbsp;' + quotes[rQ][1] + '&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i> <span class="hide-SEO">(opens in new tab)</span></a></small></p>');
+        $('#quote').html('<p>&ldquo;' + quotes[rQ][0] + '&rdquo;<br /><small><a target="_blank" class="gradient-text lk" href="' + quotes[rQ][2] + '">&ndash;&nbsp;' + quotes[rQ][1] + '&nbsp;<i class="fa-solid fa-square-arrow-up-right"></i> <span class="hide-SEO">(opens in new tab)</span></a></small></p>');
     }
     randomRec();
 
-    $('#quote_btn').on('click', function(e) {
+    $('#quote_btn').on('click', function (e) {
         e.preventDefault();
         randomRec()
     });

@@ -5,10 +5,6 @@
     padding: 0;
     font-weight: 400;
     font-family: 'Roboto Condensed', Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: subpixel-antialiased;
-    /*-moz-osx-font-smoothing: grayscale;*/
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
     box-sizing: border-box;
     line-height: 1.2;
     letter-spacing: 0.01em;
@@ -148,8 +144,34 @@ body#theme-silver {
 }
 
 .hero img,
-.section-img img {
-    filter: var(--filter);
+.section-img img,
+.books-grid a:has(img),
+.sample-item a img {
+    filter: var(--filter) contrast(1.2);
+}
+
+.books-grid a:has(img):hover,
+.sample-item a:hover img,
+.books-grid a:has(img):focus,
+.sample-item a:focus img,
+.books-grid a:has(img):active,
+.sample-item a:active img {
+    filter: none;
+}
+
+.copyright a {
+    color: #fff;
+}
+
+#header a:hover,
+#header a:focus,
+#header a:active,
+.copyright a:hover,
+.copyright a:focus,
+.copyright a:active {
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    background-clip: text;
+    color: transparent !important;
 }
 
 .color-theme {
@@ -163,6 +185,7 @@ body#theme-silver {
     bottom: 77px;
     width: 73px;
     background: #000;
+    display: none !important;
 }
 
 .color-theme a {
@@ -520,7 +543,7 @@ code .red-color {
     margin: 0;
     font-size: 1.75rem;
     line-height: 1;
-    text-shadow: 0 0 32px black, 0 0 32px black, 0 0 64px black, 0 0 64px black, 0 0 96px black, 0 0 96px black !important;
+    /* text-shadow: 0 0 32px black, 0 0 32px black, 0 0 64px black, 0 0 64px black, 0 0 96px black, 0 0 96px black !important; */
 }
 
 .hero h2 span {
@@ -543,7 +566,7 @@ code .red-color {
     min-height: calc(100vh - 140px);
 }
 
-#main a:not(.button):not(.pop-up-btn):not(.link) {
+#main a:not(.button):not(.button-fancy):not(.pop-up-btn):not(.link) {
     display: inline-block;
     vertical-align: baseline;
     text-decoration: none;
@@ -554,8 +577,8 @@ code .red-color {
     transition: all 0.25s ease;
 }
 
-#main a:not(.button):not(.pop-up-btn):not(.link):hover,
-#main a:not(.button):not(.pop-up-btn):not(.link):focus {
+#main a:not(.button):not(.button-fancy):not(.pop-up-btn):not(.link):hover,
+#main a:not(.button):not(.button-fancy):not(.pop-up-btn):not(.link):focus {
     color: var(--hover);
 }
 
@@ -793,7 +816,7 @@ code .red-color {
 }
 
 .books-grid > a:hover > span,
-.books-grid > a:focus > span{
+.books-grid > a:focus > span {
     background: var(--hover);
 }
 
@@ -803,7 +826,7 @@ code .red-color {
 }
 
 .books-grid > a.white-btn:hover > span,
-.books-grid > a.white-btn:focus > span{
+.books-grid > a.white-btn:focus > span {
     background: #eeeeee;
 }
 
@@ -886,6 +909,7 @@ code .red-color {
     margin-top: 0;
     font-size: 1.25rem;
     opacity: 1;
+    display: inline-block !important;
 }
 
 
@@ -936,46 +960,54 @@ code .red-color {
     text-decoration: none;
     font-size: 15px !important;
     font-weight: 700 !important;
-    color: var(--brand) !important;
+    /* color: var(--brand) !important; */
     transition: color 0.25s ease;
     text-transform: uppercase;
 }
 
 .footer-btm a:hover,
 .footer-btm a:focus {
-    color: var(--hover) !important;
+    /* color: var(--hover) !important; */
 }
 
 .footer-btm .copyright a {
     font: inherit;
-    color: #ffffff !important;
+    /* color: #ffffff !important; */
     margin-left: 0.75rem;
 }
 
 .footer-btm .copyright a:hover,
 .footer-btm .copyright a:focus {
-    color: var(--brand) !important;
+    /* color: var(--brand) !important; */
 }
 
 .scrollTop {
-    display: block;
-    position: fixed;
+    display: flex !important;
+    align-content: center;
+    justify-content: center;
+    position: fixed !important;
+    text-align: center !important;
     z-index: 1000;
     bottom: 5px;
     right: 10px;
-    text-align: center !important;
     text-decoration: none;
-    border-radius: 50%;
-    height: 40px !important;
-    width: 40px !important;
+    border-radius: 50% !important;
+    height: 45px !important;
+    width: 45px !important;
     line-height: 38px !important;
     background-color: var(--brand) !important;
     color: #ebebeb !important;
     transition: all 0.25s ease !important;
 }
 
+.scrollTop span {
+    padding: inherit !important;
+    border-radius: inherit !important;
+}
+
 .scrollTop:hover,
-.scrollTop:focus {
+.scrollTop:focus,
+.scrollTop:active {
     background-color: var(--hover) !important;
 }
 
@@ -1059,8 +1091,6 @@ code .red-color {
     position: absolute;
     right: 12px;
     top: 50%;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     height: 40px;
     line-height: 40px;
@@ -1100,13 +1130,13 @@ code .red-color {
 .press-item a {
     font-size: 14px;
     font-weight: inherit;
-    text-transform: uppercase!important;
+    text-transform: uppercase !important;
     transition: all 0.25s ease !important;
     border-bottom: 0 !important;
     display: inline-block !important;
     line-height: 140%;
     letter-spacing: 1px !important;
-    background: rgba(255,255,255,0.8);
+    background: rgba(255, 255, 255, 0.8);
     color: #000 !important;
     padding: 2px 4px;
     margin-bottom: 1px;
@@ -1130,6 +1160,7 @@ code .red-color {
 .press-item a:focus {
     color: #fff !important;
     background: var(--hover);
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
 }
 
 .press-item:last-of-type a {
@@ -1171,7 +1202,9 @@ code .red-color {
 
 .pop-up-content {
     background: var(--brand);
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
     color: #ebebeb;
+    color: #000;
     padding: 32px;
     top: 32px;
     position: fixed;
@@ -1230,11 +1263,14 @@ code .red-color {
     left: 0;
     bottom: 48px;
     z-index: 999;
-    font-size: 11px;
-    max-width: 93px;
-    max-width: none;
-    line-height: 1;
-    padding: 0.5rem !important;
+    font-size: 11px !important;
+    letter-spacing: 1px !important;
+    padding: 1px !important;
+    border-radius: 2px !important;
+}
+
+#open_preferences_center span {
+    padding: 6px !important;
 }
 
 section.policy ul {
@@ -1300,12 +1336,12 @@ section.policy h3 {
     .logo {
         max-width: 52px;
     }
-    
+
     #header nav {
         margin-right: -4px;
-    }.sample-item
+    }
 
-    .footer-btm .copyright {
+    .sample-item .footer-btm .copyright {
         padding: 0 6px;
     }
 
@@ -1366,7 +1402,7 @@ section.policy h3 {
     .books-grid {
         display: none;
     }
-    
+
     .books-grid > a {
         width: calc(calc(100% / 6) - 0.2rem);
     }
@@ -1508,10 +1544,7 @@ section.policy h3 {
 /* FORM */
 
 input:not(.button) {
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
-    -webkit-border-radius: 0;
     border-radius: 0;
     outline: 0;
     border: 4px solid #ebebeb;
@@ -1523,10 +1556,7 @@ input:not(.button) {
 }
 
 input.button {
-    -webkit-appearance: none;
-    -moz-appearance: none;
     appearance: none;
-    -webkit-border-radius: 0;
     border-radius: 0;
     outline: 0;
     border: 0;
@@ -1600,6 +1630,7 @@ input.button {
 .container.content.sale {
     text-align: center;
 }
+
 .sale h1 {
     font-family: Times, serif;
     text-align: center;
@@ -1680,6 +1711,7 @@ p.sale-legal {
     .books-grid.sales-grid > a {
         width: calc(calc(100% / 11) - 0.2rem)
     }
+
     .books-grid > a > span {
         font-size: 12px;
     }
@@ -1699,6 +1731,7 @@ p.sale-legal {
 .quotes * {
     text-align: center;
 }
+
 .quotes h1 {
     font-size: 50px;
     margin-bottom: 10px;
@@ -1722,12 +1755,134 @@ p.sale-legal {
     font-style: italic;
     text-transform: none !important;
 }
+
 @media only screen and (max-width: 640px) {
     .quotes h1 {
         font-size: 60px;
     }
+
     .quotes h2 {
         font-size: 30px;
     }
 }
+
 /* END QUOTES */
+
+
+
+/* FANCY COMPONENTS */
+/* https://uiverse.io/Spacious74/helpless-tiger-55 */
+/* https://uiverse.io/imtausef/brown-snail-20 */
+/* MIT License: https://uiverse.io/cssbuttons-io/wonderful-baboon-62 */
+/* https://caniuse.com/background-clip-text */
+.gradient-text {
+    position: relative;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    background-clip: text;
+    color: transparent !important;
+    display: inline-block;
+    text-shadow: none !important;
+    transition: background 0.3s;
+}
+
+a.gradient-text.lk:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100$;
+    background: transparent;
+}
+
+a.gradient-text.lk:hover,
+a.gradient-text.lk:focus,
+a.gradient-text.lk:active {
+    color: transparent !important;
+}
+
+a.gradient-text.lk:hover:after,
+a.gradient-text.lk:focus:after,
+a.gradient-text.lk:active:after {
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+}
+
+.gradient-text span {
+    background-image: inherit;
+    background-clip: inherit;
+}
+
+.button-fancy {
+    display: inline-block;
+    text-align: center;
+    background-image: linear-gradient(144deg, #af40ff, #5b42f3 50%, #00ddeb);
+    border: 0;
+    border-radius: 8px;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 100%;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 3px;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.button-fancy:active,
+.button-fancy:hover,
+.button-fancy:focus {
+    outline: 0;
+}
+
+.button-fancy span {
+    display: inline-block;
+    background-color: rgb(5, 6, 45);
+    background-color: #000;
+    padding: 16px 32px;
+    border-radius: 5px;
+    width: 100%;
+    height: 100%;
+    transition: 300ms;
+    font: inherit;
+    letter-spacing: inherit;
+    line-height: inherit;
+}
+
+.button-fancy:hover span,
+.button-fancy:focus span,
+.button-fancy:active span,
+.button-fancy.invert span {
+    background: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.button-fancy.invert:hover span,
+.button-fancy.invert:focus span,
+.button-fancy.invert:active span {
+    background: #00ddeb;
+    mix-blend-mode: overlay;
+}
+
+.button-fancy:active {
+    transform: scale(0.9);
+}
+
+@media only screen and (max-width: 640px) {
+    .button-fancy span {
+        padding: 12px 24px;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+    .button-fancy span {
+        padding: 12px;
+    }
+}
