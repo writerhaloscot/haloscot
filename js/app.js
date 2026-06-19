@@ -155,7 +155,7 @@ $(function () {
 
         ['Guest Posts'],
         // ['&ldquo;Write Your Way&rdquo; on HanWritesBooks.com', 'https://www.hanwritesbooks.com/post/write-your-way-halo-scot'],
-        ['&ldquo;The best dystopian books to devour your soul&rdquo; on Shepherd.com', 'https://shepherd.com/best-books/dystopian-books-to-devour-your-soul'],
+        ['&ldquo;The best dystopian books to devour your soul&rdquo; on BookDNA.com', 'https://bookdna.com/best-books/dystopian-books-to-devour-your-soul'],
 
         ['Features'],
         ['I Will Kill You'],
