@@ -128,7 +128,7 @@ $(function () {
         ['Brooklyn Book Festival 2023', 'https://www.youtube.com/live/8Q4GoZUf2Ys?si=kNZ4gMdE6IVgdSv7'],
         ['Brooklyn Book Festival 2024', 'https://www.youtube.com/live/mrysCfz_V7Q?si=tKvF41iSYoqG7w20'],
         ['Brooklyn Book Festival 2025', 'https://www.youtube.com/live/yfsc6Lsj14s?si=I0iveBcqFqiYq0pF'],
-        ['Brooklyn Book Festival 2026', 'https: //www.youtube.com/live/8UDCvw6xWvs'],
+        ['Brooklyn Book Festival 2026', 'https://www.youtube.com/live/8UDCvw6xWvs'],
         ['TBRCon 2025 | Space Horror: Monsters in Zero Gravity', 'https://www.youtube.com/live/z2dXUBmnLj4?si=J7cs3PS8OEQDBGGx'],
         ['CanvasRebel: Meet Halo Scot', 'https://canvasrebel.com/meet-halo-scot/'],
         ['CanvasRebel: Rising Stars: Meet Halo Scot', 'https://canvasrebel.com/rising-stars-meet-halo-scot/'],
